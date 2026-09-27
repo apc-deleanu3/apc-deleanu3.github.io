@@ -1,0 +1,11 @@
+title: APC Deleanu 3
+description: Asociația de proprietari A.P.C. A0120-0351, str. Liviu Deleanu 3, Chișinău
+lang: ro
+markdown: kramdown
+defaults:
+  - scope:
+      path: "documente"
+    values:
+      layout: doc
+exclude:
+  - README.md
