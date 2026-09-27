@@ -28,8 +28,8 @@
   <div class="panel warn" id="sample-note" hidden>
     <strong lang="ro">Suprafețele apartamentelor sunt date de exemplu</strong>
     <strong lang="ru">Площади квартир — примерные данные</strong>
-    <p lang="ro">Totalul (12.745 m², 220 ap.) este real, dar repartizarea pe apartamente este orientativă până la încărcarea registrului real.</p>
-    <p lang="ru">Общая площадь (12 745 м², 220 кв.) реальная, но распределение по квартирам ориентировочное до загрузки реального реестра.</p>
+    <p lang="ro">Repartizarea pe apartamente este orientativă până la încărcarea registrului real al suprafețelor.</p>
+    <p lang="ru">Распределение по квартирам ориентировочное до загрузки реального реестра площадей.</p>
   </div>
 
   <div class="panel">
@@ -69,7 +69,7 @@
     <div class="panel">
       <label for="ap" style="font-weight:700"><span lang="ro">Apartamentul meu</span><span lang="ru">Моя квартира</span></label>
       <div class="row" style="margin-top:6px">
-        <input id="ap" type="number" min="1" inputmode="numeric" placeholder="nr." style="width:6em">
+        <input id="ap" type="text" autocomplete="off" placeholder="ex. 24a" style="width:7em">
       </div>
       <p class="big" id="my-total">—</p>
       <p class="muted" id="my-detail"></p>
@@ -113,7 +113,7 @@
     return lines.map(function (l) {
       var c = l.split(','), o = {};
       head.forEach(function (h, i) { o[h.trim()] = c[i]; });
-      return { ap: parseInt(o.apartament, 10), sc: parseInt(o.scara, 10), m2: num(o.suprafata_m2) };
+      return { ap: String(o.apartament || '').trim(), sc: parseInt(o.scara, 10), m2: num(o.suprafata_m2) };
     });
   }
 
@@ -154,14 +154,14 @@
     var months = Math.max(1, Math.round(num($('months').value)) || 1);
     var totalM2 = APTS.reduce(function (s, a) { return s + a.m2; }, 0);
     shares = {};
-    APTS.forEach(function (a) { shares[a.ap] = { a: a, total: 0, parts: [] }; });
+    APTS.forEach(function (a) { shares[a.ap.toLowerCase()] = { a: a, total: 0, parts: [] }; });
     active.forEach(function (r) {
       var scope = APTS.filter(function (a) { return !r.scara || a.sc === r.scara; });
       var m2 = scope.reduce(function (s, a) { return s + a.m2; }, 0);
       var amount = r.cost * ratio;
       scope.forEach(function (a) {
         var v = m2 > 0 ? amount * a.m2 / m2 : 0;
-        shares[a.ap].total += v; shares[a.ap].parts.push([r.name || '—', v]);
+        var sh = shares[a.ap.toLowerCase()]; sh.total += v; sh.parts.push([r.name || '—', v]);
       });
     });
     $('t-total').textContent = fmt(total) + ' lei';
@@ -169,7 +169,7 @@
     $('t-m2').textContent = fmt(totalM2 ? (total - fund) / totalM2 : 0) + ' lei';
     var tb = document.querySelector('#all tbody'), s = '';
     APTS.forEach(function (a) {
-      var t = shares[a.ap].total;
+      var t = shares[a.ap.toLowerCase()].total;
       s += '<tr><td>' + a.ap + '</td><td>' + a.sc + '</td><td class="num">' + fmt(a.m2) + '</td><td class="num">' + fmt(t) + '</td><td class="num">' + fmt(t / months) + '</td></tr>';
     });
     tb.innerHTML = s;
@@ -179,7 +179,7 @@
 
   function mine(months) {
     months = months || Math.max(1, Math.round(num($('months').value)) || 1);
-    var ap = parseInt($('ap').value, 10), s = shares[ap], ru = document.documentElement.lang === 'ru';
+    var ap = String($('ap').value).trim().toLowerCase(), s = shares[ap], ru = document.documentElement.lang === 'ru';
     if (!s) { $('my-total').textContent = '—'; $('my-detail').textContent = $('ap').value ? (ru ? 'Нет такой квартиры.' : 'Apartament inexistent.') : ''; return; }
     $('my-total').textContent = fmt(s.total) + ' lei';
     var d = (ru ? 'Подъезд ' : 'Scara ') + s.a.sc + ', ' + fmt(s.a.m2) + ' m²';
@@ -192,7 +192,7 @@
   function csv() {
     var months = Math.max(1, Math.round(num($('months').value)) || 1);
     var rows = [['apartament', 'scara', 'suprafata_m2', 'total_lei', 'pe_luna_lei']];
-    APTS.forEach(function (a) { var t = shares[a.ap].total; rows.push([a.ap, a.sc, a.m2.toFixed(2), t.toFixed(2), (t / months).toFixed(2)]); });
+    APTS.forEach(function (a) { var t = shares[a.ap.toLowerCase()].total; rows.push([a.ap, a.sc, a.m2.toFixed(2), t.toFixed(2), (t / months).toFixed(2)]); });
     var blob = new Blob(['﻿' + rows.map(function (r) { return r.join(';'); }).join('\n')], { type: 'text/csv;charset=utf-8' });
     var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'reparatii-pe-apartamente.csv'; a.click();
     setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
