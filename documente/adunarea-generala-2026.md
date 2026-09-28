@@ -29,7 +29,7 @@ La adunare s-a prevăzut și un punct „Diverse: întrebări, propuneri”, car
 
 - **Un apartament = un vot.** Coproprietarii aceluiași apartament completează un singur buletin.
 - La fiecare punct marcați „X” într-o singură căsuță: **PRO** sau **CONTRA**. Un rând nemarcat sau marcat în ambele căsuțe se consideră vot „contra” (art. 38 alin. (10) din Legea nr. 187/2022).
-- **La punctul 3** se votează separat fiecare subpunct. La 3.1, un vot „Pro” înseamnă că membrul iese din Consiliu; 3.2 și 3.3 sunt alegerile candidaților noi. Consiliul trebuie să aibă un număr impar de membri (art. 46 alin. (1)): dacă numărul ar deveni par, dintre cei doi candidați noi intră doar cel cu mai multe voturi „Pro”; dacă niciun candidat nou nu este ales, locul vacant se completează la următoarea adunare generală.
+- **La punctul 3** se votează separat fiecare subpunct. La 3.1, un vot „Pro” înseamnă că membrul iese din Consiliu; 3.2 și 3.3 sunt alegerile candidaților noi. Consiliul trebuie să aibă un număr impar de membri (art. 46 alin. (4)): dacă numărul ar deveni par, dintre cei doi candidați noi intră doar cel cu mai multe voturi „Pro”; dacă niciun candidat nou nu este ales, locul vacant se completează la următoarea adunare generală.
 - Dacă votați în numele proprietarului, anexați împuternicirea scrisă; ruda de gradul I poate vota fără împuternicire (art. 38 alin. (7) și (9)).
 - Completați numele, apartamentul, calitatea, telefonul, e-mailul și data, apoi **semnați**. Buletinele nesemnate, fără numărul apartamentului sau primite după termen nu se iau în calcul.
 
