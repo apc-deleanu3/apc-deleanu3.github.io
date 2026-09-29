@@ -27,6 +27,7 @@ Site-ul public al asociației de proprietari **A.P.C. A0120-0351** (str. Liviu D
 - **Termenul de vot:** apare în `index.html` (atributul `data-deadline`, textele anunțului și data pentru Google Calendar `20261005T160000Z`), în `assets/vot-2026-ro.ics` / `vot-2026-ru.ics` și în `afis.html`. După termen, anunțul trece singur pe „Votul s-a încheiat”, iar caseta de vot dispare de pe afiș.
 - **Numere de urgență:** în `index.html` (secțiunea `#avarii`) și în `afis.html`. Verificate pe 29 septembrie 2026 pe acc.md (Apă-Canal), chisinaugaz.md, premierenergydistribution.md și termoelectrica.md.
 - **Data „Actualizat pe”:** în subsolul din `index.html` (RO și RU).
+- **După ce schimbați `style.css`, `site.js`, `icons.svg` sau codurile QR:** înlocuiți peste tot `?v=20260929` cu data zilei (în `index.html`, `calculator.html`, `afis.html` și `_layouts/doc.html`). Altfel, browserele care au vizitat site-ul în ultimele 10 minute pot combina pagina nouă cu stilurile vechi și pagina apare stricată. Fișierele din `data/` se verifică la fiecare vizită și nu au nevoie de asta.
 
 ## Reguli pentru acest repo (public)
 
