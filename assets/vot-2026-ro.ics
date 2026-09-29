@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//APC Deleanu 3//Vot 2026//RO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vot-2026-termen-ro@apc-deleanu3.github.io
+DTSTAMP:20260929T000000Z
+DTSTART:20261005T160000Z
+DTEND:20261005T170000Z
+SUMMARY:Termen: predați buletinul de vot (APC Deleanu 3)
+DESCRIPTION:Buletinul se predă unui membru al Consiliului\, în cutia poș
+ tală sau personal. Termen: luni\, 5 octombrie 2026\, ora 20:00. https://a
+ pc-deleanu3.github.io/documente/adunarea-generala-2026.html
+URL:https://apc-deleanu3.github.io/documente/adunarea-generala-2026.html
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Mâine e ultima zi pentru buletinul de vot (APC Deleanu 3)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Astăzi\, până la ora 20:00: predați buletinul de vot
+END:VALARM
+END:VEVENT
+END:VCALENDAR

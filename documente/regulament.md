@@ -1,27 +1,62 @@
 ---
-title: "Regulamentul de ordine interioară"
+title: "Regulamentul de ordine internă"
+title_ru: "Правила внутреннего распорядка"
+description: "Proiectul Regulamentului de ordine internă al A.P.C. A0120-0351, cu regulile de zi cu zi pe scurt, în română și rusă."
 ---
+
+<div class="summary" lang="ro" markdown="1">
+### Pe scurt: regulile de zi cu zi
+
+*Proiect — se aplică numai dacă Adunarea Generală îl aprobă și intră în vigoare la o lună după aprobare.*
+
+- **Animale:** câinii mari și cei predispuși la agresivitate se plimbă cu lesă și botniță. Strângeți după animalul dvs. (pct. 20)
+- **Gunoi:** gunoiul se duce doar la tomberoane, sortat la necesitate. Nu aruncați nimic pe geam și nimic în canalizare: scutece, ulei, resturi de mâncare, șervețele umede. (pct. 25, 26, 52)
+- **Fumat:** interzis pe scări, în lift, în subsol, pe balcoanele comune, pe terenurile de joacă și de sport și la mai puțin de 10 metri de bloc. (pct. 27)
+- **Reparații în apartament:** anunțați administratorul înainte de o reparație capitală. Lucrările cu zgomot, doar în zilele și orele permise de lege. Deșeurile de construcție nu se aruncă în tomberon și nu se țin pe scară; după transport, curățați scara. (pct. 24, 46, 51–53)
+- **Curte și balcon:** nu parcați pe spațiile verzi, nu scuturați covoare sau rufe peste balcon și nu păstrați butelii cu gaz în bloc sau în curte. (pct. 32)
+- **Plata:** pe baza chitanței lunare, la bancă, la Poșta Moldovei sau prin internet banking, până în ultima zi lucrătoare a lunii, pentru luna precedentă. (pct. 60–61)
+- **Dacă dați apartamentul în chirie:** anunțați administratorul în scris în termen de o lună; proprietarul răspunde și pentru chiriași. (pct. 67, 70)
+- **Penalități:** între 1 și 30 de unități convenționale, după faptă; pentru unele încălcări, plus 1–3 u.c. pe zi până la înlăturare. Se includ în factura următoare. (Anexa nr. 2)
+</div>
+
+<div class="summary" lang="ru" markdown="1">
+### Кратко по-русски
+
+*Проект — действует, только если его утвердит Общее собрание, и вступает в силу через месяц после утверждения. Официальный текст — на румынском языке.*
+
+- **Животные:** крупных собак и собак, склонных к агрессии, выгуливают на поводке и в наморднике. Убирайте за своим животным. (п. 20)
+- **Мусор:** только в контейнеры, при необходимости с сортировкой. Ничего не выбрасывайте из окна и в канализацию: подгузники, масло, остатки еды, влажные салфетки. (п. 25, 26, 52)
+- **Курение:** запрещено в подъезде, в лифте, в подвале, на общих балконах, на детских и спортивных площадках и ближе 10 метров от дома. (п. 27)
+- **Ремонт в квартире:** перед капитальным ремонтом сообщите администратору. Шумные работы — только в дни и часы, разрешённые законом. Строительный мусор нельзя выбрасывать в контейнеры и хранить в подъезде; после переноски материалов уберите подъезд. (п. 24, 46, 51–53)
+- **Двор и балкон:** не паркуйтесь на газонах, не вытряхивайте ковры и бельё с балкона, не храните газовые баллоны в доме и во дворе. (п. 32)
+- **Оплата:** по ежемесячной квитанции — в банке, на почте (Poșta Moldovei) или через интернет-банкинг, до последнего рабочего дня месяца за предыдущий месяц. (п. 60–61)
+- **Сдаёте квартиру?** Письменно сообщите администратору в течение месяца; собственник отвечает и за жильцов. (п. 67, 70)
+- **Штрафы:** от 1 до 30 условных единиц в зависимости от нарушения; за некоторые — плюс 1–3 у. е. за каждый день до устранения. Включаются в следующую квитанцию. (Приложение № 2)
+</div>
 
 > **Proiect supus aprobării Adunării Generale — nu este încă în vigoare.** Votul are loc prin buletine până la 5 octombrie 2026. Mențiunile din text despre aprobarea „din 20.09.2026” provin din proiect și vor fi valabile doar dacă Adunarea Generală îl aprobă. Versiune publică, fără date personale (27.09.2026).
 
-
-# Asociația Proprietarilor din Condominiu
-
-## APC „ A0120-0351”
-
+<div class="doc-cover" markdown="1">
+Asociația Proprietarilor din Condominiu APC „ A0120-0351”  
 MD-2071, mun. Chișinău, strada Liviu Deleanu 3
 
-# Regulamentul de Ordine Internă
+**Regulamentul de Ordine Internă al A.P.C. A0120-0351**
 
-## al A.P.C. A0120-0351
+aprobat de Adunarea Generală a membrilor A.P.C. A0120-0351 din 20.09.2026
+</div>
 
-aprobat de Adunarea Generalǎ a membrilor A.P.C. A0120-0351 din 20.09.2026
+<nav class="toc" markdown="1">
+**Cuprins**
+
+* TOC
+{:toc}
+</nav>
 
 ## Cap 1. Prevederi generale
 
 1. Regulamentul de ordine internă (în continuare ”Regulament”), este un document intern al Asociației Proprietarilor din Condominiu (A.P.C.) nr. A0120-0351 (în continuare "Asociație”), aprobat de Adunarea Generală a membrilor Asociației (în continuare ”Adunare”), prin care se stabilesc reguli privind ordinea în cadrul condominiului pentru asigurarea unei conviețuiri normale și civilizate a locatarilor (proprietari, chiriași, persoane aflate în vizită, prestatori de servicii etc.), precum și aprobarea tarifelor pentru cheltuieli de administrare, fond de rezervă, salarizare a angajaților, cheltuieli de întreținere a blocului, a rețelelor inginerești, terenului aferent, obligațiuni, restricții drepturi, penalități.
 
-2. Prezentul Regulament are ca obiectiv general stabilirea regulilor de bază aplicabile proprietarilor apartamentelor, spațiilor comerciale, locurilor de parcare, debarale etc. - aflate în gestiunea A.P.C. A0120-0351, amplasat pe adresa: mun. Chisinǎu, str. Liviu Deleanu 3.
+2. Prezentul Regulament are ca obiectiv general stabilirea regulilor de bază aplicabile proprietarilor apartamentelor, spațiilor comerciale, locurilor de parcare, debarale etc. - aflate în gestiunea A.P.C. A0120-0351, amplasat pe adresa: mun. Chisinău, str. Liviu Deleanu 3.
 
 3. Regulamentul stabilește regulile de comportament, conviețuire în comun, gestionare eficientă a întregii Asociației, în vederea menținerii unui confort a calității standardului de viață.
 
@@ -36,17 +71,17 @@ aprobat de Adunarea Generalǎ a membrilor A.P.C. A0120-0351 din 20.09.2026
 
 5. Blocul locativ cu adresa Liviu Deleanu 3 va fi administrat de către Asociație prin intermediul unui “Administrator” (persoana fizică sau juridică), desemnat de Adunarea generală.
 
-6. Prezentul Regulament privește atât utilizarea spațiilor comune cât și a altor încăperi și este obligatoriu pentru toți proprietarii din Condominiu a apartamentelor înregistrate în registrul bunurilor imobile, pentru succesorii legali ai acestora, precum și pentru toate persoanele care utilizează apartamentele si/sau spatiile comune ori părți ale acestora, indiferent de titlul în baza căruia ocupǎ apartamentele (chiriași, comodatari, rude etc.) sau pe durata șederii lor în bloc.
+6. Prezentul Regulament privește atât utilizarea spațiilor comune cât și a altor încăperi și este obligatoriu pentru toți proprietarii din Condominiu a apartamentelor înregistrate în registrul bunurilor imobile, pentru succesorii legali ai acestora, precum și pentru toate persoanele care utilizează apartamentele si/sau spatiile comune ori părți ale acestora, indiferent de titlul în baza căruia ocupă apartamentele (chiriași, comodatari, rude etc.) sau pe durata șederii lor în bloc.
 
 ## Cap 2. Raporturile dintre proprietari/chiriași cu Asociația
 
 7. Locuitorii Asociației, indiferent de statutul lor (proprietari, chiriași, membri ai familiei), vor susține activitatea Asociației și a organelor de conducere (Consiliul Asociației, Comisia de Cenzori, Administrator), în situațiile, formele și metodele convenite și conforme cu prevederile documentelor aprobate de Adunarea Generală (Statut, Regulament, etc.).
 
-8. Proprietarii sunt obligați să însușească și respecte, cu bunăvoință, corect și sincer, drepturile și obligațiile ce le revin în cadrul Asociației, precum și cele prevăzute în prezentul Regulament și sǎ le aplice mereu în practicǎ.
+8. Proprietarii sunt obligați să însușească și respecte, cu bunăvoință, corect și sincer, drepturile și obligațiile ce le revin în cadrul Asociației, precum și cele prevăzute în prezentul Regulament și să le aplice mereu în practică.
 
 9. Chiriașii au în raport cu Asociația, aceleași drepturi și obligații, numai în cazul în care drepturile proprietarului sunt delegate către aceștia prin contractul de închiriere.
 
-10. Respectarea drepturilor și obligațiilor individuale, constituie un imperativ pentru fiecare proprietar, având, pe lângă unele consecințe materiale și o conotație morală prin faptul cǎ se evită astfel orice discuție sau conflict privind tendința unor proprietari de a beneficia de avantaje, în defavoarea altora.
+10. Respectarea drepturilor și obligațiilor individuale, constituie un imperativ pentru fiecare proprietar, având, pe lângă unele consecințe materiale și o conotație morală prin faptul că se evită astfel orice discuție sau conflict privind tendința unor proprietari de a beneficia de avantaje, în defavoarea altora.
 
 11. Membrii condominiului au dreptul și sunt încurajați de a participa la toate Adunările și/sau activitățile inițiate pentru discutarea problemelor curente precum și pentru întreținerea și amenajarea spațiilor exterioare comune ale Asociației.
 
@@ -62,7 +97,7 @@ aprobat de Adunarea Generalǎ a membrilor A.P.C. A0120-0351 din 20.09.2026
 
 16. Circulația automobilelor în perimetrul acordat asociatiei se va efectua cu respectarea legislației în vigoare cu privire la viteza maximă admisă de 5 km/h. Utilizarea claxonului se permite doar întru evitarea unor situații excepționale, iar respectarea semnelor de circulație rutieră instalate în mod autorizat pe teritoriu este obligatorie.
 
-17. Automobilele de mare tonaj au acces limitat numai pentru prestare de serviciu, evacuarea deșeurilor, sau pentru realizarea unor lucrări care necesitǎ prezența acestora în cadrul curții, cu acces exclusiv din str. Liviu Deleanu. Daunele produse de autoturisme/autospeciale/autocamioane invitate în mod particular urmează a fi suportate de către proprietarii din condominiu care au beneficiat de lucrările efectuate de acestea.
+17. Automobilele de mare tonaj au acces limitat numai pentru prestare de serviciu, evacuarea deșeurilor, sau pentru realizarea unor lucrări care necesită prezența acestora în cadrul curții, cu acces exclusiv din str. Liviu Deleanu. Daunele produse de autoturisme/autospeciale/autocamioane invitate în mod particular urmează a fi suportate de către proprietarii din condominiu care au beneficiat de lucrările efectuate de acestea.
 
 18. Accesul în scările blocului, se efectuează prin sistem ”Interfon”. Membrii Asociației și Membrii Familiilor lor dețin chei electronice de acces.
 
@@ -82,26 +117,26 @@ Proprietarii de câini de talie mică/medie predispuși spre agresivitate și de
 
 În cazul apariției câinilor vagabonzi agresivi se vor contacta de urgență serviciile speciale pentru ca aceștia să fie capturați/izolați în instituții destinate în acest sens.
 
-21. Păstrarea curățeniei pe întreg perimetrul Blocului locativ este obligația tuturor locatarilor, atît în proprietatea individualǎ, cît si în proprietatea comună (în devălmășie), respectând urmǎtoarele:
+21. Păstrarea curățeniei pe întreg perimetrul Blocului locativ este obligația tuturor locatarilor, atît în proprietatea individuală, cît si în proprietatea comună (în devălmășie), respectând următoarele:
 
 - sortarea deșeurilor menajere și depozitarea lor exclusiv în locurile special amenajate la necesitate;
 - menținerea curățeniei în spațiile comune;
-- interzicerea aruncării de gunoaie în spațiile comune (spațiile de joacǎ ale copiilor, de parcare sau spații verzi) – în acest sens fiind instalate tomberoane și coșuri de gunoi;
-- locatarii, deținătorii animalelor de companie, care vor efectua plimbări cu animalele în spatiile comune, vor avea cu sine obligatoriu ustensile de dezinfecție și pentru strânsul dejecțiilor (punga, fǎras, mǎtură) și vor curǎța obligatoriu dejecțiile propriilor animale, inclusiv pe spatiile verzi.
+- interzicerea aruncării de gunoaie în spațiile comune (spațiile de joacă ale copiilor, de parcare sau spații verzi) – în acest sens fiind instalate tomberoane și coșuri de gunoi;
+- locatarii, deținătorii animalelor de companie, care vor efectua plimbări cu animalele în spatiile comune, vor avea cu sine obligatoriu ustensile de dezinfecție și pentru strânsul dejecțiilor (punga, făras, mătură) și vor curăța obligatoriu dejecțiile propriilor animale, inclusiv pe spatiile verzi.
 
 22. Este strict interzisă introducerea și/sau depozitarea în cadrul blocului a substanțelor chimice periculoase, a explozibililor, a substanțelor poluante, a deșeurilor, precum și a oricăror materiale și/sau bunuri care prin natura lor sau printr-o greșită întrebuințare pot conduce la apariția unor situații periculoase, punând astfel în pericol viața locatarilor și/sau integritatea blocului locativ.
 
-23. Este interzisǎ lansarea focului de artificii din curtea blocului (zona asfaltată/pavatǎ) și de pe terenurile de joacă, acoperișuri și terase/acoperiș.
+23. Este interzisă lansarea focului de artificii din curtea blocului (zona asfaltată/pavată) și de pe terenurile de joacă, acoperișuri și terase/acoperiș.
 
 24. Cu excepția lucrărilor de urgență, lucrările de amenajare, întreținere, reparație, însoțite de zgomot, se vor efectua în zilele și orele prevăzute de legislația națională. Același lucru se referă și la orele de menținere a ordinii publice și respectării regimului de liniște de către locatari. În toate cazurile de încălcare a legislației în acest sens, locatarii urmează să apeleze organele de drept (serviciul 112) pentru restabilirea ordinii, administrația neavând competențe în acest sens.
 
-25. Gunoiul menajer se va arunca de cǎtre locatari în spațiul special amenajat cu containere (tomberoane), cu sortarea pe fracții (plastic, hârtie, sticlǎ, carton) la necesitate.
+25. Gunoiul menajer se va arunca de către locatari în spațiul special amenajat cu containere (tomberoane), cu sortarea pe fracții (plastic, hârtie, sticlă, carton) la necesitate.
 
 26. Este interzisă aruncarea gunoiului menajer și nemenajer (cum ar fi: pampers, pelinci, cârpe, ulei, resturi de mâncare, șervețele umede și orice tip de gunoi de reparație) în căile de canalizare, sau depozitarea acestuia pe spațiile comune din condominiu în caz contrar se va aplica o penalitate conform Anexei nr. 2.
 
 27. Se interzice fumatul:
 
-- în toate locurile de uz comun din condominiu (scarǎ, ascensor, subsol);
+- în toate locurile de uz comun din condominiu (scară, ascensor, subsol);
 - pe balcoanele comune;
 - pe terenurile de joacă pentru copii;
 - pe terenurile de sport;
@@ -112,9 +147,9 @@ Pentru încălcările de mai sus se va aplica o penalitate conform Anexei nr. 2.
 
 28. Intervenția neautorizată de administrator în spatiile de uz comun asupra instalațiilor inginerești din condominiu este interzisă. În categoria acestor instalații se includ:
 
-- rețeaua de apǎ potabilǎ;
+- rețeaua de apă potabilă;
 - sistemul de canalizare (evacuarea apelor menajere);
-- sistemul de canalizare pluvialǎ;
+- sistemul de canalizare pluvială;
 - rețeaua electrică pentru iluminatul LUC și pentru ascensoare;
 - rețeaua de telecomunicații si de Interfon;
 - rețeaua de aprovizionare cu gaze naturale;
@@ -126,7 +161,7 @@ Pentru încălcările de mai sus se va aplica o penalitate conform Anexei nr. 2.
 
 29. Căile de acces, terenul liber de construcții, gazonul, zona de joacă pentru copii, zona de odihnă - reprezintă proprietatea comună a Asociației și a tuturor membrilor acesteia. Aceste spații vor fi utilizate în comun, iar cheltuielile de întreținere vor fi suportate de toți proprietarii, cheltuielile fiind divizate conform bugetului.
 
-30. Proprietarii vor utiliza spațiile comune și private numai exclusiv potrivit destinației acestora, fǎrǎ ca prin exercitarea acestui drept sǎ aducǎ atingere drepturilor celorlalți proprietari, sǎ contravină legislației sau sǎ punǎ în pericol siguranța locatarilor.
+30. Proprietarii vor utiliza spațiile comune și private numai exclusiv potrivit destinației acestora, fără ca prin exercitarea acestui drept să aducă atingere drepturilor celorlalți proprietari, să contravină legislației sau să pună în pericol siguranța locatarilor.
 
 31. Membrii Asociației care vor să ocupe sau ocupă deja spațiile comune în Blocul de locuit, vor încheia contracte de arendă cu Asociația și vor achita chiria conform tarifelor stabilite în bugetul Asociației, sau după caz, vor asigura reparația spațiilor comune solicitate pentru arendă.
 
@@ -164,13 +199,13 @@ e) se permite montarea gratiilor și rulouri-jaluzele exterioare de culoarea fa�
 
 37. Orice prejudiciu provocat spațiilor comune ca urmare a amenajărilor sau modificărilor efectuate asupra acestora în mod neautorizat va fi imputat persoanei culpabile de producerea lui.
 
-38. Proprietarii și ceilalți utilizatori ai spațiilor comune sunt obligați sǎ întreprindă orice măsuri necesare pentru repararea și menținerea în stare de siguranța și de bună funcționalitate a bunurilor aflate în proprietate comună.
+38. Proprietarii și ceilalți utilizatori ai spațiilor comune sunt obligați să întreprindă orice măsuri necesare pentru repararea și menținerea în stare de siguranța și de bună funcționalitate a bunurilor aflate în proprietate comună.
 
 39. Toți proprietarii – membri ai Asociației - vor suporta în totalitate cheltuielile legate de utilizarea, întreținerea și conservarea spațiilor comune din Asociație, inclusiv și rețelelor inginerești comune.
 
 40. Toți proprietarii vor suporta în totalitate cheltuielile legate de utilizarea, întreținerea si conservarea căilor de acces, terenului aferent.
 
-41. Dupǎ natura lor, cheltuielile ce vor fi suportate de membrii Asociației, în legǎtură cu proprietatea deținută sunt următoarele:
+41. După natura lor, cheltuielile ce vor fi suportate de membrii Asociației, în legătură cu proprietatea deținută sunt următoarele:
 
 - Cheltuieli legate de spațiile comune generale (teritoriul adiacent, acoperiș, subsol nefolosit, fațada);
 - Cheltuieli legate de spațiile comune ale blocului (scara casei, intrarea în bloc);
@@ -178,7 +213,7 @@ e) se permite montarea gratiilor și rulouri-jaluzele exterioare de culoarea fa�
 
 42. Spațiilor comune generale și ale blocului li se atribuie următoarele cheltuieli, ce vor fi suportate de toți membrii Asociației:
 
-- întreținerea și curățarea spațiilor verzi, a cǎilor de acces, a copacilor, arbuștilor, etc.;
+- întreținerea și curățarea spațiilor verzi, a căilor de acces, a copacilor, arbuștilor, etc.;
 - întreținerea, curățarea și buna funcționarea echipamentelor și instalațiilor;
 - întreținerea, repararea și înlocuirea consumabilelor instalația de iluminat a LUC;
 - întreținerea, curățarea și buna funcționare a spațiului pentru depozitarea gunoiului menajer;
@@ -222,13 +257,13 @@ e) se permite montarea gratiilor și rulouri-jaluzele exterioare de culoarea fa�
 
 59. În cazul deteriorării pereților și tavanelor din LUC în procesul transportării materialelor de construcție (sau deșeurilor) în/din apartament, proprietarul va repara prejudiciul produs din cont propriu. De asemenea proprietarul va achita o penalitate conform Anexei nr. 2, iar în cazul neînlăturării încălcării va achita o penalitate de la 1 la 3 unități convenționale pentru fiecare zi de neinlăturare a încălcării.
 
-## Cap 5. Achitarea serviciilor. Modul de platǎ. Tarifele
+## Cap 5. Achitarea serviciilor. Modul de plată. Tarifele
 
-60. Achitarea pentru serviciile prestate membrilor Asociației (apa potabilă, canalizare, lift deservire tehnică, deservire bloc locativ, reparații capitale, deservire încǎperi nelocative, transportarea deșeuri, iluminare scara e.t.c) se va efectua în baza chitanțelor emise de SRL "Infocom” sau alt furnizor aprobat de Consiliul Asociației.
+60. Achitarea pentru serviciile prestate membrilor Asociației (apa potabilă, canalizare, lift deservire tehnică, deservire bloc locativ, reparații capitale, deservire încăperi nelocative, transportarea deșeuri, iluminare scara e.t.c) se va efectua în baza chitanțelor emise de SRL "Infocom” sau alt furnizor aprobat de Consiliul Asociației.
 
 61. Achitarea serviciilor se va efectua la orice instituție financiară din RM (Moldincombank, Moldovagroinbank (maib), OTPBank, etc.), la orice oficiu al Î.S. „Poșta Moldovei” sau prin internet banking, pînă în ultima zi lucrătoare a lunii curente pentru luna precedentă.
 
-62. În cazul în care locatarul nu va achita serviciile timp de 3 (trei) luni consecutive sau va avea restanțe la plăți, se va percepe dobânda legalǎ de întârziere conform legislației în vigoare din Codul civil din sumǎ restantă pentru fiecare zi de întârziere, cu inițierea de către Administrație a procedurii de recuperare a datoriilor conform legislației. În cazul imposibilității achitării serviciilor din motive obiectiv argumentate și comunicate de către proprietar Administratorului, Asociația nu va percepe dobînda de întîrziere.
+62. În cazul în care locatarul nu va achita serviciile timp de 3 (trei) luni consecutive sau va avea restanțe la plăți, se va percepe dobânda legală de întârziere conform legislației în vigoare din Codul civil din sumă restantă pentru fiecare zi de întârziere, cu inițierea de către Administrație a procedurii de recuperare a datoriilor conform legislației. În cazul imposibilității achitării serviciilor din motive obiectiv argumentate și comunicate de către proprietar Administratorului, Asociația nu va percepe dobînda de întîrziere.
 
 63. Membrii Asociației pot achita în avans pentru serviciile comunale.
 
@@ -236,9 +271,9 @@ e) se permite montarea gratiilor și rulouri-jaluzele exterioare de culoarea fa�
 
 65. Tarifele și modul de calculare a acestora pentru prestarea serviciilor sunt specificate prin buget.
 
-## Cap 6. Condiții de plasare legalǎ a chiriașilor/locatarilor în Asociație
+## Cap 6. Condiții de plasare legală a chiriașilor/locatarilor în Asociație
 
-66. Membrii Asociației, care nu locuiesc în apartamentele lor și le dau în arendă (locațiune), se obligă sǎ aducǎ la cunoștința chiriașilor prezentul Regulament.
+66. Membrii Asociației, care nu locuiesc în apartamentele lor și le dau în arendă (locațiune), se obligă să aducă la cunoștința chiriașilor prezentul Regulament.
 
 67. Proprietarul apartamentului/locator (membru la Asociației) va aduce la cunoștință în scris Administratorului despre faptul transmiterii în locațiune a apartamentului (în termen de 1 luna) și va încheia un contract cu chiriașul/locatarul.
 
@@ -248,7 +283,7 @@ e) se permite montarea gratiilor și rulouri-jaluzele exterioare de culoarea fa�
 
 69. Administratorul va expedia persoanei sancționate copia hotărârii de sancționare și va include penalizarea în următoarea factură (aviz de plată) a serviciilor.
 
-70. Proprietarul poarta raspundere pentru încălcarea Regulamentului de cǎtre membrii familiei sale, a chiriașilor, a persoanelor care locuiesc în locuința sa, a vizitatorilor săi, precum și de către prestatorii de servicii care fac lucrări în proprietatea sa (cum ar fi echipa de muncitori care efectuează lucrările de reparație în locuință).
+70. Proprietarul poarta raspundere pentru încălcarea Regulamentului de către membrii familiei sale, a chiriașilor, a persoanelor care locuiesc în locuința sa, a vizitatorilor săi, precum și de către prestatorii de servicii care fac lucrări în proprietatea sa (cum ar fi echipa de muncitori care efectuează lucrările de reparație în locuință).
 
 ## Cap 9. Dispoziții finale și tranzitorii
 
@@ -258,13 +293,13 @@ e) se permite montarea gratiilor și rulouri-jaluzele exterioare de culoarea fa�
 
 72. Termenul de acțiune al prezentului Regulament decurge până la lichidarea Asociației.
 
-73. Prezentul Regulament va fi adus la cunoștință membrilor prin afișarea pe panoul informativ din fiecare scarǎ și prin rețele de comunicare: viber, whatsap etc.
+73. Prezentul Regulament va fi adus la cunoștință membrilor prin afișarea pe panoul informativ din fiecare scară și prin rețele de comunicare: viber, whatsap etc.
 
 74. Regulamentul poate fi completat sau modificat numai de Adunarea generală, la propunerea Consiliului Asociației sau Administratorului.
 
 ## Anexa nr. 1. Modul de calcul și aplicare a tarifelor
 
-1. Tariful pentru utilizarea apei potabile și menageră se calculează conform volumului consumat și prețului unui m3 de apă, stabilit de S.A, ,,Apǎ Canal” (sau orice altă autoritate competentă);
+1. Tariful pentru utilizarea apei potabile și menageră se calculează conform volumului consumat și prețului unui m3 de apă, stabilit de S.A, ,,Apă Canal” (sau orice altă autoritate competentă);
 
 2. Tariful pentru deservirea tehnică a ascensorului se aplică proporțional per locatar din apartament.
 

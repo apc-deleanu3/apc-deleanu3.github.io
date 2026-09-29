@@ -1,27 +1,49 @@
 ---
 title: "Statutul A.P.C. A0120-0351"
+title_ru: "Устав A.P.C. A0120-0351"
+description: "Statutul asociației de proprietari A.P.C. A0120-0351 (redacția din 10.07.2026), cu un rezumat „Pe scurt” în română și rusă."
 ---
 
-> **Redacția din 10.07.2026.** Versiune publică, fără date personale. Statutul nu era încă înregistrat la Agenția Servicii Publice la data publicării (27.09.2026).
+<div class="summary" lang="ro" markdown="1">
+### Pe scurt: ce înseamnă statutul pentru dvs.
 
+*Statutul intră în vigoare la înregistrarea de stat (pct. 18.2); la 27.09.2026 nu era încă înregistrat.*
 
-Asociația este „INREGISTRATĂ” la Agenţia Servicii Publice
+- **Toți proprietarii sunt membri ai asociației**, din ziua în care devin proprietari. Un apartament = un vot la Adunarea Generală.
+- **Adunarea Generală decide:** aprobă bugetul și cotizațiile, alege și revocă administratorul, Consiliul și comisia de cenzori.
+- **Plătiți lunar cotele stabilite** pentru întreținerea și reparația părților comune ale blocului.
+- **Acces pentru reparații:** permiteți accesul reprezentanților asociației în apartament, cu un preaviz de 3 zile, când o reparație la părțile comune se poate face doar prin locuința dvs.; la avarii, fără preaviz.
+- **Fără modificări neautorizate:** nu schimbați fațada, balcoanele sau geamurile exterioare fără proiect și autorizație de construcție; nu interveniți sub nicio formă asupra pereților de rezistență.
+- **Ați cumpărat un apartament?** Anunțați asociația în termen de o săptămână. La vânzare, asociația eliberează un certificat despre datorii.
+- **Aveți dreptul** să primiți informații complete despre activitatea și banii asociației și să alegeți sau să fiți ales în organele ei.
+</div>
 
-IDNO ____________________
+<div class="summary" lang="ru" markdown="1">
+### Кратко по-русски
 
-Din ____________________
+*Устав вступает в силу после государственной регистрации (п. 18.2); на 27.09.2026 он ещё не был зарегистрирован. Официальный текст — на румынском языке.* Главное:
 
-Registrator în domeniul înregistrării de stat _________________
+- **Все собственники — члены ассоциации** с момента приобретения права собственности. Одна квартира = один голос на Общем собрании.
+- **Решает Общее собрание:** утверждает бюджет и взносы, избирает и отзывает администратора, Совет и ревизионную комиссию.
+- **Ежемесячно оплачивайте установленные взносы** на содержание и ремонт общего имущества дома.
+- **Доступ для ремонта:** допускайте представителей ассоциации в квартиру с предупреждением за 3 дня, если ремонт общего имущества возможен только через вашу квартиру; при аварии — без предупреждения.
+- **Без самовольных изменений:** не меняйте фасад, балконы и наружные окна без проекта и разрешения на строительство; несущие стены трогать нельзя ни в каком случае.
+- **Купили квартиру?** Сообщите ассоциации в течение недели. При продаже ассоциация выдаёт справку о задолженности.
+- **Ваши права:** получать полную информацию о работе и финансах ассоциации, избирать и быть избранным в её органы.
+</div>
 
-APROBAT:
+> **Redacția din 10.07.2026.** Versiune publică, fără date personale. Statutul nu era încă înregistrat la Agenția Servicii Publice la data publicării (27.09.2026). Spațiile libere (\_\_\_\_) apar ca atare în textul statutului.
 
-la Adunarea Generală de constituire a Asociației de Proprietari din Condominiu _____________
+<div class="regbox" markdown="1">
+**Pagina de titlu (rubricile se completează la înregistrare):** Asociația este „INREGISTRATĂ” la Agenția Servicii Publice · IDNO \_\_\_\_ · Din \_\_\_\_ · Registrator în domeniul înregistrării de stat \_\_\_\_ · APROBAT: la Adunarea Generală de constituire a Asociației de Proprietari din Condominiu \_\_\_\_ · Proces-verbal nr. \_\_\_\_ din \_\_\_\_ · STATUTUL Asociației de Proprietari din Condominiu \_\_\_\_
+</div>
 
-Proces-verbal nr. ____ din ________________
+<nav class="toc" markdown="1">
+**Cuprins**
 
-# S T A T U T U L
-
-## Asociației de Proprietari din Condominiu ____________
+* TOC
+{:toc}
+</nav>
 
 ## I. DISPOZIȚII GENERALE
 
@@ -67,7 +89,7 @@ mun. Chișinău, sec. Buiucani, str. Liviu Deleanu, nr.3, MD-2071.
 
 1.6. Asociația se constituie în forma juridică de organizare: Asociație.
 
-1.7. Asociația de la data înregistrării statutului dobândește dreptul de personalitate juridică, are balanță autonomă, are dreptul să deschidă şi să opereze conturi bancare, poate fi reclamant și reclamată în instanța judecătorească.
+1.7. Asociația de la data înregistrării statutului dobândește dreptul de personalitate juridică, are balanță autonomă, are dreptul să deschidă și să opereze conturi bancare, poate fi reclamant și reclamată în instanța judecătorească.
 
 1.8. Asociația răspunde de obligațiunile sale cu bunurile ce-i aparțin. Asociația nu poartă răspundere pentru obligațiunile membrilor săi, iar proprietarii nu răspund pentru obligațiile Asociației.
 
@@ -139,7 +161,7 @@ Adunarea generală anuală la aprobarea bugetului Asociației determină obliga�
 
 4.6. Proprietarii de unități sunt obligați să achite integral contribuțiile și facturile emise de Asociație lunar, până la data stabilită în factura de plată (dar nu mai târziu de ultima zi a lunii curente). În cazul în care plata nu este efectuată în termen de 3 luni de la data scadenței, administratorul Asociației inițiază procedura de colectare a datoriei față de asociație, în modul stabilit de legislație. Asociației are dreptul legal de a calcula penalități și de a iniția procedurile de recuperare a datoriei prin instanța de judecată. Situațiile speciale ale proprietarilor aflați în situații de vulnerabilitate socială sau medicală dovedită, vor fi analizate individual de către Consiliul Asociației, care poate aproba planuri de eșalonare a datoriilor, fără a-i exonera de obligația de plată și fără a modifica termenul general din statut.
 
-Proprietarii sunt obligaţi să achite contribuția la fond. În factura de plată emisă proprietarilor se specifică în linie separată suma contribuției pentru fond.
+Proprietarii sunt obligați să achite contribuția la fond. În factura de plată emisă proprietarilor se specifică în linie separată suma contribuției pentru fond.
 
 Nefolosirea sau refuzul de a folosi părțile comune nu constituie temei pentru a elibera proprietarul, integral sau parțial, de cheltuielile la care este ținut conform Legii nr. 187/2022 și prezentului statut.
 
@@ -157,7 +179,7 @@ a) organizarea procesului de luare a hotărârilor de către proprietari în cad
 
 b) administrarea, deservirea, exploatarea și reparația curentă sau capitală a părților comune și a obiectelor de uz comun din condominiu. Orice modificare a suprafeței părților comune, a destinației acestora sau modificarea cotelor-părți din proprietatea comună necesită în mod obligatoriu acordul scris și autentificat notarial a 100% din proprietarii de unități din condominiu sau scara respectivă, sau etajul respectiv;
 
-c) repartizarea corectă a cheltuielilor Asociației conform prezentului Statut, asigurarea colectării lor de la proprietari și formarea transparentă a fondurilor și a rezervelor pentru implementarea scopurilor asociaţiei;
+c) repartizarea corectă a cheltuielilor Asociației conform prezentului Statut, asigurarea colectării lor de la proprietari și formarea transparentă a fondurilor și a rezervelor pentru implementarea scopurilor asociației;
 
 d) asigurarea și facilitarea procesului de încheiere a contractelor individuale directe între furnizorii de servicii publice și proprietarii de unități și încăperi cu altă destinație decât aceea de locuință. Asociația va refuza preluarea serviciilor intermediate care generează datorii colective pe numele Asociației;
 
@@ -175,7 +197,7 @@ h) alte tipuri de activități administrative prevăzute de legislația în vigo
 
 *(Notă a transcriitorului: numeralul capitolului lipsește în documentul sursă la acest titlu.)*
 
-Administrarea, deservirea, exploatarea, reconstrucția, modernizarea, reabilitarea și alte activități de dezvoltare a condominiului se efectuează conform planului anual şi cel pe termen mediu (2-3 ani), aprobat de adunarea generală a Asociației.
+Administrarea, deservirea, exploatarea, reconstrucția, modernizarea, reabilitarea și alte activități de dezvoltare a condominiului se efectuează conform planului anual și cel pe termen mediu (2-3 ani), aprobat de adunarea generală a Asociației.
 
 Lucrările de reconstrucție sau îmbunătățire a clădirii din condominiu sau a unității pe care o deține proprietarul pot fi executate de către proprietari sau de către Asociație cu respectarea prevederilor legale.
 
@@ -611,7 +633,7 @@ Hotărârea de convocare a adunării cu interes special și procesul-verbal al a
 
 Hotărârea specială este obligatorie doar pentru proprietarii cu interes special care aveau dreptul să participe la adunarea cu interes special. Adunarea cu interes special poate decide asupra măsurilor ce țin nemijlocit de necesitatea de întreținere, reparație, modernizare și amenajare a părților comune ce vizează subiecte de interes special.
 
-Adunării cu interes special i se aplică în mod corespunzător dispozițiile legale şi statutare privind adunarea generală. Cerința de cvorum și vot la adunarea specială inițială se calculează din numărul total al proprietarilor cu interes special care aveau dreptul să participe și nu poate fi mai mică de 1/2 (50%). În cazul lipsei de cvorum, se poate convoca o adunare cu interes special repetată, în termen de maximum 30 de zile, care va fi deliberativă dacă la ea participă proprietari care dețin cel puțin 1/4 (25%) din drepturile de vot ale grupului cu interes special respectiv.
+Adunării cu interes special i se aplică în mod corespunzător dispozițiile legale și statutare privind adunarea generală. Cerința de cvorum și vot la adunarea specială inițială se calculează din numărul total al proprietarilor cu interes special care aveau dreptul să participe și nu poate fi mai mică de 1/2 (50%). În cazul lipsei de cvorum, se poate convoca o adunare cu interes special repetată, în termen de maximum 30 de zile, care va fi deliberativă dacă la ea participă proprietari care dețin cel puțin 1/4 (25%) din drepturile de vot ale grupului cu interes special respectiv.
 
 Adunarea generală a Asociației poate revoca o hotărâre specială adoptată de un grup de proprietari exclusiv în cazul în care se demonstrează, prin expertiză tehnică sau juridică, că hotărârea specială respectivă încalcă legislația în vigoare, afectează integritatea structurală a celorlalte clădiri din condominiu ori aduce prejudicii financiare sau materiale directe celorlalți membri ai Asociației.
 
@@ -671,7 +693,7 @@ asigură și menține o evidență contabilă separată a veniturilor, cheltuiel
 
 exercită alte atribuții prevăzute de Legea nr.187/2022 sau de prezentul statut.
 
-Administratorul Asociației este împuternicit să încheie tranzacții și să efectueze plățile necesare pentru intervenții urgente la părțile comune (pentru prevenirea riscurilor vitale sau avarii majore), cu avizul scris al Consiliului, cu condiția ca suma unei singure tranzacții să nu depășească 15.000 MDL, iar valoarea cumulată a tuturor tranzacțiilor de urgență să nu depășească un plafon maxim de 60.000 MDL pe an pentru întreaga Asociație. În caz contrar, încheierea unor astfel de tranzacţii necesită aprobarea prealabilă de către adunarea generală a proprietarilor din blocul vizat, cu condiția că la data încheierii tranzacției Asociația să dispună de fonduri suficiente. *(pct. 14.3)*
+Administratorul Asociației este împuternicit să încheie tranzacții și să efectueze plățile necesare pentru intervenții urgente la părțile comune (pentru prevenirea riscurilor vitale sau avarii majore), cu avizul scris al Consiliului, cu condiția ca suma unei singure tranzacții să nu depășească 15.000 MDL, iar valoarea cumulată a tuturor tranzacțiilor de urgență să nu depășească un plafon maxim de 60.000 MDL pe an pentru întreaga Asociație. În caz contrar, încheierea unor astfel de tranzacții necesită aprobarea prealabilă de către adunarea generală a proprietarilor din blocul vizat, cu condiția că la data încheierii tranzacției Asociația să dispună de fonduri suficiente. *(pct. 14.3)*
 
 Administratorul Asociației poate fi revocat de către adunarea generală oricând, cu sau fără motiv. Concomitent cu revocarea, adunarea generală alege un nou administrator. *(pct. 14.4)*
 
@@ -783,7 +805,7 @@ solicită administratorului și membrilor consiliului, în formă scrisă, remed
 
 Membrii comisiei de cenzori (cenzorul) sânt în drept să participe la ședințele consiliului Asociației sau la audierile administrative fără drept de vot, având acces neîngrădit la toate documentele contabile, facturile, extrasele bancare și contractele Asociației, inclusiv pe sub-conturile fiecărui bloc.
 
-## XVIII. DISPOZIŢII FINALE
+## XVIII. DISPOZIȚII FINALE
 
 Asociația nu se poate transforma într-o persoană juridică cu o altă formă juridică de organizare (cum ar fi societăți comerciale, SRL, SA etc.), păstrându-și permanent statutul necomercial de Asociație de proprietari din condominiu.
 
