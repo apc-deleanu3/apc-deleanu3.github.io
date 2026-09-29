@@ -1,12 +1,29 @@
 ---
 title: "Adunarea Generală 2026 — ordinea de zi"
+title_ru: "Общее собрание 2026 — повестка дня"
+description: "Ordinea de zi a Adunării Generale 2026 a A.P.C. A0120-0351, cum se votează și unde se predă buletinul (termen: 5 octombrie 2026, ora 20:00)."
 ---
 
-> Versiune publică, fără date personale. Buletinul de vot (emis la 20 septembrie 2026) și anexele pot fi consultate pe panoul informativ de la etajul 1 al fiecărei scări și în comunitatea Viber a asociației. Textul în limba română este textul oficial.
+<div class="summary" lang="ru" markdown="1">
+### Кратко по-русски
 
-**Formă:** mixtă — cu prezență și prin corespondență (buletine de vot).
-**Adunarea din 20 septembrie** nu a întrunit cvorumul, așa că a fost convocată **Adunarea Generală repetată: miercuri, 23 septembrie 2026, ora 20:00, în fața scării 5.**
-**Termen-limită pentru buletinele de vot:** **5 octombrie 2026, ora 20:00.**
+**Срок сдачи бюллетеней — не позднее 20:00 понедельника, 5 октября 2026.** Бюллетень сдаётся члену Совета — в почтовый ящик или лично; список членов Совета с телефонами — на обороте бюллетеня.
+
+В бюллетене: (1) выборы председателя и секретаря собрания; (2) бюджет на 2026 год и такой же бюджет на 2027 год; (3) изменение состава Совета — отзыв одного действующего члена и избрание двух новых кандидатов; (4) Правила кондоминиума; (5) программа «Curtea Europeană», безвозмездное финансирование благоустройства и принципиальное одобрение парковки перед подъездами 2 и 3.
+
+Одна квартира = один голос. По каждому пункту отметьте «X» только в одной клетке: ЗА (PRO) или ПРОТИВ (CONTRA). Пустая строка или отметка в обеих клетках считается голосом «против». По п. 3.1 «за» означает, что член Совета выходит из Совета. Бюллетень без подписи, без номера квартиры или полученный после срока не учитывается.
+
+Собрание 20 сентября не собрало кворум, поэтому было созвано **повторное Общее собрание: среда, 23 сентября 2026, 20:00, перед подъездом 5** (смешанная форма — очно и по бюллетеням). Официальным является текст на румынском языке.
+</div>
+
+<div class="facts" lang="ro" markdown="1">
+- **Termen-limită pentru buletinele de vot: luni, 5 octombrie 2026, ora 20:00.**
+- **Unde se predă:** unui membru al Consiliului — în cutia poștală sau personal ([detalii](#unde-se-predă-buletinul)).
+- **Formă:** mixtă — cu prezență și prin corespondență (buletine de vot).
+- **Adunarea din 20 septembrie** nu a întrunit cvorumul, așa că a fost convocată **Adunarea Generală repetată: miercuri, 23 septembrie 2026, ora 20:00, în fața scării 5.**
+</div>
+
+> Versiune publică, fără date personale. Buletinul de vot (emis la 20 septembrie 2026) și anexele pot fi consultate pe panoul informativ de la etajul 1 al fiecărei scări și în comunitatea Viber a asociației. Textul în limba română este textul oficial.
 
 ## Ce se votează (buletinul de vot)
 
@@ -17,7 +34,7 @@ title: "Adunarea Generală 2026 — ordinea de zi"
 3. **Modificarea componenței Consiliului asociației**
    - 3.1 Revocarea unui membru actual din Consiliu.
    - 3.2 și 3.3 Alegerea a doi candidați noi în Consiliu.
-4. **Regulamentul condominiului:** aprobarea regulamentului intern în varianta propusă (Anexa nr. 2 — vezi [Regulamentul de ordine interioară](regulament.html)).
+4. **Regulamentul condominiului:** aprobarea regulamentului intern în varianta propusă (Anexa nr. 2 — vezi [Regulamentul de ordine internă](regulament.html)).
 5. **Programul „Curtea Europeană”, finanțări nerambursabile și amenajarea teritoriului**
    - 5.1 Participarea la programul guvernamental „Curtea Europeană” și împuternicirea administratorului să pregătească și să depună dosarul.
    - 5.2 Atragerea de resurse financiare nerambursabile (granturi, programe guvernamentale și municipale, donații) pentru amenajarea teritoriului blocului și împuternicirea administratorului să depună cererile de finanțare.
@@ -42,12 +59,3 @@ Lista membrilor Consiliului, cu scara și numărul de telefon, este pe verso-ul 
 
 Hotărârile se adoptă cu votul a **mai mult de jumătate din toți proprietarii**, însumând voturile de la adunare și buletinele primite până la termen. Temei: art. 34–41 și 46 din Legea nr. 187/2022 cu privire la condominiu.
 
----
-
-## По-русски (кратко)
-
-Собрание 20 сентября не собрало кворум, поэтому было созвано **повторное Общее собрание: среда, 23 сентября 2026, 20:00, перед подъездом 5** (смешанная форма — очно и по бюллетеням). **Срок сдачи бюллетеней — 5 октября 2026, 20:00.**
-
-Голосуем за: (1) председателя и секретаря собрания; (2) бюджет на 2026 год и такой же бюджет на 2027 год; (3) изменение состава Совета — отзыв одного действующего члена и избрание двух новых кандидатов; (4) Правила кондоминиума; (5) программу «Curtea Europeană», безвозмездное финансирование благоустройства и, в принципе, парковку перед подъездами 2 и 3.
-
-Одна квартира = один голос. По каждому пункту отметьте «X» только в одной клетке: ЗА или ПРОТИВ. Бюллетень без подписи, без номера квартиры или полученный после срока не учитывается. Сдайте бюллетень члену Совета — в почтовый ящик или лично; список членов Совета с телефонами — на обороте бюллетеня. Официальным является текст на румынском языке.

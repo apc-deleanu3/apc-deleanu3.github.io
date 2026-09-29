@@ -4,191 +4,551 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>APC Deleanu 3</title>
-<meta name="description" content="Asociația de proprietari A.P.C. A0120-0351, str. Liviu Deleanu 3, Chișinău — anunțuri, Viber, cotizații, documente.">
+<meta name="description" content="Asociația de proprietari A.P.C. A0120-0351, str. Liviu Deleanu 3, Chișinău — votul 2026, Viber, cât plătesc, reparații, documente, avarii.">
+<meta property="og:title" content="APC Deleanu 3 — blocul nostru, într-un singur loc">
+<meta property="og:description" content="Site-ul oficial al asociației de proprietari de pe str. Liviu Deleanu 3, Chișinău.">
+<meta property="og:url" content="https://apc-deleanu3.github.io/">
+<meta property="og:type" content="website">
+<script>(function(){var d=document.documentElement,l=null,t=null;try{l=localStorage.getItem('apc-lang');t=localStorage.getItem('apc-text')}catch(e){}if(!l&&/^ru/i.test(navigator.language||''))l='ru';if(l==='ru')d.lang='ru';if(t==='mare')d.setAttribute('data-text','mare')})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@700&display=swap&subset=cyrillic,latin-ext" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='6' width='26' height='24' fill='%238a949e'/%3E%3Crect x='13' y='20' width='6' height='10' fill='%232f7d5b'/%3E%3C/svg%3E">
 </head>
-<body>
+<body id="top">
 <div class="wrap">
   <header class="topbar">
     <a class="brand" href="./">APC Deleanu 3</a>
-    <div class="lang" role="group" aria-label="Limba / Язык">
-      <button type="button" data-lang="ro" aria-pressed="true">RO</button>
-      <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+    <div class="tools">
+      <button class="tbtn" type="button" data-text aria-pressed="false" title="Text mai mare / Крупный текст"><span aria-hidden="true">A+</span><span class="sr-only" lang="ro">Text mai mare</span><span class="sr-only" lang="ru">Крупный текст</span></button>
+      <div class="lang" role="group" aria-label="Limba / Язык">
+        <button type="button" data-lang="ro" aria-pressed="true">RO</button>
+        <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+      </div>
     </div>
   </header>
 
+  <main id="main">
   <div class="hero">
     <h1 lang="ro">Blocul nostru, într-un singur loc</h1>
     <h1 lang="ru">Наш дом — всё в одном месте</h1>
-    <p class="addr" lang="ro">Asociația de proprietari A.P.C. A0120-0351, str. Liviu Deleanu 3, sectorul Buiucani, Chișinău. 222 de apartamente în 6 scări.</p>
-    <p class="addr" lang="ru">Ассоциация собственников A.P.C. A0120-0351, ул. Ливиу Деляну 3, сектор Буюкань, Кишинёв. 222 квартиры в 6 подъездах.</p>
-    <svg class="facade" viewBox="0 0 880 250" role="img" aria-label="Fațada blocului cu cele 6 scări">
-      <g id="facade"></g>
-    </svg>
+    <p class="addr" lang="ro">Str. Liviu Deleanu 3, Chișinău · 222&nbsp;de&nbsp;apartamente · 6&nbsp;scări</p>
+    <p class="addr" lang="ru">ул. Ливиу Деляну 3, Кишинёв · 222&nbsp;квартиры · 6&nbsp;подъездов</p>
+    <svg class="facade" viewBox="0 0 880 244" role="img" aria-label="Fațada blocului cu cele 6 scări"><g id="facade"></g></svg>
+    <ol class="scari" aria-hidden="true">
+      <li><span class="w" lang="ro">Scara </span><span class="w" lang="ru">Подъезд </span>1</li>
+      <li><span class="w" lang="ro">Scara </span><span class="w" lang="ru">Подъезд </span>2</li>
+      <li><span class="w" lang="ro">Scara </span><span class="w" lang="ru">Подъезд </span>3</li>
+      <li><span class="w" lang="ro">Scara </span><span class="w" lang="ru">Подъезд </span>4</li>
+      <li><span class="w" lang="ro">Scara </span><span class="w" lang="ru">Подъезд </span>5</li>
+      <li><span class="w" lang="ro">Scara </span><span class="w" lang="ru">Подъезд </span>6</li>
+    </ol>
   </div>
 
-  <div class="notice" role="note">
-    <div lang="ro">
-      <strong>Adunarea Generală 2026: predați buletinul de vot până pe 5 octombrie, ora 20:00.</strong>
-      <p>Se votează bugetul 2026–2027, modificarea componenței Consiliului, Regulamentul condominiului și amenajarea curții. Buletinul se predă unui membru al Consiliului, în cutia poștală sau personal. <a href="documente/adunarea-generala-2026.html">Ordinea de zi și cum se votează</a>.</p>
+  <div class="notice" id="vot" role="region" aria-labelledby="vot-h" data-deadline="2026-10-05T20:00:00+03:00">
+    <span class="chip" id="countdown" hidden><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-clock"/></svg><span></span></span>
+    <h2 id="vot-h" class="before"><span lang="ro">Adunarea Generală 2026: predați buletinul de vot până luni, 5 octombrie, ora 20:00</span><span lang="ru">Общее собрание 2026: сдайте бюллетень не позднее 20:00 понедельника, 5 октября</span></h2>
+    <h2 id="vot-h2" class="after"><span lang="ro">Adunarea Generală 2026: votul s-a încheiat</span><span lang="ru">Общее собрание 2026: голосование завершено</span></h2>
+    <div class="before">
+      <p lang="ro">Se votează bugetul 2026–2027, modificarea componenței Consiliului, Regulamentul condominiului și amenajarea curții.</p>
+      <p lang="ru">На голосование вынесены: бюджет на 2026–2027 годы, изменение состава Совета, Правила кондоминиума и благоустройство двора.</p>
+      <p class="stakes" lang="ro">Hotărârile trec doar dacă votează „Pro” mai mult de jumătate din toți proprietarii: cel puțin 112 din 222 de apartamente. Fiecare buletin contează.</p>
+      <p class="stakes" lang="ru">Решения принимаются, только если «за» проголосует больше половины всех собственников — не менее 112 из 222 квартир. Важен каждый бюллетень.</p>
+      <p lang="ro">Buletinul se predă unui membru al Consiliului: în cutia poștală sau personal.</p>
+      <p lang="ru">Бюллетень сдаётся члену Совета — в почтовый ящик или лично.</p>
+      <div class="meter-wrap" id="ballots" hidden>
+        <p><strong><span lang="ro">Buletine predate până acum:</span><span lang="ru">Сдано бюллетеней:</span> <span id="ballots-n"></span> <span lang="ro">din</span><span lang="ru">из</span> 222</strong></p>
+        <div class="meter" aria-hidden="true"><span class="fill" id="ballots-fill"></span><span class="mark" style="left:50.45%"></span></div>
+        <p class="hint"><span lang="ro">Linia neagră: 112, minimul de voturi „Pro” pentru ca o hotărâre să treacă.</span><span lang="ru">Чёрная линия — 112, минимум голосов «за» для принятия решения.</span> <span id="ballots-date"></span></p>
+      </div>
     </div>
-    <div lang="ru">
-      <strong>Общее собрание 2026: сдайте бюллетень до 5 октября, 20:00.</strong>
-      <p>Голосуем за бюджет 2026–2027, изменение состава Совета, Правила кондоминиума и благоустройство двора. Бюллетень сдаётся члену Совета — в почтовый ящик или лично. <a href="documente/adunarea-generala-2026.html">Повестка и порядок голосования</a>.</p>
+    <p class="after" lang="ro">Buletinele de vot s-au primit până luni, 5 octombrie, ora 20:00. Urmăriți rezultatele pe canalul Viber „Anunțuri APC Deleanu 3”.</p>
+    <p class="after" lang="ru">Бюллетени принимались до 20:00 понедельника, 5 октября. Результаты будут в Viber-канале «Anunțuri APC Deleanu 3».</p>
+    <div class="actions before">
+      <a class="btn" href="documente/adunarea-generala-2026.html"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-checkbox"/></svg><span lang="ro">Cum se votează</span><span lang="ru">Как голосовать</span></a>
+      <a class="btn ghost" id="cal" href="assets/vot-2026-ro.ics"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-calendar-plus"/></svg><span lang="ro">Adăugați în calendar</span><span lang="ru">Добавить в календарь</span></a>
+      <a id="cal-alt" href="#" target="_blank" rel="noopener"><span lang="ro">sau în Google Calendar</span><span lang="ru">или в Google Календарь</span></a>
+    </div>
+    <div class="actions after">
+      <a class="btn" href="#viber"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-message-circle"/></svg><span lang="ro">Canalele Viber</span><span lang="ru">Каналы Viber</span></a>
+      <a class="btn ghost" href="documente/adunarea-generala-2026.html"><span lang="ro">Ordinea de zi</span><span lang="ru">Повестка дня</span></a>
     </div>
   </div>
 
-  <section id="viber">
-    <h2 lang="ro">Canalele Viber oficiale</h2>
-    <h2 lang="ru">Официальные каналы Viber</h2>
-    <p lang="ro">Vechea comunitate a cartierului nu mai este administrată de asociație. Informațiile oficiale apar doar aici:</p>
-    <p lang="ru">Старое сообщество района больше не управляется ассоциацией. Официальная информация — только здесь:</p>
-    <div class="grid2">
-      <div class="viber">
-        <div class="qr" id="qr-channel" aria-hidden="true"></div>
-        <div>
-          <h3 lang="ro">Anunțuri APC Deleanu 3</h3><h3 lang="ru">Объявления APC Deleanu 3</h3>
-          <p lang="ro">Doar anunțuri: adunări, plăți, lucrări, avarii.</p>
-          <p lang="ru">Только объявления: собрания, платежи, работы, аварии.</p>
-          <a class="btn" id="lnk-channel" href="https://invite.viber.com/?g2=AQAstmIGo1k48Vcpok4w0AivAYFNSaXQZkgusC80p4A%2FhdrrW3cb6GWWiElfhWtd"><span lang="ro">Abonează-te</span><span lang="ru">Подписаться</span></a>
-        </div>
-      </div>
-      <div class="viber">
-        <div class="qr" id="qr-community" aria-hidden="true"></div>
-        <div>
-          <h3 lang="ro">Comunitatea APC Deleanu 3</h3><h3 lang="ru">Сообщество APC Deleanu 3</h3>
-          <p lang="ro">Întrebări, sesizări și discuții între vecini.</p>
-          <p lang="ru">Вопросы, заявки и общение соседей.</p>
-          <a class="btn ghost" id="lnk-community" href="https://invite.viber.com/?g2=AQBfmWXr%2Fu4WLlcs7c4u0hILXp8te%2BJPzfDXD3N4QtaoqU4KEyTuik4ckQ2Q2knB"><span lang="ro">Intră în comunitate</span><span lang="ru">Вступить</span></a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <nav class="tiles" aria-labelledby="tiles-h">
+    <h2 id="tiles-h"><span lang="ro">Ce doriți să faceți?</span><span lang="ru">Что вы хотите сделать?</span></h2>
+    <ul>
+      <li><a class="tile" href="#vot"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-checkbox"/></svg><span lang="ro">Votul 2026</span><span lang="ru">Голосование</span></a></li>
+      <li><a class="tile" href="#cotizatie"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-coin"/></svg><span lang="ro">Cât plătesc</span><span lang="ru">Сколько платить</span></a></li>
+      <li><a class="tile" href="#viber"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-message-circle"/></svg>Viber</a></li>
+      <li><a class="tile" href="#reparatii"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-tool"/></svg><span lang="ro">Reparații</span><span lang="ru">Ремонты</span></a></li>
+      <li><a class="tile" href="#documente"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-file-text"/></svg><span lang="ro">Documente</span><span lang="ru">Документы</span></a></li>
+      <li><a class="tile" href="#avarii"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-phone-call"/></svg><span lang="ro">Avarii</span><span lang="ru">Аварии</span></a></li>
+    </ul>
+  </nav>
 
   <section id="cotizatie">
     <h2 lang="ro">Cât plătesc pe lună?</h2>
     <h2 lang="ru">Сколько я плачу в месяц?</h2>
     <div class="grid2">
-      <div class="dues">
-        <label for="m2"><span lang="ro">Suprafața apartamentului (m²)</span><span lang="ru">Площадь квартиры (м²)</span></label>
-        <input id="m2" type="number" inputmode="decimal" min="1" step="0.1" value="50">
-        <p class="out"><span id="dues-apc">135,00</span> lei</p>
-        <p class="small" lang="ro">către asociație (2,70 lei/m²), plus <span class="imgfl">50,00</span> lei către IMGFL (1,00 lei/m²).</p>
-        <p class="small" lang="ru">в ассоциацию (2,70 лей/м²), плюс <span class="imgfl">50,00</span> лей в IMGFL (1,00 лей/м²).</p>
+      <div class="card">
+        <div class="field">
+          <label for="ap"><span lang="ro">Numărul apartamentului</span><span lang="ru">Номер квартиры</span></label>
+          <input id="ap" type="text" inputmode="numeric" enterkeyhint="done" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="ex. 45">
+        </div>
+        <div class="ap-pick" id="ap-pick" aria-live="polite" hidden></div>
+        <p class="hint"><span lang="ro">Suma se calculează după suprafața din registrul cadastral și după bugetul 2026 propus spre aprobare.</span><span lang="ru">Сумма рассчитывается по площади из кадастрового реестра и по проекту бюджета 2026.</span></p>
+        <div class="result" id="dues-out" aria-live="polite">
+          <p lang="ro">Cotizația propusă în bugetul 2026 (supus votului) este de 3,70 lei pe m² pe lună: 2,70 lei asociației și 1,00 lei către IMGFL. Introduceți numărul apartamentului ca să vedeți suma exactă.</p>
+          <p lang="ru">Предлагаемый взнос по бюджету 2026 (на голосовании) — 3,70 лей за м² в месяц: 2,70 лей ассоциации и 1,00 лей IMGFL. Введите номер квартиры, чтобы увидеть точную сумму.</p>
+        </div>
+        <details class="alt">
+          <summary><span lang="ro">Calculați după suprafață (m²)</span><span lang="ru">Рассчитать по площади (м²)</span></summary>
+          <div class="field">
+            <label for="m2"><span lang="ro">Suprafața (m²)</span><span lang="ru">Площадь (м²)</span></label>
+            <input id="m2" type="number" inputmode="decimal" min="1" step="0.1">
+          </div>
+        </details>
       </div>
-      <div>
-        <p lang="ro">Din fiecare 2,70 lei, 1,35 lei merg în fondul de reparație și dezvoltare, pe un cont separat, iar 0,10 lei în fondul de rezervă. Restul acoperă curățenia, impozitele pe salariu, contabilitatea și cheltuielile neprevăzute.</p>
-        <p lang="ru">Из каждых 2,70 лей 1,35 лей идут в фонд ремонта и развития на отдельный счёт, 0,10 лей — в резервный фонд. Остальное — уборка, налоги на зарплату, бухгалтерия и непредвиденные расходы.</p>
-        <a href="documente/buget-2026.html"><span lang="ro">Bugetul 2026 în detaliu</span><span lang="ru">Бюджет 2026 подробно</span></a>
+      <div class="money" id="money">
+        <h3 lang="ro">Unde merg banii</h3>
+        <h3 lang="ru">Куда идут деньги</h3>
+        <p class="sub" id="money-sub"><span lang="ro">Din fiecare 100 lei plătiți asociației:</span><span lang="ru">Из каждых 100 лей, уплаченных ассоциации:</span></p>
+        <ol id="money-list">
+          <li class="key"><span class="lbl"><span lang="ro">Fondul de reparație și dezvoltare (cont separat)</span><span lang="ru">Фонд ремонта и развития (отдельный счёт)</span></span><span class="val">50 lei</span><span class="bar" style="width:50%"></span></li>
+          <li><span class="lbl"><span lang="ro">Curățenie (salariu)</span><span lang="ru">Уборка (зарплата)</span></span><span class="val">23 lei</span><span class="bar" style="width:23.33%"></span></li>
+          <li><span class="lbl"><span lang="ro">Impozite și contribuții pe salariu</span><span lang="ru">Налоги и взносы с зарплаты</span></span><span class="val">10 lei</span><span class="bar" style="width:10.37%"></span></li>
+          <li><span class="lbl"><span lang="ro">Contabilitate</span><span lang="ru">Бухгалтерия</span></span><span class="val">9 lei</span><span class="bar" style="width:8.89%"></span></li>
+          <li><span class="lbl"><span lang="ro">Fondul de rezervă</span><span lang="ru">Резервный фонд</span></span><span class="val">4 lei</span><span class="bar" style="width:3.7%"></span></li>
+          <li><span class="lbl"><span lang="ro">Inventar și cheltuieli neprevăzute</span><span lang="ru">Инвентарь и непредвиденные расходы</span></span><span class="val">4 lei</span><span class="bar" style="width:3.7%"></span></li>
+        </ol>
+        <p class="hint"><span lang="ro">Suma către IMGFL (1,00 lei/m²) nu intră în această împărțire.</span><span lang="ru">Сумма для IMGFL (1,00 лей/м²) сюда не входит.</span></p>
+        <p><a class="more" href="documente/buget-2026.html"><span lang="ro">Bugetul 2026 în detaliu</span><span lang="ru">Бюджет 2026 подробно</span></a></p>
       </div>
     </div>
+  </section>
+
+  <section id="viber">
+    <h2 lang="ro">Canalele Viber oficiale</h2>
+    <h2 lang="ru">Официальные каналы Viber</h2>
+    <p lang="ro">Vechea comunitate a cartierului nu mai este administrată de asociație. Pe Viber, informațiile oficiale apar doar aici:</p>
+    <p lang="ru">Старое сообщество района больше не управляется ассоциацией. В Viber официальная информация — только здесь:</p>
+    <p class="tip" lang="ro"><strong>Dacă intrați doar într-unul, alegeți „Anunțuri”:</strong> acolo apar doar mesajele importante.</p>
+    <p class="tip" lang="ru"><strong>Если выбираете один — подпишитесь на канал «Anunțuri APC Deleanu 3» (объявления):</strong> там только важные сообщения.</p>
+    <div class="grid2">
+      <div class="card viber" id="card-channel">
+        <div class="qr" aria-hidden="true"><img src="assets/qr-anunturi.svg" alt="" width="98" height="98"></div>
+        <div>
+          <h3 lang="ro">Anunțuri APC Deleanu 3</h3><h3 lang="ru">Anunțuri APC Deleanu 3</h3>
+          <p lang="ro">Doar anunțuri: adunări, plăți, lucrări, avarii.</p>
+          <p lang="ru">Канал объявлений: собрания, платежи, работы, аварии.</p>
+          <a class="btn" id="lnk-channel" href="https://invite.viber.com/?g2=AQAstmIGo1k48Vcpok4w0AivAYFNSaXQZkgusC80p4A%2FhdrrW3cb6GWWiElfhWtd"><span lang="ro">Abonați-vă la anunțuri</span><span lang="ru">Подписаться на объявления</span></a>
+          <button class="linkbtn qr-toggle" type="button" data-card="card-channel" aria-expanded="false"><span lang="ro">Arătați codul QR</span><span lang="ru">Показать QR-код</span></button>
+        </div>
+      </div>
+      <div class="card viber" id="card-community">
+        <div class="qr" aria-hidden="true"><img src="assets/qr-comunitate.svg" alt="" width="98" height="98"></div>
+        <div>
+          <h3 lang="ro">Comunitatea APC Deleanu 3</h3><h3 lang="ru">Сообщество APC Deleanu 3</h3>
+          <p lang="ro">Întrebări, sesizări și discuții între vecini.</p>
+          <p lang="ru">Вопросы, заявки и общение соседей.</p>
+          <a class="btn ghost" id="lnk-community" href="https://invite.viber.com/?g2=AQBfmWXr%2Fu4WLlcs7c4u0hILXp8te%2BJPzfDXD3N4QtaoqU4KEyTuik4ckQ2Q2knB"><span lang="ro">Intrați în comunitate</span><span lang="ru">Вступить в сообщество</span></a>
+          <button class="linkbtn qr-toggle" type="button" data-card="card-community" aria-expanded="false"><span lang="ro">Arătați codul QR</span><span lang="ru">Показать QR-код</span></button>
+        </div>
+      </div>
+    </div>
+    <p class="hint" style="margin-top:.8rem"><span lang="ro">Linkurile se deschid în aplicația Viber. Pe calculator, scanați codul QR cu telefonul.</span><span lang="ru">Ссылки открываются в приложении Viber. На компьютере отсканируйте QR-код телефоном.</span></p>
+    <div class="share">
+      <button class="btn ghost" type="button" id="share"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-share"/></svg><span lang="ro">Trimiteți invitația unui vecin</span><span lang="ru">Отправить приглашение соседу</span></button>
+      <p class="status" id="share-status" aria-live="polite"></p>
+    </div>
+    <p><a class="more" href="afis.html"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-printer"/></svg><span lang="ro">Tipăriți afișul pentru avizier (A4)</span><span lang="ru">Распечатать объявление для стенда (A4)</span></a></p>
   </section>
 
   <section id="reparatii">
     <h2 lang="ro">Reparații planificate</h2>
     <h2 lang="ru">Планируемые ремонты</h2>
-    <p lang="ro">Vedeți ce lucrări sunt planificate, cât costă și cât revine fiecărui apartament, împărțit după suprafață.</p>
-    <p lang="ru">Какие работы планируются, сколько они стоят и сколько приходится на каждую квартиру пропорционально площади.</p>
-    <a class="btn" href="calculator.html"><span lang="ro">Calculatorul reparațiilor</span><span lang="ru">Калькулятор ремонтов</span></a>
+    <div id="rep-none">
+      <p lang="ro">Lista oficială a lucrărilor se publică aici după ce Adunarea Generală le aprobă. Până atunci, calculatorul arată, ca simulare, cum se împarte un cost între apartamente, după suprafață.</p>
+      <p lang="ru">Официальный список работ будет опубликован здесь после утверждения Общим собранием. А пока калькулятор показывает на примере, как стоимость делится между квартирами по площади.</p>
+    </div>
+    <div id="rep-some" hidden>
+      <p lang="ro">Lucrări aprobate: <strong class="rep-n"></strong>. Vedeți cât revine apartamentului dvs.</p>
+      <p lang="ru">Утверждено работ: <strong class="rep-n"></strong>. Узнайте, сколько приходится на вашу квартиру.</p>
+    </div>
+    <a class="btn" href="calculator.html"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-tool"/></svg><span lang="ro">Cât mă costă reparațiile?</span><span lang="ru">Во сколько мне обойдётся ремонт?</span></a>
   </section>
 
   <section id="documente">
     <h2 lang="ro">Documente</h2>
     <h2 lang="ru">Документы</h2>
-    <p class="muted" lang="ro">Versiuni publice, fără date personale. Documentele sunt în limba română.</p>
-    <p class="muted" lang="ru">Публичные версии без персональных данных. Документы на румынском языке.</p>
-    <ul class="doclist">
-      <li><a href="documente/adunarea-generala-2026.html"><span lang="ro">Adunarea Generală 2026</span><span lang="ru">Общее собрание 2026</span></a>
-        <span lang="ro">Ordinea de zi, regulile de vot și unde se predă buletinul</span><span lang="ru">Повестка, правила голосования и куда сдать бюллетень</span></li>
-      <li><a href="documente/buget-2026.html"><span lang="ro">Bugetul 2026</span><span lang="ru">Бюджет 2026</span></a>
-        <span lang="ro">Cotizația pe m² și cheltuielile anuale</span><span lang="ru">Взнос за м² и годовые расходы</span></li>
-      <li><a href="documente/statut.html"><span lang="ro">Statutul asociației</span><span lang="ru">Устав ассоциации</span></a>
-        <span lang="ro">Redacția din 10.07.2026</span><span lang="ru">Редакция от 10.07.2026</span></li>
-      <li><a href="documente/regulament.html"><span lang="ro">Regulamentul de ordine interioară</span><span lang="ru">Правила внутреннего распорядка</span></a>
-        <span lang="ro">Proiect supus aprobării Adunării Generale</span><span lang="ru">Проект на утверждение Общим собранием</span></li>
+    <p class="muted" lang="ro">Versiuni publice, fără date personale. Textul oficial este în limba română; fiecare document are și un rezumat în rusă.</p>
+    <p class="muted" lang="ru">Публичные версии без персональных данных. Официальный текст — на румынском; у каждого документа есть краткое содержание на русском.</p>
+    <ul class="docs">
+      <li><a class="doc-link" href="documente/adunarea-generala-2026.html"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-checkbox"/></svg><span class="txt"><span class="t"><span lang="ro">Adunarea Generală 2026</span><span lang="ru">Общее собрание 2026</span></span><span class="d"><span lang="ro">Ordinea de zi, regulile de vot și unde se predă buletinul</span><span lang="ru">Повестка, правила голосования и куда сдать бюллетень</span></span></span><svg class="ic go" aria-hidden="true"><use xlink:href="assets/icons.svg#i-chevron-right"/></svg></a></li>
+      <li><a class="doc-link" href="documente/buget-2026.html"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-coin"/></svg><span class="txt"><span class="t"><span lang="ro">Bugetul 2026</span><span lang="ru">Бюджет 2026</span></span><span class="d"><span lang="ro">Cotizația pe m² și cheltuielile anuale</span><span lang="ru">Взнос за м² и годовые расходы</span></span></span><svg class="ic go" aria-hidden="true"><use xlink:href="assets/icons.svg#i-chevron-right"/></svg></a></li>
+      <li><a class="doc-link" href="documente/statut.html"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-file-text"/></svg><span class="txt"><span class="t"><span lang="ro">Statutul asociației</span><span lang="ru">Устав ассоциации</span></span><span class="d"><span lang="ro">Redacția din 10.07.2026, cu un rezumat „Pe scurt”</span><span lang="ru">Редакция от 10.07.2026, с кратким содержанием</span></span></span><svg class="ic go" aria-hidden="true"><use xlink:href="assets/icons.svg#i-chevron-right"/></svg></a></li>
+      <li><a class="doc-link" href="documente/regulament.html"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-list-details"/></svg><span class="txt"><span class="t"><span lang="ro">Regulamentul de ordine internă</span><span lang="ru">Правила внутреннего распорядка</span></span><span class="d"><span lang="ro">Proiect supus aprobării Adunării Generale, cu regulile de zi cu zi pe scurt</span><span lang="ru">Проект на утверждение Общим собранием, с кратким изложением правил</span></span></span><svg class="ic go" aria-hidden="true"><use xlink:href="assets/icons.svg#i-chevron-right"/></svg></a></li>
     </ul>
+  </section>
+
+  <section id="plati">
+    <h2 lang="ro">Cum plătesc?</h2>
+    <h2 lang="ru">Как оплатить?</h2>
+    <div id="pay-none">
+      <p lang="ro">Datele bancare ale asociației se publică aici după înregistrarea asociației și deschiderea contului.</p>
+      <p lang="ru">Банковские реквизиты ассоциации будут опубликованы здесь после её регистрации и открытия счёта.</p>
+    </div>
+    <div class="card" id="pay-some" hidden>
+      <dl class="paydl" id="pay-dl"></dl>
+    </div>
+    <div class="warn">
+      <svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-alert-triangle"/></svg>
+      <div>
+        <strong lang="ro">Atenție la înșelăciuni</strong><strong lang="ru">Осторожно, мошенники</strong>
+        <p lang="ro">Asociația nu vă cere niciodată să plătiți pe un card sau într-un cont primit prin telefon, SMS sau Viber și nu trimite linkuri de plată. Datele bancare oficiale apar doar pe acest site și pe chitanța lunară. Dacă cineva vă cere bani în numele asociației, verificați aici sau scrieți-ne la <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>.</p>
+        <p lang="ru">Ассоциация никогда не просит перевести деньги на карту или счёт, присланные по телефону, SMS или Viber, и не присылает ссылки для оплаты. Официальные реквизиты публикуются только на этом сайте и в ежемесячной квитанции. Если кто-то просит у вас деньги от имени ассоциации, проверьте здесь или напишите нам на <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="avarii">
+    <h2 lang="ro">Avarii și urgențe</h2>
+    <h2 lang="ru">Аварии и экстренные службы</h2>
+    <p lang="ro">Apăsați pe un rând ca să sunați.</p>
+    <p lang="ru">Нажмите на строку, чтобы позвонить.</p>
+    <ul class="calls">
+      <li><a class="call" href="tel:112"><span class="dot"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-sos"/></svg></span><span class="txt"><span class="what"><span lang="ro">Urgențe: incendiu, ambulanță, poliție</span><span lang="ru">Экстренные службы: пожар, скорая, полиция</span></span><span class="who"><span lang="ro">Serviciul național 112</span><span lang="ru">Национальная служба 112</span></span></span><span class="num">112</span></a></li>
+      <li><a class="call" href="tel:904"><span class="dot"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-flame"/></svg></span><span class="txt"><span class="what"><span lang="ro">Miros de gaz</span><span lang="ru">Запах газа</span></span><span class="who"><span lang="ro">Chișinău-Gaz, non-stop</span><span lang="ru">Chișinău-Gaz, круглосуточно</span></span></span><span class="num">904</span></a></li>
+      <li><a class="call" href="tel:+37322256666"><span class="dot"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-droplet"/></svg></span><span class="txt"><span class="what"><span lang="ro">Apă și canalizare</span><span lang="ru">Вода и канализация</span></span><span class="who"><span lang="ro">Dispeceratul Apă-Canal Chișinău</span><span lang="ru">Диспетчерская Apă-Canal Chișinău</span></span></span><span class="num">022 25 66 66</span></a></li>
+      <li><a class="call" href="tel:+37322431111"><span class="dot"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-bolt"/></svg></span><span class="txt"><span class="what"><span lang="ro">Curent electric</span><span lang="ru">Электричество</span></span><span class="who"><span lang="ro">Premier Energy Distribution, non-stop</span><span lang="ru">Premier Energy Distribution, круглосуточно</span></span></span><span class="num">022 43 11 11</span></a></li>
+      <li><a class="call" href="tel:1300"><span class="dot"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-temperature"/></svg></span><span class="txt"><span class="what"><span lang="ro">Căldură și apă caldă</span><span lang="ru">Отопление и горячая вода</span></span><span class="who"><span lang="ro">Termoelectrica, non-stop (sau 022&nbsp;447&nbsp;447)</span><span lang="ru">Termoelectrica, круглосуточно (или 022&nbsp;447&nbsp;447)</span></span></span><span class="num">1300</span></a></li>
+    </ul>
+    <div class="warn">
+      <svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-flame"/></svg>
+      <div>
+        <strong lang="ro">Miros de gaz?</strong><strong lang="ru">Пахнет газом?</strong>
+        <p lang="ro">Nu aprindeți focul și nu fumați. Nu aprindeți și nu stingeți lumina, nu porniți și nu opriți aparatele electrice, nu folosiți soneria. Închideți robinetele de gaz, deschideți geamurile și sunați la 904.</p>
+        <p lang="ru">Не зажигайте огонь и не курите. Не включайте и не выключайте свет и электроприборы, не пользуйтесь дверным звонком. Закройте газовые краны, откройте окна и звоните 904.</p>
+      </div>
+    </div>
+    <p lang="ro"><strong>Ați rămas blocat în lift?</strong> Sunați la dispeceratul indicat în cabină sau la 112.</p>
+    <p lang="ru"><strong>Застряли в лифте?</strong> Звоните диспетчеру по номеру, указанному в кабине, или по 112.</p>
+    <p lang="ro">Pentru probleme în bloc (lift, lumina de pe scară, țevi, ușa de la intrare) scrieți în comunitatea Viber, cu scara și etajul.</p>
+    <p lang="ru">О проблемах в доме (лифт, свет в подъезде, трубы, входная дверь) пишите в Viber-сообщество, указав подъезд и этаж.</p>
+    <p class="hint"><span lang="ro">Numerele au fost verificate pe site-urile furnizorilor în septembrie 2026.</span><span lang="ru">Номера проверены на сайтах поставщиков в сентябре 2026 года.</span></p>
   </section>
 
   <section id="conducere">
     <h2 lang="ro">Cine conduce asociația</h2>
     <h2 lang="ru">Кто управляет ассоциацией</h2>
-    <dl class="bodies" lang="ro">
-      <dt>Adunarea Generală</dt><dd>Toți proprietarii. Un apartament = un vot. Aprobă bugetul, cotizațiile, statutul și alege organele de conducere.</dd>
-      <dt>Consiliul asociației</dt><dd>9 membri, aleși pe 3 ani. Supraveghează activitatea administratorului.</dd>
-      <dt>Administratorul</dt><dd>Organul executiv: contracte, plăți, lucrări curente și avarii.</dd>
-      <dt>Comisia de cenzori</dt><dd>Controlează situația financiară a asociației.</dd>
-    </dl>
-    <dl class="bodies" lang="ru">
-      <dt>Общее собрание</dt><dd>Все собственники. Одна квартира = один голос. Утверждает бюджет, взносы, устав и избирает органы управления.</dd>
-      <dt>Совет ассоциации</dt><dd>9 членов, избираются на 3 года. Контролирует работу администратора.</dd>
-      <dt>Администратор</dt><dd>Исполнительный орган: договоры, платежи, текущие работы и аварии.</dd>
-      <dt>Ревизионная комиссия</dt><dd>Контролирует финансовое положение ассоциации.</dd>
-    </dl>
+    <div class="org">
+      <div class="box top">
+        <h3 lang="ro">Adunarea Generală</h3><h3 lang="ru">Общее собрание</h3>
+        <p lang="ro">Toți proprietarii. Un apartament = un vot. Aprobă bugetul, cotizațiile și statutul.</p>
+        <p lang="ru">Все собственники. Одна квартира = один голос. Утверждает бюджет, взносы и устав.</p>
+      </div>
+      <div class="arrow down"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-arrow-down"/></svg><span lang="ro">alege, pe cel mult 3 ani, și poate revoca</span><span lang="ru">избирает на срок до 3 лет и может отозвать</span></div>
+      <div class="elected">
+        <div class="box">
+          <h3 lang="ro">Consiliul asociației</h3><h3 lang="ru">Совет ассоциации</h3>
+          <p lang="ro">9 membri.</p>
+          <p lang="ru">9 членов.</p>
+        </div>
+        <div class="arrow side"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-arrow-down"/></svg><span lang="ro">supraveghează</span><span lang="ru">контролирует</span></div>
+        <div class="box">
+          <h3 lang="ro">Administratorul</h3><h3 lang="ru">Администратор</h3>
+          <p lang="ro">Organul executiv: contracte, plăți, lucrări curente și avarii.</p>
+          <p lang="ru">Исполнительный орган: договоры, платежи, текущие работы и аварии.</p>
+        </div>
+        <div class="box">
+          <h3 lang="ro">Comisia de cenzori</h3><h3 lang="ru">Ревизионная комиссия</h3>
+          <p lang="ro">Controlează situația financiară a asociației.</p>
+          <p lang="ru">Контролирует финансовое положение ассоциации.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="intrebari" class="faq">
+    <h2 lang="ro">Întrebări frecvente</h2>
+    <h2 lang="ru">Частые вопросы</h2>
+    <details class="vote-faq">
+      <summary><span lang="ro">Ce se întâmplă dacă nu votez?</span><span lang="ru">Что будет, если я не проголосую?</span><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-chevron-right"/></svg></summary>
+      <div>
+        <p lang="ro">Hotărârile trec doar dacă votează „Pro” mai mult de jumătate din toți proprietarii, adică cel puțin 112 din 222 de apartamente. Un buletin nepredat nu se numără la „Pro”, așa că fiecare vot lipsă face mai greu de adoptat bugetul și celelalte hotărâri. Un rând nemarcat pe buletin se consideră vot „contra”.</p>
+        <p lang="ru">Решения принимаются, только если «за» проголосует больше половины всех собственников — не менее 112 из 222 квартир. Несданный бюллетень не засчитывается как «за», поэтому каждый недостающий голос мешает принять бюджет и другие решения. Строка без отметки в бюллетене считается голосом «против».</p>
+      </div>
+    </details>
+    <details class="vote-faq">
+      <summary><span lang="ro">Nu am buletinul de vot. Ce fac?</span><span lang="ru">У меня нет бюллетеня. Что делать?</span><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-chevron-right"/></svg></summary>
+      <div>
+        <p lang="ro">Buletinul și anexele sunt afișate pe panoul informativ de la etajul 1 al fiecărei scări și în comunitatea Viber a asociației. Scrieți-ne la <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a> sau în comunitate și vă ajutăm să-l primiți.</p>
+        <p lang="ru">Бюллетень и приложения висят на информационном стенде на 1-м этаже каждого подъезда и опубликованы в Viber-сообществе ассоциации. Напишите нам на <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a> или в сообщество — поможем его получить.</p>
+      </div>
+    </details>
+    <details class="vote-faq">
+      <summary><span lang="ro">Pot vota în locul proprietarului?</span><span lang="ru">Можно ли проголосовать вместо собственника?</span><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-chevron-right"/></svg></summary>
+      <div>
+        <p lang="ro">Da, dacă anexați la buletin împuternicirea scrisă a proprietarului. O rudă de gradul I poate vota fără împuternicire. Coproprietarii aceluiași apartament completează un singur buletin.</p>
+        <p lang="ru">Да, если приложить к бюллетеню письменную доверенность собственника. Родственник первой степени может голосовать без доверенности. Совладельцы одной квартиры заполняют один бюллетень.</p>
+      </div>
+    </details>
+    <details>
+      <summary><span lang="ro">Ce este IMGFL?</span><span lang="ru">Что такое IMGFL?</span><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-chevron-right"/></svg></summary>
+      <div>
+        <p lang="ro">IMGFL este Întreprinderea Municipală de Gestionare a Fondului Locativ. Cotizația lunară din bugetul asociației include 1,00 lei pe m² către IMGFL, pe lângă cei 2,70 lei pe m² pentru asociație.</p>
+        <p lang="ru">IMGFL — муниципальное предприятие по управлению жилищным фондом (Întreprinderea Municipală de Gestionare a Fondului Locativ). Ежемесячный взнос по бюджету ассоциации включает 1,00 лей за м² для IMGFL и 2,70 лей за м² для ассоциации.</p>
+      </div>
+    </details>
+    <details>
+      <summary><span lang="ro">De unde știe site-ul suprafața apartamentului meu?</span><span lang="ru">Откуда сайт знает площадь моей квартиры?</span><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-chevron-right"/></svg></summary>
+      <div>
+        <p lang="ro">Din registrul cadastral: 222 de apartamente, 12.779,5 m² în total. Site-ul nu conține nume sau alte date personale. Dacă suprafața afișată nu corespunde, scrieți-ne.</p>
+        <p lang="ru">Из кадастрового реестра: 222 квартиры, всего 12 779,5 м². На сайте нет имён и других персональных данных. Если площадь указана неверно — напишите нам.</p>
+      </div>
+    </details>
+    <details>
+      <summary><span lang="ro">Ce înseamnă că blocul are propria asociație?</span><span lang="ru">Что значит, что у дома своя ассоциация?</span><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-chevron-right"/></svg></summary>
+      <div>
+        <p lang="ro">A.P.C. A0120-0351 îi reunește pe proprietarii blocului de pe str. Liviu Deleanu 3. Bugetul, fondul de reparații și deciziile despre bloc se hotărăsc de proprietarii de aici, în Adunarea Generală.</p>
+        <p lang="ru">A.P.C. A0120-0351 объединяет собственников дома по ул. Ливиу Деляну 3. Бюджет, фонд ремонта и другие вопросы дома решают сами собственники на Общем собрании.</p>
+      </div>
+    </details>
+    <details>
+      <summary><span lang="ro">Cui mă adresez pentru o problemă în bloc?</span><span lang="ru">Куда обращаться с проблемой в доме?</span><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-chevron-right"/></svg></summary>
+      <div>
+        <p lang="ro">Scrieți în comunitatea Viber, cu scara și etajul, sau pe e-mail la <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>. Pentru urgențe, sunați la numerele din secțiunea <a href="#avarii">Avarii și urgențe</a>.</p>
+        <p lang="ru">Пишите в Viber-сообщество, указав подъезд и этаж, или на <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>. В экстренных случаях звоните по номерам из раздела <a href="#avarii">«Аварии и экстренные службы»</a>.</p>
+      </div>
+    </details>
   </section>
 
   <section id="contact">
     <h2 lang="ro">Contact</h2>
     <h2 lang="ru">Контакты</h2>
-    <p><a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a></p>
-    <p lang="ro">Pentru avarii și probleme tehnice scrieți în comunitatea Viber, cu scara și etajul. Documentele pot fi consultate și pe panoul informativ de la etajul 1 al fiecărei scări.</p>
-    <p lang="ru">Об авариях и технических проблемах пишите в Viber-сообщество, указав подъезд и этаж. Документы также висят на информационном стенде на 1-м этаже каждого подъезда.</p>
+    <p><a class="btn ghost" href="mailto:apc.deleanu3@gmail.com"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-mail"/></svg>apc.deleanu3@gmail.com</a></p>
+    <p lang="ro">Pentru probleme tehnice în bloc scrieți în comunitatea Viber, cu scara și etajul; pentru urgențe sunați la numerele din secțiunea <a href="#avarii">„Avarii și urgențe”</a>. Documentele pot fi consultate și pe panoul informativ de la etajul 1 al fiecărei scări.</p>
+    <p lang="ru">О технических проблемах в доме пишите в Viber-сообщество, указав подъезд и этаж; в экстренных случаях звоните по номерам из раздела <a href="#avarii">«Аварии и экстренные службы»</a>. Документы также висят на информационном стенде на 1-м этаже каждого подъезда.</p>
   </section>
 
+  </main>
+
   <footer>
-    <span lang="ro">A.P.C. A0120-0351, str. Liviu Deleanu 3, MD-2071, Chișinău. Actualizat pe 28 septembrie 2026.</span>
-    <span lang="ru">A.P.C. A0120-0351, ул. Ливиу Деляну 3, MD-2071, Кишинёв. Обновлено 28 сентября 2026.</span>
+    <p lang="ro">A.P.C. A0120-0351, str. Liviu Deleanu 3, MD-2071, Chișinău. Actualizat pe 29 septembrie 2026.</p>
+    <p lang="ru">A.P.C. A0120-0351, ул. Ливиу Деляну 3, MD-2071, Кишинёв. Обновлено 29 сентября 2026.</p>
+    <p><a href="afis.html"><span lang="ro">Afiș pentru avizier (A4)</span><span lang="ru">Объявление для стенда (A4)</span></a></p>
   </footer>
 </div>
+<a class="to-top" href="#top"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-arrow-up"/></svg><span lang="ro">Sus</span><span lang="ru">Наверх</span></a>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-<script src="assets/lang.js"></script>
+<script src="assets/site.js"></script>
 <script>
-// facade: 6 entrances, 9 floors
 (function () {
-  var g = document.getElementById('facade'), ns = 'http://www.w3.org/2000/svg', s = '';
-  var W = 880, top = 10, floors = 9, fh = 24, secW = W / 6;
-  s += '<rect class="wall" x="0" y="' + top + '" width="' + W + '" height="' + (floors * fh + 12) + '"/>';
-  for (var sc = 0; sc < 6; sc++) {
-    var x0 = sc * secW;
-    for (var f = 0; f < floors; f++) {
-      var y = top + 6 + f * fh;
-      for (var w = 0; w < 4; w++) {
-        if (f === floors - 1 && (w === 1 || w === 2)) continue; // door opening
-        var wx = x0 + 12 + w * ((secW - 24) / 4) + 4;
-        s += '<rect class="win" x="' + wx.toFixed(1) + '" y="' + (y + 4) + '" width="' + ((secW - 24) / 4 - 8).toFixed(1) + '" height="12" rx="1"/>';
+  var $ = function (id) { return document.getElementById(id); };
+  var each = function (list, fn) { Array.prototype.forEach.call(list, fn); };
+  var t = APC.t, fmt = APC.fmt;
+
+  // --- facade: 6 entrances, 9 floors; the reader's entrance is tinted
+  var facadeSc = 0;
+  function drawFacade() {
+    var W = 880, top = 10, floors = 9, fh = 24, secW = W / 6, s = '';
+    s += '<rect class="wall" x="0" y="' + top + '" width="' + W + '" height="' + (floors * fh + 12) + '"/>';
+    if (facadeSc) s += '<rect class="mine" x="' + ((facadeSc - 1) * secW) + '" y="' + top + '" width="' + secW + '" height="' + (floors * fh + 12) + '"/>';
+    for (var sc = 0; sc < 6; sc++) {
+      var x0 = sc * secW;
+      for (var f = 0; f < floors; f++) {
+        var y = top + 6 + f * fh;
+        for (var w = 0; w < 4; w++) {
+          if (f === floors - 1 && (w === 1 || w === 2)) continue;
+          var wx = x0 + 12 + w * ((secW - 24) / 4) + 4;
+          s += '<rect class="win" x="' + wx.toFixed(1) + '" y="' + (y + 4) + '" width="' + ((secW - 24) / 4 - 8).toFixed(1) + '" height="12" rx="1"/>';
+        }
       }
+      s += '<rect class="door" x="' + (x0 + secW / 2 - 18) + '" y="' + (top + floors * fh - 20) + '" width="36" height="32" rx="2"/>';
     }
-    var dx = x0 + secW / 2 - 16, dy = top + floors * fh - 18;
-    s += '<rect class="door" x="' + dx + '" y="' + dy + '" width="32" height="30" rx="2"/>';
-    s += '<text class="num" x="' + (x0 + secW / 2) + '" y="' + (dy + 21) + '">' + (sc + 1) + '</text>';
+    s += '<line class="ground" x1="0" y1="' + (top + floors * fh + 12) + '" x2="' + W + '" y2="' + (top + floors * fh + 12) + '"/>';
+    $('facade').innerHTML = s;
+    each(document.querySelectorAll('.scari li'), function (li, i) { li.className = (i + 1 === facadeSc) ? 'mine' : ''; });
   }
-  s += '<line class="ground" x1="0" y1="' + (top + floors * fh + 12) + '" x2="' + W + '" y2="' + (top + floors * fh + 12) + '"/>';
-  g.innerHTML = s;
-  document.querySelector('.facade').setAttribute('viewBox', '0 0 ' + W + ' ' + (top + floors * fh + 16));
-})();
-
-// dues estimator
-(function () {
-  var inp = document.getElementById('m2'), out = document.getElementById('dues-apc'), imgfl = document.querySelectorAll('.imgfl');
-  var fmt = function (n) { return n.toLocaleString('ro-MD', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); };
-  function upd() {
-    var m = parseFloat(String(inp.value).replace(',', '.')) || 0;
-    out.textContent = fmt(m * 2.70);
-    imgfl.forEach(function (e) { e.textContent = fmt(m * 1.00); });
+  function facadeLabel() {
+    var svg = document.querySelector('.facade');
+    var base = t('Fațada blocului cu cele 6 scări', 'Фасад дома с 6 подъездами');
+    if (facadeSc) base += t('; scara dvs. este ' + facadeSc, '; ваш подъезд — ' + facadeSc);
+    svg.setAttribute('aria-label', base);
   }
-  inp.addEventListener('input', upd); upd();
-})();
+  drawFacade(); facadeLabel();
 
-// QR codes for printing / scanning from another phone
-(function () {
-  if (!window.QRCode) return;
-  [['qr-channel', 'lnk-channel'], ['qr-community', 'lnk-community']].forEach(function (p) {
-    new QRCode(document.getElementById(p[0]), { text: document.getElementById(p[1]).href, width: 96, height: 96, correctLevel: QRCode.CorrectLevel.M });
+  // --- vote notice: countdown, auto-switch after the deadline, calendar
+  var notice = $('vot'), deadline = new Date(notice.getAttribute('data-deadline'));
+  function dayKey(d) {
+    try { return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Chisinau', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d); }
+    catch (e) { var p = function (n) { return (n < 10 ? '0' : '') + n; }; return d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate()); }
+  }
+  function ruDays(n) { var a = n % 10, b = n % 100; return (a === 1 && b !== 11) ? 'день' : (a >= 2 && a <= 4 && (b < 12 || b > 14)) ? 'дня' : 'дней'; }
+  function roDays(n) { return n === 1 ? 'o zi' : n + ((n % 100 >= 20 || n % 100 === 0) ? ' de zile' : ' zile'); }
+  function countdown() {
+    var now = new Date(), chip = $('countdown'), label = chip.querySelector('span');
+    if (now >= deadline) {
+      notice.classList.add('is-over'); chip.hidden = true; notice.setAttribute('aria-labelledby', 'vot-h2');
+      each(document.querySelectorAll('.vote-faq'), function (x) { x.hidden = true; });
+      return;
+    }
+    var days = Math.round((Date.parse(dayKey(deadline)) - Date.parse(dayKey(now))) / 86400000);
+    var txt;
+    if (days <= 0) txt = t('Astăzi e ultima zi', 'Сегодня последний день');
+    else if (days === 1) txt = t('Mâine e ultima zi', 'Завтра последний день');
+    else txt = t('Mai sunt ' + roDays(days), 'Осталось ' + days + ' ' + ruDays(days));
+    label.textContent = txt; chip.hidden = false;
+  }
+  countdown(); setInterval(countdown, 60000);
+
+  // calendar: iPhones and computers open the .ics file (assets/vot-2026-ro.ics / -ru.ics);
+  // Android phones go straight to Google Calendar, which cannot import .ics files by itself
+  var DOC_URL = 'https://apc-deleanu3.github.io/documente/adunarea-generala-2026.html';
+  var android = /Android/i.test(navigator.userAgent || '');
+  function gcalUrl() {
+    return 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=' + encodeURIComponent(t('Termen: predați buletinul de vot (APC Deleanu 3)', 'Срок: сдать бюллетень (APC Deleanu 3)')) +
+      '&dates=20261005T160000Z/20261005T170000Z&details=' + encodeURIComponent(t('Buletinul se predă unui membru al Consiliului, în cutia poștală sau personal. ', 'Бюллетень сдаётся члену Совета — в почтовый ящик или лично. ') + DOC_URL);
+  }
+  function calendar() {
+    var ics = 'assets/vot-2026-' + APC.lang() + '.ics', cal = $('cal'), alt = $('cal-alt');
+    if (android) {
+      cal.href = gcalUrl(); cal.target = '_blank'; cal.rel = 'noopener';
+      alt.href = ics; alt.removeAttribute('target');
+      alt.querySelector('[lang="ro"]').textContent = 'sau descărcați fișierul .ics';
+      alt.querySelector('[lang="ru"]').textContent = 'или скачать файл .ics';
+    } else { cal.href = ics; alt.href = gcalUrl(); }
+  }
+  calendar();
+
+  // optional ballot counter, only shown when data/vot.json has a number
+  fetch('data/vot.json').then(function (r) { return r.json(); }).then(function (v) {
+    if (typeof v.buletine_predate !== 'number') return;
+    var n = v.buletine_predate, total = v.apartamente || 222;
+    $('ballots-n').textContent = n; $('ballots-fill').style.width = Math.min(100, n / total * 100) + '%';
+    if (v.actualizat) $('ballots-date').textContent = '(' + v.actualizat + ')';
+    $('ballots').hidden = false;
+  }).catch(function () {});
+
+  // --- my apartment: exact monthly dues + where the money goes
+  var APTS = {}, RATE = 2.70, IMGFL = 1.00;
+  var PARTS = [1.35, 0.63, 0.28, 0.24, 0.10, 0.10];
+  var apIn = $('ap'), m2In = $('m2'), out = $('dues-out'), norm = APC.apKey, pick = function () {};
+  function line(cls, text) { var p = document.createElement('p'); p.className = cls; p.textContent = text; return p; }
+  // split an amount into the budget parts, in whole bani, so the parts always add up to the amount
+  function bani(total) {
+    var c = Math.round(total * 100), raw = PARTS.map(function (p) { return c * p / RATE; });
+    var fl = raw.map(Math.floor), left = c - fl.reduce(function (s, x) { return s + x; }, 0);
+    raw.map(function (x, i) { return [x - fl[i], i]; }).sort(function (a, b) { return b[0] - a[0]; })
+      .slice(0, left).forEach(function (x) { fl[x[1]]++; });
+    return fl.map(function (x) { return x / 100; });
+  }
+  function money(total) {
+    var sub = $('money-sub'), items = document.querySelectorAll('#money-list .val');
+    if (total) {
+      sub.textContent = t('Din cei ' + fmt(total) + ' lei pe lună plătiți asociației:', 'Из ' + fmt(total) + ' лей в месяц, уплачиваемых ассоциации:');
+      var parts = bani(total);
+      each(items, function (el, i) { el.textContent = fmt(parts[i]) + t(' lei', ' лей'); });
+    } else {
+      sub.textContent = t('Din fiecare 100 lei plătiți asociației:', 'Из каждых 100 лей, уплаченных ассоциации:');
+      var per100 = [50, 23, 10, 9, 4, 4];
+      each(items, function (el, i) { el.textContent = per100[i] + t(' lei', ' лей'); });
+    }
+  }
+  function render() {
+    var raw = apIn.value.trim(), key = norm(raw), a = APTS[key], m2 = parseFloat(String(m2In.value).replace(',', '.'));
+    out.innerHTML = ''; pick();
+    var area = null, who = null;
+    if (raw) {
+      if (!a) {
+        if (!Object.keys(APTS).length) return;
+        out.appendChild(line('err', t('Nu am găsit apartamentul „' + raw + '”. Verificați numărul: de la 1 la 216; unele au literă, de exemplu 24a.', 'Квартира «' + raw + '» не найдена. Проверьте номер: от 1 до 216; у некоторых есть буква, например 24a.')));
+        facadeSc = 0; drawFacade(); facadeLabel(); money(0); return;
+      }
+      area = a.m2; facadeSc = a.sc;
+      who = t('Apartamentul ' + a.ap + ' · scara ' + a.sc + ' · ' + fmt(a.m2) + ' m²', 'Квартира ' + a.ap + ' · подъезд ' + a.sc + ' · ' + fmt(a.m2) + ' м²');
+      APC.store.set('apc-ap', a.ap);
+    } else if (m2 > 0) {
+      area = m2; facadeSc = 0;
+      who = t('Pentru ' + fmt(m2) + ' m²', 'Для ' + fmt(m2) + ' м²');
+    } else {
+      facadeSc = 0;
+    }
+    drawFacade(); facadeLabel();
+    if (area === null) {
+      out.appendChild(line('', t('Cotizația propusă în bugetul 2026 (supus votului) este de 3,70 lei pe m² pe lună: 2,70 lei asociației și 1,00 lei către IMGFL. Introduceți numărul apartamentului ca să vedeți suma exactă.', 'Предлагаемый взнос по бюджету 2026 (на голосовании) — 3,70 лей за м² в месяц: 2,70 лей ассоциации и 1,00 лей IMGFL. Введите номер квартиры, чтобы увидеть точную сумму.')));
+      money(0); return;
+    }
+    var apc = Math.round(area * RATE * 100) / 100, im = Math.round(area * IMGFL * 100) / 100;
+    out.appendChild(line('who', who));
+    var big = line('big', fmt(apc + im) + t(' lei ', ' лей '));
+    var small = document.createElement('small'); small.textContent = t('pe lună', 'в месяц'); big.appendChild(small);
+    out.appendChild(big);
+    out.appendChild(line('split', t(fmt(apc) + ' lei asociației + ' + fmt(im) + ' lei IMGFL', fmt(apc) + ' лей ассоциации + ' + fmt(im) + ' лей IMGFL')));
+    money(apc);
+  }
+  apIn.addEventListener('input', function () { if (apIn.value) m2In.value = ''; render(); });
+  m2In.addEventListener('input', function () { if (m2In.value) apIn.value = ''; render(); });
+  fetch('data/apartamente.csv').then(function (r) { return r.text(); }).then(function (txt) {
+    var rows = txt.trim().split(/\r?\n/), head = rows.shift().split(',');
+    rows.forEach(function (l) {
+      var c = l.split(','), o = {};
+      head.forEach(function (h, i) { o[h.trim()] = (c[i] || '').trim(); });
+      if (o.apartament) APTS[norm(o.apartament)] = { ap: o.apartament, sc: parseInt(o.scara, 10), m2: parseFloat(o.suprafata_m2) };
+    });
+    pick = APC.apPicker(apIn, $('ap-pick'), function (k) { return !!APTS[k]; });
+    var saved = APC.store.get('apc-ap');
+    if (saved && !apIn.value) apIn.value = saved;
+    render();
+  }).catch(function () {});
+
+  // --- Viber: QR codes are images (assets/qr-*.svg), always shown on computers and on demand on phones
+  function qrLabels() {
+    each(document.querySelectorAll('.qr-toggle'), function (b) {
+      var open = $(b.getAttribute('data-card')).classList.contains('show-qr');
+      b.setAttribute('aria-expanded', open ? 'true' : 'false');
+      b.querySelector('[lang="ro"]').textContent = open ? 'Ascundeți codul QR' : 'Arătați codul QR';
+      b.querySelector('[lang="ru"]').textContent = open ? 'Скрыть QR-код' : 'Показать QR-код';
+    });
+  }
+  each(document.querySelectorAll('.qr-toggle'), function (b) {
+    b.addEventListener('click', function () { $(b.getAttribute('data-card')).classList.toggle('show-qr'); qrLabels(); });
   });
+  var SHARE_URL = 'https://apc-deleanu3.github.io/#viber';
+  $('share').addEventListener('click', function () {
+    var status = $('share-status'), text = t('Canalele Viber oficiale ale blocului de pe str. Liviu Deleanu 3:', 'Официальные каналы Viber дома по ул. Ливиу Деляну 3:');
+    if (navigator.share) { navigator.share({ title: 'APC Deleanu 3', text: text, url: SHARE_URL }).catch(function () {}); return; }
+    var done = function () { status.textContent = t('Linkul a fost copiat. Lipiți-l într-un mesaj către vecin.', 'Ссылка скопирована. Вставьте её в сообщение соседу.'); };
+    if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text + ' ' + SHARE_URL).then(done, function () { status.textContent = SHARE_URL; }); }
+    else { status.textContent = SHARE_URL; }
+  });
+
+  // --- repairs status and payment details come from data files
+  fetch('data/reparatii.json').then(function (r) { return r.json(); }).then(function (d) {
+    var n = (d.lucrari || []).length; if (!n) return;
+    each(document.querySelectorAll('.rep-n'), function (el) { el.textContent = n; });
+    $('rep-none').hidden = true; $('rep-some').hidden = false;
+  }).catch(function () {});
+  fetch('data/plati.json').then(function (r) { return r.json(); }).then(function (p) {
+    if (!p.iban) return;
+    var dl = $('pay-dl'), rows = [
+      ['Beneficiar', 'Получатель', p.beneficiar], ['IDNO', 'IDNO', p.idno], ['IBAN', 'IBAN', p.iban], ['Banca', 'Банк', p.banca],
+      ['Destinația plății', 'Назначение платежа', p.destinatia], ['Termen', 'Срок', p.termen]];
+    rows.forEach(function (r) {
+      if (!r[2]) return;
+      var dt = document.createElement('dt'), dd = document.createElement('dd');
+      var ro = document.createElement('span'); ro.lang = 'ro'; ro.textContent = r[0];
+      var ru = document.createElement('span'); ru.lang = 'ru'; ru.textContent = r[1];
+      dt.appendChild(ro); dt.appendChild(ru); dd.textContent = r[2]; dl.appendChild(dt); dl.appendChild(dd);
+    });
+    $('pay-none').hidden = true; $('pay-some').hidden = false;
+  }).catch(function () {});
+
+  // texts built in JS follow the language switch
+  APC.onLang(function () { countdown(); calendar(); render(); qrLabels(); $('share-status').textContent = ''; apIn.placeholder = t('ex. 45', 'напр. 45'); });
+  apIn.placeholder = t('ex. 45', 'напр. 45');
 })();
 </script>
 </body>

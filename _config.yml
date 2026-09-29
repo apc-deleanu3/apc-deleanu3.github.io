@@ -9,3 +9,6 @@ defaults:
       layout: doc
 exclude:
   - README.md
+
+kramdown:
+  toc_levels: "2"

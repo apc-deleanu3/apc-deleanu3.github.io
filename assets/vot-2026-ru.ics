@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//APC Deleanu 3//Vot 2026//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vot-2026-termen-ru@apc-deleanu3.github.io
+DTSTAMP:20260929T000000Z
+DTSTART:20261005T160000Z
+DTEND:20261005T170000Z
+SUMMARY:Срок: сдать бюллетень (APC Deleanu 3)
+DESCRIPTION:Бюллетень сдаётся члену Совета — 
+ в почтовый ящик или лично. Срок: понедель
+ ник\, 5 октября 2026\, 20:00. https://apc-deleanu3.github.io/doc
+ umente/adunarea-generala-2026.html
+URL:https://apc-deleanu3.github.io/documente/adunarea-generala-2026.html
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Завтра последний день сдачи бюлле
+ теня (APC Deleanu 3)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Сегодня до 20:00 — сдать бюллетень
+END:VALARM
+END:VEVENT
+END:VCALENDAR

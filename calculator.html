@@ -3,50 +3,68 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Calculator reparații</title>
-<meta name="description" content="Costul reparațiilor planificate la str. Liviu Deleanu 3, împărțit pe apartamente după suprafață.">
+<title>Cât mă costă reparațiile? | APC Deleanu 3</title>
+<meta name="description" content="Costul reparațiilor la str. Liviu Deleanu 3, împărțit pe apartamente după suprafață: partea apartamentului dvs. și o simulare.">
+<script>(function(){var d=document.documentElement,l=null,t=null;try{l=localStorage.getItem('apc-lang');t=localStorage.getItem('apc-text')}catch(e){}if(!l&&/^ru/i.test(navigator.language||''))l='ru';if(l==='ru')d.lang='ru';if(t==='mare')d.setAttribute('data-text','mare')})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@700&display=swap&subset=cyrillic,latin-ext" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='6' width='26' height='24' fill='%238a949e'/%3E%3Crect x='13' y='20' width='6' height='10' fill='%232f7d5b'/%3E%3C/svg%3E">
 </head>
-<body>
+<body id="top">
 <div class="wrap">
   <header class="topbar">
     <a class="brand" href="./">APC Deleanu 3</a>
-    <div class="lang" role="group" aria-label="Limba / Язык">
-      <button type="button" data-lang="ro" aria-pressed="true">RO</button>
-      <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+    <div class="tools">
+      <button class="tbtn" type="button" data-text aria-pressed="false" title="Text mai mare / Крупный текст"><span aria-hidden="true">A+</span><span class="sr-only" lang="ro">Text mai mare</span><span class="sr-only" lang="ru">Крупный текст</span></button>
+      <div class="lang" role="group" aria-label="Limba / Язык">
+        <button type="button" data-lang="ro" aria-pressed="true">RO</button>
+        <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+      </div>
     </div>
   </header>
+  <nav class="crumbs"><a href="./#reparatii"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-arrow-left"/></svg><span lang="ro">Pagina blocului</span><span lang="ru">Страница дома</span></a></nav>
 
-  <h1 lang="ro">Calculatorul reparațiilor</h1>
-  <h1 lang="ru">Калькулятор ремонтов</h1>
-  <p lang="ro">Costul fiecărei lucrări se împarte între apartamente proporțional cu suprafața. O lucrare pentru o singură scară se împarte doar între apartamentele acelei scări.</p>
-  <p lang="ru">Стоимость каждой работы делится между квартирами пропорционально площади. Работа для одного подъезда делится только между квартирами этого подъезда.</p>
-
-  <div class="panel warn" id="sample-note" hidden>
-    <strong lang="ro">Suprafețele apartamentelor sunt date de exemplu</strong>
-    <strong lang="ru">Площади квартир — примерные данные</strong>
-    <p lang="ro">Repartizarea pe apartamente este orientativă până la încărcarea registrului real al suprafețelor.</p>
-    <p lang="ru">Распределение по квартирам ориентировочное до загрузки реального реестра площадей.</p>
-  </div>
+  <main id="main">
+  <h1 lang="ro">Cât mă costă reparațiile?</h1>
+  <h1 lang="ru">Во сколько мне обойдётся ремонт?</h1>
+  <p lang="ro">Costul fiecărei lucrări se împarte între apartamente proporțional cu suprafața. Dacă Adunarea Generală hotărăște ca o lucrare să fie plătită doar de o scară, costul se împarte între apartamentele acelei scări.</p>
+  <p lang="ru">Стоимость каждой работы делится между квартирами пропорционально площади. Если Общее собрание решит, что работу оплачивает только один подъезд, стоимость делится между квартирами этого подъезда.</p>
 
   <div class="panel">
-    <h2 lang="ro">Lucrări</h2><h2 lang="ru">Работы</h2>
-    <p class="muted" id="empty-note" lang="ro">Lista oficială a lucrărilor va fi publicată după aprobare. Până atunci puteți adăuga lucrări ca să vedeți un calcul.</p>
-    <p class="muted" id="empty-note-ru" lang="ru">Официальный список работ будет опубликован после утверждения. Пока можно добавить работы для расчёта.</p>
-    <table class="tbl" id="repairs">
-      <thead><tr>
-        <th style="width:2.2em"><span lang="ro">Inc.</span><span lang="ru">Вкл.</span></th>
-        <th><span lang="ro">Lucrarea</span><span lang="ru">Работа</span></th>
-        <th style="width:7.5em"><span lang="ro">Scara</span><span lang="ru">Подъезд</span></th>
-        <th class="num" style="width:9em"><span lang="ro">Cost (lei)</span><span lang="ru">Стоимость (лей)</span></th>
-        <th style="width:2em"></th>
-      </tr></thead>
-      <tbody></tbody>
-    </table>
-    <p><button class="btn ghost" id="add" type="button"><span lang="ro">Adaugă o lucrare</span><span lang="ru">Добавить работу</span></button></p>
+    <div class="field">
+      <label for="ap"><span lang="ro">Numărul apartamentului</span><span lang="ru">Номер квартиры</span></label>
+      <input id="ap" type="text" inputmode="numeric" enterkeyhint="done" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="ex. 45">
+    </div>
+    <div class="ap-pick" id="ap-pick" aria-live="polite" hidden></div>
+    <p class="hint" id="ap-info" aria-live="polite"></p>
+  </div>
+
+  <div class="panel" id="official">
+    <h2 lang="ro">Lucrările aprobate</h2>
+    <h2 lang="ru">Утверждённые работы</h2>
+    <div id="off-none">
+      <p lang="ro">Lista oficială a lucrărilor se publică aici după aprobarea de către Adunarea Generală.</p>
+      <p lang="ru">Официальный список работ будет опубликован здесь после утверждения Общим собранием.</p>
+      <p lang="ro">Între timp puteți face o simulare: adăugați o lucrare și vedeți cum s-ar împărți costul.</p>
+      <p lang="ru">А пока можно сделать расчёт на примере: добавьте работу и посмотрите, как разделится стоимость.</p>
+      <button class="btn ghost" type="button" id="open-sim"><span lang="ro">Deschideți simularea</span><span lang="ru">Открыть расчёт</span></button>
+    </div>
+    <div id="off-some" hidden>
+      <ul class="works" id="off-list"></ul>
+      <h3 lang="ro">Partea apartamentului dvs.</h3>
+      <h3 lang="ru">Доля вашей квартиры</h3>
+      <div id="off-mine" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <details class="panel" id="sim">
+    <summary><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-chevron-right"/></svg><span lang="ro">Simulare: adăugați lucrări și vedeți calculul</span><span lang="ru">Расчёт на примере: добавьте работы</span></summary>
+    <p class="hint" lang="ro">O simulare nu este o decizie a asociației. Datele rămân doar pe acest dispozitiv.</p>
+    <p class="hint" lang="ru">Расчёт на примере — не решение ассоциации. Данные остаются только на этом устройстве.</p>
+    <div id="work-list"></div>
+    <button class="btn ghost" id="add" type="button"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-plus"/></svg><span lang="ro">Adăugați o lucrare</span><span lang="ru">Добавить работу</span></button>
     <div class="row">
       <div>
         <label for="fund"><span lang="ro">Acoperit din fondul de reparație (lei)</span><span lang="ru">Покрывается из фонда ремонта (лей)</span></label>
@@ -57,167 +75,214 @@
         <input id="months" type="number" min="1" max="60" step="1" value="1" inputmode="numeric">
       </div>
     </div>
-  </div>
+    <div class="stats" aria-live="polite">
+      <div><span class="k" lang="ro">Total lucrări</span><span class="k" lang="ru">Стоимость работ</span><span class="v" id="t-total">0,00 lei</span></div>
+      <div><span class="k" lang="ro">De împărțit între proprietari</span><span class="k" lang="ru">К распределению</span><span class="v" id="t-split">0,00 lei</span></div>
+      <div><span class="k" lang="ro">În medie pe m²</span><span class="k" lang="ru">В среднем за м²</span><span class="v" id="t-m2">0,00 lei</span></div>
+    </div>
+    <h3 lang="ro">Partea apartamentului dvs. în simulare</h3>
+    <h3 lang="ru">Доля вашей квартиры в расчёте</h3>
+    <div id="sim-mine" aria-live="polite"></div>
+  </details>
 
-  <div class="grid2">
-    <div class="panel">
-      <p class="muted" lang="ro">Total lucrări</p><p class="muted" lang="ru">Всего работ</p>
-      <p class="big" id="t-total">0,00 lei</p>
-      <p class="muted"><span lang="ro">De împărțit între proprietari:</span><span lang="ru">К распределению между собственниками:</span> <strong id="t-split">0,00 lei</strong></p>
-      <p class="muted"><span lang="ro">În medie pe m²:</span><span lang="ru">В среднем за м²:</span> <strong id="t-m2">0,00 lei</strong></p>
+  <details class="panel" id="all-ap">
+    <summary><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-chevron-right"/></svg><span lang="ro">Toate apartamentele (tabel și CSV)</span><span lang="ru">Все квартиры (таблица и CSV)</span></summary>
+    <p class="hint" lang="ro">Rezultatul simulării de mai sus, pentru fiecare apartament.</p>
+    <p class="hint" lang="ru">Результат расчёта выше для каждой квартиры.</p>
+    <p><button class="btn ghost" id="csv" type="button"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-download"/></svg><span lang="ro">Descărcați CSV</span><span lang="ru">Скачать CSV</span></button></p>
+    <div class="tbl-wrap" tabindex="0" role="region" aria-label="Toate apartamentele / Все квартиры">
+    <table class="tbl" id="all">
+      <thead><tr>
+        <th><span lang="ro">Ap.</span><span lang="ru">Кв.</span></th>
+        <th><span lang="ro">Scara</span><span lang="ru">Подъезд</span></th>
+        <th class="num">m²</th>
+        <th class="num"><span lang="ro">Total (lei)</span><span lang="ru">Всего (лей)</span></th>
+        <th class="num"><span lang="ro">Pe lună</span><span lang="ru">В месяц</span></th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
     </div>
-    <div class="panel">
-      <label for="ap" style="font-weight:700"><span lang="ro">Apartamentul meu</span><span lang="ru">Моя квартира</span></label>
-      <div class="row" style="margin-top:6px">
-        <input id="ap" type="text" autocomplete="off" placeholder="ex. 24a" style="width:7em">
-      </div>
-      <p class="big" id="my-total">—</p>
-      <p class="muted" id="my-detail"></p>
-    </div>
-  </div>
+    <p class="hint" lang="ro">Sumele sunt rotunjite la bani; totalul pe apartamente poate diferi cu câțiva bani de costul lucrărilor.</p>
+    <p class="hint" lang="ru">Суммы округлены до бань; итог по квартирам может отличаться на несколько бань.</p>
+  </details>
 
-  <div class="panel">
-    <div class="row" style="justify-content:space-between;align-items:center">
-      <h2 style="margin:0" lang="ro">Toate apartamentele</h2><h2 style="margin:0" lang="ru">Все квартиры</h2>
-      <button class="btn ghost" id="csv" type="button"><span lang="ro">Descarcă CSV</span><span lang="ru">Скачать CSV</span></button>
-    </div>
-    <div class="scroll" style="margin-top:12px">
-      <table class="tbl" id="all">
-        <thead><tr>
-          <th><span lang="ro">Ap.</span><span lang="ru">Кв.</span></th>
-          <th><span lang="ro">Scara</span><span lang="ru">Подъезд</span></th>
-          <th class="num">m²</th>
-          <th class="num"><span lang="ro">Total (lei)</span><span lang="ru">Всего (лей)</span></th>
-          <th class="num"><span lang="ro">Pe lună</span><span lang="ru">В месяц</span></th>
-        </tr></thead>
-        <tbody></tbody>
-      </table>
-    </div>
-    <p class="muted" style="font-size:.9rem" lang="ro">Sumele sunt rotunjite la bani; totalul pe apartamente poate diferi cu câțiva bani de costul lucrărilor.</p>
-    <p class="muted" style="font-size:.9rem" lang="ru">Суммы округлены до бань; итог по квартирам может отличаться на несколько бань.</p>
-  </div>
+  </main>
 
   <footer><a href="./"><span lang="ro">Înapoi la pagina blocului</span><span lang="ru">Назад на страницу дома</span></a></footer>
 </div>
+<a class="to-top" href="#top"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-arrow-up"/></svg><span lang="ro">Sus</span><span lang="ru">Наверх</span></a>
 
-<script src="assets/lang.js"></script>
+<script src="assets/site.js"></script>
 <script>
 (function () {
-  var APTS = [], REPAIRS = [];
-  var fmt = function (n) { return n.toLocaleString('ro-MD', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); };
   var $ = function (id) { return document.getElementById(id); };
+  var t = APC.t, fmt = APC.fmt, lei = function (n) { return fmt(n) + t(' lei', ' лей'); };
   var num = function (v) { return parseFloat(String(v).replace(/\s/g, '').replace(',', '.')) || 0; };
+  var norm = APC.apKey;
+  var APTS = [], BYKEY = {}, OFFICIAL = [], SIM = [];
 
-  function parseCSV(t) {
-    var lines = t.trim().split(/\r?\n/), head = lines.shift().split(',');
-    return lines.map(function (l) {
-      var c = l.split(','), o = {};
-      head.forEach(function (h, i) { o[h.trim()] = c[i]; });
-      return { ap: String(o.apartament || '').trim(), sc: parseInt(o.scara, 10), m2: num(o.suprafata_m2) };
-    });
-  }
+  function scopeName(sc) { return sc ? t('Scara ', 'Подъезд ') + sc : t('Tot blocul', 'Весь дом'); }
 
-  function scaraOptions(sel) {
-    var s = '<option value="0"' + (sel ? '' : ' selected') + '>' + (document.documentElement.lang === 'ru' ? 'Все' : 'Toate') + '</option>';
-    for (var i = 1; i <= 6; i++) s += '<option value="' + i + '"' + (sel === i ? ' selected' : '') + '>' + i + '</option>';
-    return s;
-  }
-
-  function renderRepairs() {
-    var tb = document.querySelector('#repairs tbody'); tb.innerHTML = '';
-    REPAIRS.forEach(function (r, i) {
-      var tr = document.createElement('tr');
-      tr.innerHTML =
-        '<td><input type="checkbox" ' + (r.on ? 'checked' : '') + ' aria-label="include"></td>' +
-        '<td><input type="text" value="' + (r.name || '').replace(/"/g, '&quot;') + '"></td>' +
-        '<td><select>' + scaraOptions(r.scara) + '</select></td>' +
-        '<td class="num"><input type="number" min="0" step="100" inputmode="decimal" value="' + (r.cost || 0) + '"></td>' +
-        '<td><button class="iconbtn" type="button" aria-label="Șterge">✕</button></td>';
-      var q = tr.querySelectorAll('input,select,button');
-      q[0].onchange = function () { r.on = this.checked; calc(); };
-      q[1].oninput = function () { r.name = this.value; calc(); };
-      q[2].onchange = function () { r.scara = parseInt(this.value, 10); calc(); };
-      q[3].oninput = function () { r.cost = num(this.value); calc(); };
-      q[4].onclick = function () { REPAIRS.splice(i, 1); renderRepairs(); calc(); };
-      tb.appendChild(tr);
-    });
-    var empty = REPAIRS.length === 0;
-    $('empty-note').hidden = !empty; $('empty-note-ru').hidden = !empty;
-  }
-
-  var shares = {};
-  function calc() {
-    var active = REPAIRS.filter(function (r) { return r.on && r.cost > 0; });
-    var total = active.reduce(function (s, r) { return s + r.cost; }, 0);
-    var fund = Math.min(num($('fund').value), total);
+  // split each active work's cost by surface among the apartments it concerns
+  function split(works, fund, months) {
+    var active = works.filter(function (w) { return w.on !== false && w.cost > 0; });
+    var total = active.reduce(function (s, w) { return s + w.cost; }, 0);
+    fund = Math.min(Math.max(fund || 0, 0), total);
     var ratio = total > 0 ? (total - fund) / total : 0;
-    var months = Math.max(1, Math.round(num($('months').value)) || 1);
-    var totalM2 = APTS.reduce(function (s, a) { return s + a.m2; }, 0);
-    shares = {};
-    APTS.forEach(function (a) { shares[a.ap.toLowerCase()] = { a: a, total: 0, parts: [] }; });
-    active.forEach(function (r) {
-      var scope = APTS.filter(function (a) { return !r.scara || a.sc === r.scara; });
+    var shares = {};
+    APTS.forEach(function (a) { shares[a.key] = { a: a, total: 0, parts: [] }; });
+    active.forEach(function (w) {
+      var scope = APTS.filter(function (a) { return !w.scara || a.sc === w.scara; });
       var m2 = scope.reduce(function (s, a) { return s + a.m2; }, 0);
-      var amount = r.cost * ratio;
       scope.forEach(function (a) {
-        var v = m2 > 0 ? amount * a.m2 / m2 : 0;
-        var sh = shares[a.ap.toLowerCase()]; sh.total += v; sh.parts.push([r.name || '—', v]);
+        var v = m2 > 0 ? Math.round(w.cost * ratio * a.m2 / m2 * 100) / 100 : 0;
+        shares[a.key].total += v; shares[a.key].parts.push({ name: w.name || '—', name_ru: w.name_ru, scara: w.scara, v: v });
       });
     });
-    $('t-total').textContent = fmt(total) + ' lei';
-    $('t-split').textContent = fmt(total - fund) + ' lei';
-    $('t-m2').textContent = fmt(totalM2 ? (total - fund) / totalM2 : 0) + ' lei';
-    var tb = document.querySelector('#all tbody'), s = '';
-    APTS.forEach(function (a) {
-      var t = shares[a.ap.toLowerCase()].total;
-      s += '<tr><td>' + a.ap + '</td><td>' + a.sc + '</td><td class="num">' + fmt(a.m2) + '</td><td class="num">' + fmt(t) + '</td><td class="num">' + fmt(t / months) + '</td></tr>';
-    });
-    tb.innerHTML = s;
-    mine(months);
-    try { localStorage.setItem('apc-repairs', JSON.stringify({ r: REPAIRS, f: $('fund').value, m: $('months').value })); } catch (e) {}
+    var payingM2 = APTS.reduce(function (s, a) { return s + (shares[a.key].parts.length ? a.m2 : 0); }, 0);
+    return { total: total, split: total - fund, perM2: payingM2 ? (total - fund) / payingM2 : 0, shares: shares, months: Math.max(1, months || 1) };
   }
 
-  function mine(months) {
-    months = months || Math.max(1, Math.round(num($('months').value)) || 1);
-    var ap = String($('ap').value).trim().toLowerCase(), s = shares[ap], ru = document.documentElement.lang === 'ru';
-    if (!s) { $('my-total').textContent = '—'; $('my-detail').textContent = $('ap').value ? (ru ? 'Нет такой квартиры.' : 'Apartament inexistent.') : ''; return; }
-    $('my-total').textContent = fmt(s.total) + ' lei';
-    var d = (ru ? 'Подъезд ' : 'Scara ') + s.a.sc + ', ' + fmt(s.a.m2) + ' m²';
-    if (months > 1) d += (ru ? '; в месяц: ' : '; pe lună: ') + fmt(s.total / months) + ' lei';
-    if (s.parts.length) d += '. ' + s.parts.map(function (p) { return p[0] + ': ' + fmt(p[1]); }).join('; ');
-    $('my-detail').textContent = d;
-    try { localStorage.setItem('apc-ap', String(ap)); } catch (e) {}
+  function receipt(el, res, emptyText) {
+    el.innerHTML = '';
+    var a = BYKEY[norm($('ap').value)];
+    if (!a) { var p = document.createElement('p'); p.className = 'hint'; p.textContent = t('Introduceți numărul apartamentului mai sus ca să vedeți partea dvs.', 'Введите номер квартиры выше, чтобы увидеть вашу долю.'); el.appendChild(p); return; }
+    var s = res.shares[a.key];
+    if (!s.parts.length) { var q = document.createElement('p'); q.className = 'hint'; q.textContent = emptyText; el.appendChild(q); return; }
+    var ul = document.createElement('ul'); ul.className = 'works';
+    s.parts.forEach(function (part) {
+      var li = document.createElement('li'), left = document.createElement('span'), sc = document.createElement('span'), sum = document.createElement('span');
+      left.textContent = t(part.name, part.name_ru || part.name); sc.className = 'scope'; sc.textContent = scopeName(part.scara); left.appendChild(sc);
+      sum.className = 'sum'; sum.textContent = lei(part.v);
+      li.appendChild(left); li.appendChild(sum); ul.appendChild(li);
+    });
+    var tot = document.createElement('li'); tot.className = 'total';
+    var l1 = document.createElement('span'); l1.textContent = t('Total pentru apartamentul ', 'Итого для квартиры ') + a.ap;
+    var l2 = document.createElement('span'); l2.className = 'sum'; l2.textContent = lei(s.total);
+    tot.appendChild(l1); tot.appendChild(l2); ul.appendChild(tot);
+    el.appendChild(ul);
+    if (res.months > 1) { var m = document.createElement('p'); m.className = 'hint'; m.textContent = t('În ' + res.months + ' rate: ' + fmt(s.total / res.months) + ' lei pe lună.', 'В рассрочку на ' + res.months + ' мес.: ' + fmt(s.total / res.months) + ' лей в месяц.'); el.appendChild(m); }
+  }
+
+  function apInfo() {
+    var raw = $('ap').value.trim(), a = BYKEY[norm(raw)], el = $('ap-info');
+    el.style.color = '';
+    if (!raw) { el.textContent = t('Suma se calculează după suprafața din registrul cadastral.', 'Сумма рассчитывается по площади из кадастрового реестра.'); return; }
+    if (!a) { if (APTS.length) { el.textContent = t('Nu am găsit apartamentul „' + raw + '”. Verificați numărul (de exemplu 45 sau 24a).', 'Квартира «' + raw + '» не найдена. Проверьте номер (например, 45 или 24a).'); el.style.color = 'var(--danger)'; } return; }
+    el.textContent = t('Apartamentul ' + a.ap + ' · scara ' + a.sc + ' · ' + fmt(a.m2) + ' m²', 'Квартира ' + a.ap + ' · подъезд ' + a.sc + ' · ' + fmt(a.m2) + ' м²');
+    APC.store.set('apc-ap', a.ap);
+  }
+
+  function renderOfficial() {
+    if (!OFFICIAL.length) { $('off-none').hidden = false; $('off-some').hidden = true; return; }
+    $('off-none').hidden = true; $('off-some').hidden = false;
+    var ul = $('off-list'); ul.innerHTML = '';
+    var total = 0;
+    OFFICIAL.forEach(function (w) {
+      var li = document.createElement('li'), left = document.createElement('span'), sc = document.createElement('span'), sum = document.createElement('span');
+      left.textContent = t(w.name, w.name_ru || w.name); sc.className = 'scope'; sc.textContent = scopeName(w.scara); left.appendChild(sc);
+      sum.className = 'sum'; sum.textContent = lei(w.cost); total += w.cost;
+      li.appendChild(left); li.appendChild(sum); ul.appendChild(li);
+    });
+    var tl = document.createElement('li'); tl.className = 'total';
+    var a1 = document.createElement('span'); a1.textContent = t('Total', 'Итого');
+    var a2 = document.createElement('span'); a2.className = 'sum'; a2.textContent = lei(total);
+    tl.appendChild(a1); tl.appendChild(a2); ul.appendChild(tl);
+    receipt($('off-mine'), split(OFFICIAL, 0, 1), t('Lucrările aprobate nu privesc scara dvs.', 'Утверждённые работы не касаются вашего подъезда.'));
+  }
+
+  // simulation editor: every field has a visible label, on phones too
+  function renderWorks() {
+    var box = $('work-list'); box.innerHTML = '';
+    SIM.forEach(function (w, i) {
+      var id = 'w' + i, card = document.createElement('div'); card.className = 'work';
+      var opts = '<option value="0">' + t('Tot blocul', 'Весь дом') + '</option>';
+      for (var s = 1; s <= 6; s++) opts += '<option value="' + s + '"' + (w.scara === s ? ' selected' : '') + '>' + t('Scara ', 'Подъезд ') + s + '</option>';
+      card.innerHTML =
+        '<div class="name"><label for="' + id + 'n"></label><input type="text" id="' + id + 'n"></div>' +
+        '<div><label for="' + id + 's"></label><select id="' + id + 's">' + opts + '</select></div>' +
+        '<div><label for="' + id + 'c"></label><input type="number" id="' + id + 'c" min="0" step="100" inputmode="decimal"></div>' +
+        '<div class="opts"><label class="check"><input type="checkbox" id="' + id + 'o"><span></span></label>' +
+        '<button class="del" type="button"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg#i-trash"/></svg><span></span></button></div>';
+      var q = function (sel) { return card.querySelector(sel); };
+      q('label[for="' + id + 'n"]').textContent = t('Lucrarea', 'Работа');
+      q('label[for="' + id + 's"]').textContent = t('Pentru', 'Для');
+      q('label[for="' + id + 'c"]').textContent = t('Cost (lei)', 'Стоимость (лей)');
+      q('.check span').textContent = t('Inclusă în calcul', 'Учитывать в расчёте');
+      q('.del span').textContent = t('Ștergeți', 'Удалить');
+      var nameIn = q('#' + id + 'n'), costIn = q('#' + id + 'c'), onIn = q('#' + id + 'o'), scIn = q('#' + id + 's');
+      nameIn.value = w.name || ''; nameIn.placeholder = t('ex. Hidroizolarea acoperișului', 'напр. Гидроизоляция крыши');
+      costIn.value = w.cost || ''; onIn.checked = w.on !== false;
+      nameIn.addEventListener('input', function () { w.name = nameIn.value; calc(); });
+      costIn.addEventListener('input', function () { w.cost = num(costIn.value); calc(); });
+      onIn.addEventListener('change', function () { w.on = onIn.checked; calc(); });
+      scIn.addEventListener('change', function () { w.scara = parseInt(scIn.value, 10); calc(); });
+      q('.del').addEventListener('click', function () { SIM.splice(i, 1); renderWorks(); calc(); $('add').focus(); });
+      box.appendChild(card);
+    });
+  }
+
+  var last = null;
+  function calc() {
+    var res = split(SIM, num($('fund').value), Math.round(num($('months').value)) || 1);
+    last = res;
+    $('t-total').textContent = lei(res.total);
+    $('t-split').textContent = lei(res.split);
+    $('t-m2').textContent = lei(res.perM2);
+    receipt($('sim-mine'), res, t('Lucrările din simulare nu privesc scara dvs.', 'Работы в расчёте не касаются вашего подъезда.'));
+    var mine = norm($('ap').value), rows = '';
+    APTS.forEach(function (a) {
+      var tot = res.shares[a.key].total;
+      rows += '<tr' + (a.key === mine ? ' class="mine"' : '') + '><td>' + a.ap + '</td><td>' + a.sc + '</td><td class="num">' + fmt(a.m2) + '</td><td class="num">' + fmt(tot) + '</td><td class="num">' + fmt(tot / res.months) + '</td></tr>';
+    });
+    document.querySelector('#all tbody').innerHTML = rows;
+    APC.store.set('apc-repairs', JSON.stringify({ r: SIM, f: $('fund').value, m: $('months').value }));
   }
 
   function csv() {
-    var months = Math.max(1, Math.round(num($('months').value)) || 1);
+    if (!last) return;
     var rows = [['apartament', 'scara', 'suprafata_m2', 'total_lei', 'pe_luna_lei']];
-    APTS.forEach(function (a) { var t = shares[a.ap.toLowerCase()].total; rows.push([a.ap, a.sc, a.m2.toFixed(2), t.toFixed(2), (t / months).toFixed(2)]); });
-    var blob = new Blob(['﻿' + rows.map(function (r) { return r.join(';'); }).join('\n')], { type: 'text/csv;charset=utf-8' });
-    var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'reparatii-pe-apartamente.csv'; a.click();
-    setTimeout(function () { URL.revokeObjectURL(a.href); }, 1000);
+    var dec = function (n) { return n.toFixed(2).replace('.', ','); };
+    APTS.forEach(function (a) { var tot = last.shares[a.key].total; rows.push([a.ap, a.sc, dec(a.m2), dec(tot), dec(tot / last.months)]); });
+    var link = document.createElement('a');
+    link.href = URL.createObjectURL(new Blob(['﻿' + rows.map(function (r) { return r.join(';'); }).join('\n')], { type: 'text/csv;charset=utf-8' }));
+    link.download = 'reparatii-pe-apartamente.csv'; document.body.appendChild(link); link.click(); link.remove();
+    setTimeout(function () { URL.revokeObjectURL(link.href); }, 2000);
   }
 
-  $('add').onclick = function () { REPAIRS.push({ on: true, name: '', scara: 0, cost: 0 }); renderRepairs(); calc(); };
-  $('fund').oninput = function () { calc(); };
-  $('months').oninput = function () { calc(); };
-  $('ap').oninput = function () { mine(); };
-  $('csv').onclick = csv;
-  document.querySelectorAll('.lang button').forEach(function (b) { b.addEventListener('click', function () { renderRepairs(); mine(); }); });
+  $('add').addEventListener('click', function () {
+    SIM.push({ on: true, name: '', scara: 0, cost: 0 }); renderWorks(); calc();
+    var inputs = document.querySelectorAll('#work-list input[type=text]'); if (inputs.length) inputs[inputs.length - 1].focus();
+  });
+  $('open-sim').addEventListener('click', function () { $('sim').open = true; $('sim').scrollIntoView(); if (!SIM.length) $('add').click(); });
+  $('fund').addEventListener('input', calc);
+  $('months').addEventListener('input', calc);
+  $('ap').addEventListener('input', function () { apInfo(); renderOfficial(); calc(); });
+  $('csv').addEventListener('click', csv);
+  function title() { document.title = t('Cât mă costă reparațiile?', 'Во сколько мне обойдётся ремонт?') + ' | APC Deleanu 3'; }
+  APC.onLang(function () { apInfo(); renderOfficial(); renderWorks(); calc(); title(); $('ap').placeholder = t('ex. 45', 'напр. 45'); });
+  title();
+  $('ap').placeholder = t('ex. 45', 'напр. 45');
 
   Promise.all([
     fetch('data/apartamente.csv').then(function (r) { return r.text(); }),
-    fetch('data/reparatii.json').then(function (r) { return r.json(); }).catch(function () { return { sample: false, lucrari: [] }; })
+    fetch('data/reparatii.json').then(function (r) { return r.json(); }).catch(function () { return { lucrari: [] }; })
   ]).then(function (res) {
-    APTS = parseCSV(res[0]);
-    var official = res[1];
-    $('sample-note').hidden = !(official.apartamente_exemplu);
-    REPAIRS = (official.lucrari || []).map(function (l) { return { on: true, name: l.denumire, scara: l.scara || 0, cost: l.cost_lei || 0 }; });
-    var saved = null;
-    try { saved = JSON.parse(localStorage.getItem('apc-repairs') || 'null'); } catch (e) {}
-    if (!REPAIRS.length && saved && saved.r && saved.r.length) { REPAIRS = saved.r; $('fund').value = saved.f || 0; $('months').value = saved.m || 1; }
-    try { var ap = localStorage.getItem('apc-ap'); if (ap) $('ap').value = ap; } catch (e) {}
-    renderRepairs(); calc();
+    var lines = res[0].trim().split(/\r?\n/), head = lines.shift().split(',');
+    lines.forEach(function (l) {
+      var c = l.split(','), o = {};
+      head.forEach(function (h, i) { o[h.trim()] = (c[i] || '').trim(); });
+      if (!o.apartament) return;
+      var a = { ap: o.apartament, key: norm(o.apartament), sc: parseInt(o.scara, 10), m2: num(o.suprafata_m2) };
+      APTS.push(a); BYKEY[a.key] = a;
+    });
+    OFFICIAL = (res[1].lucrari || []).map(function (l) { return { on: true, name: l.denumire, name_ru: l.denumire_ru, scara: l.scara || 0, cost: l.cost_lei || 0 }; });
+    var saved = null; try { saved = JSON.parse(APC.store.get('apc-repairs') || 'null'); } catch (e) {}
+    if (saved && saved.r && saved.r.length) { SIM = saved.r; $('fund').value = saved.f || 0; $('months').value = saved.m || 1; }
+    else SIM = OFFICIAL.map(function (w) { return { on: true, name: w.name, scara: w.scara, cost: w.cost }; });
+    var ap = APC.store.get('apc-ap'); if (ap && !$('ap').value) $('ap').value = ap;
+    APC.apPicker($('ap'), $('ap-pick'), function (k) { return !!BYKEY[k]; })();
+    apInfo(); renderOfficial(); renderWorks(); calc();
   });
 })();
 </script>
