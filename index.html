@@ -117,11 +117,10 @@
         <p class="sub" id="money-sub"><span lang="ro">Din fiecare 100 lei plătiți asociației:</span><span lang="ru">Из каждых 100 лей, уплаченных ассоциации:</span></p>
         <ol id="money-list">
           <li class="key"><span class="lbl"><span lang="ro">Fondul de reparație și dezvoltare (cont separat)</span><span lang="ru">Фонд ремонта и развития (отдельный счёт)</span></span><span class="val">50 lei</span><span class="bar" style="width:50%"></span></li>
-          <li><span class="lbl"><span lang="ro">Curățenie (salariu)</span><span lang="ru">Уборка (зарплата)</span></span><span class="val">23 lei</span><span class="bar" style="width:23.33%"></span></li>
-          <li><span class="lbl"><span lang="ro">Impozite și contribuții pe salariu</span><span lang="ru">Налоги и взносы с зарплаты</span></span><span class="val">10 lei</span><span class="bar" style="width:10.37%"></span></li>
+          <li><span class="lbl"><span lang="ro">Curățenie și întreținere</span><span lang="ru">Уборка и содержание</span></span><span class="val">35 lei</span><span class="bar" style="width:35.56%"></span></li>
           <li><span class="lbl"><span lang="ro">Contabilitate</span><span lang="ru">Бухгалтерия</span></span><span class="val">9 lei</span><span class="bar" style="width:8.89%"></span></li>
           <li><span class="lbl"><span lang="ro">Fondul de rezervă</span><span lang="ru">Резервный фонд</span></span><span class="val">4 lei</span><span class="bar" style="width:3.7%"></span></li>
-          <li><span class="lbl"><span lang="ro">Inventar și cheltuieli neprevăzute</span><span lang="ru">Инвентарь и непредвиденные расходы</span></span><span class="val">4 lei</span><span class="bar" style="width:3.7%"></span></li>
+          <li><span class="lbl"><span lang="ro">Cheltuieli neprevăzute</span><span lang="ru">Непредвиденные расходы</span></span><span class="val">2 lei</span><span class="bar" style="width:1.85%"></span></li>
         </ol>
         <p class="hint"><span lang="ro">Suma către IMGFL (1,00 lei/m²) nu intră în această împărțire.</span><span lang="ru">Сумма для IMGFL (1,00 лей/м²) сюда не входит.</span></p>
         <p><a class="more" href="documente/buget-2026.html"><span lang="ro">Bugetul 2026 în detaliu</span><span lang="ru">Бюджет 2026 подробно</span></a></p>
@@ -436,7 +435,8 @@
 
   // --- my apartment: exact monthly dues + where the money goes
   var APTS = {}, RATE = 2.70, IMGFL = 1.00;
-  var PARTS = [1.35, 0.63, 0.28, 0.24, 0.10, 0.10];
+  // fondul de reparație, curățenie și întreținere (0,63 + 0,28 + 0,05), contabilitate, fondul de rezervă, neprevăzute
+  var PARTS = [1.35, 0.96, 0.24, 0.10, 0.05];
   var apIn = $('ap'), m2In = $('m2'), out = $('dues-out'), norm = APC.apKey, pick = function () {};
   function line(cls, text) { var p = document.createElement('p'); p.className = cls; p.textContent = text; return p; }
   // split an amount into the budget parts, in whole bani, so the parts always add up to the amount
@@ -455,7 +455,7 @@
       each(items, function (el, i) { el.textContent = fmt(parts[i]) + t(' lei', ' лей'); });
     } else {
       sub.textContent = t('Din fiecare 100 lei plătiți asociației:', 'Из каждых 100 лей, уплаченных ассоциации:');
-      var per100 = [50, 23, 10, 9, 4, 4];
+      var per100 = [50, 35, 9, 4, 2];
       each(items, function (el, i) { el.textContent = per100[i] + t(' lei', ' лей'); });
     }
   }
