@@ -7,7 +7,7 @@ description: "Statutul asociației de proprietari A.P.C. A0120-0351 (redacția d
 <div class="summary" lang="ro" markdown="1">
 ### Pe scurt: ce înseamnă statutul pentru dvs.
 
-*Statutul intră în vigoare la înregistrarea de stat (pct. 18.2); la 27.09.2026 nu era încă înregistrat.*
+*Statutul în vigoare: redacția din 10.07.2026, care se aplică de la înregistrarea de stat a asociației (pct. 18.2). Numerele punctelor sunt cele din documentul original.*
 
 - **Toți proprietarii sunt membri ai asociației**, din ziua în care devin proprietari. Un apartament = un vot la Adunarea Generală.
 - **Adunarea Generală decide:** aprobă bugetul și cotizațiile, alege și revocă administratorul, Consiliul și comisia de cenzori.
@@ -21,7 +21,7 @@ description: "Statutul asociației de proprietari A.P.C. A0120-0351 (redacția d
 <div class="summary" lang="ru" markdown="1">
 ### Кратко по-русски
 
-*Устав вступает в силу после государственной регистрации (п. 18.2); на 27.09.2026 он ещё не был зарегистрирован. Официальный текст — на румынском языке.* Главное:
+*Действующий устав — редакция от 10.07.2026; он применяется с государственной регистрации ассоциации (п. 18.2). Номера пунктов — как в оригинале. Официальный текст — на румынском языке.* Главное:
 
 - **Все собственники — члены ассоциации** с момента приобретения права собственности. Одна квартира = один голос на Общем собрании.
 - **Решает Общее собрание:** утверждает бюджет и взносы, избирает и отзывает администратора, Совет и ревизионную комиссию.
@@ -32,10 +32,10 @@ description: "Statutul asociației de proprietari A.P.C. A0120-0351 (redacția d
 - **Ваши права:** получать полную информацию о работе и финансах ассоциации, избирать и быть избранным в её органы.
 </div>
 
-> **Redacția din 10.07.2026.** Versiune publică, fără date personale. Statutul nu era încă înregistrat la Agenția Servicii Publice la data publicării (27.09.2026). Spațiile libere (\_\_\_\_) apar ca atare în textul statutului.
+> **Redacția din 10.07.2026, în vigoare.** Versiune publică, fără date personale. Spațiile libere (\_\_\_\_) apar ca atare în textul statutului; numărul cadastral al clădirii este omis. Numerele punctelor (de exemplu 13.29, 13.30) sunt cele din documentul original, unde sunt generate automat (actualizat la 30.09.2026).
 
 <div class="regbox" markdown="1">
-**Pagina de titlu (rubricile se completează la înregistrare):** Asociația este „INREGISTRATĂ” la Agenția Servicii Publice · IDNO \_\_\_\_ · Din \_\_\_\_ · Registrator în domeniul înregistrării de stat \_\_\_\_ · APROBAT: la Adunarea Generală de constituire a Asociației de Proprietari din Condominiu \_\_\_\_ · Proces-verbal nr. \_\_\_\_ din \_\_\_\_ · STATUTUL Asociației de Proprietari din Condominiu \_\_\_\_
+**Pagina de titlu, ca în document:** Asociația este „INREGISTRATĂ” la Agenția Servicii Publice · IDNO \_\_\_\_ · Din \_\_\_\_ · Registrator în domeniul înregistrării de stat \_\_\_\_ · APROBAT: la Adunarea Generală de constituire a Asociației de Proprietari din Condominiu \_\_\_\_ · Proces-verbal nr. \_\_\_\_ din \_\_\_\_ · STATUTUL Asociației de Proprietari din Condominiu \_\_\_\_
 </div>
 
 <nav class="toc" markdown="1">
@@ -123,15 +123,15 @@ Construcția cu numărul cadastral [omis în versiunea publică], cu adresa în 
 
 3.1. Mijloacele financiare ale Asociației sânt constituite din:
 
-cotele de contribuție lunare aprobate de adunarea generală a proprietarilor;
+a) cotele de contribuție lunare aprobate de adunarea generală a proprietarilor;
 
-contribuțiile la fondul de reparație și dezvoltare, acumulate pe un cont separat al Asociației;
+b) contribuțiile la fondul de reparație și dezvoltare, acumulate pe un cont separat al Asociației;
 
-dobânzile la depozitele bancare ale Asociației și penalitățile de întârziere stabilite conform legii;
+c) dobânzile la depozitele bancare ale Asociației și penalitățile de întârziere stabilite conform legii;
 
-veniturile obținute din locațiunea părților comune;
+d) veniturile obținute din locațiunea părților comune;
 
-alte venituri prevăzute expres de legislația în vigoare pentru entitățile necomerciale.
+e) alte venituri prevăzute expres de legislația în vigoare pentru entitățile necomerciale.
 
 3.2. Asociația este obligată să instituie și să mențină un fond de reparație și dezvoltare (în continuare – fond), mijloacele fondului fiind păstrate pe cont bancar separat.
 
@@ -147,23 +147,23 @@ alte venituri prevăzute expres de legislația în vigoare pentru entitățile n
 
 *(Notă a transcriitorului: numerotarea acestui capitol este ruptă în documentul sursă — a se vedea „Analiza Statutului”, secțiunea C — și este redată aici exact cum apare în original.)*
 
-Membrii participă la cheltuielile pentru întreținerea și reparația proprietății comune din condominiu proporțional cu cota-parte deținută, în modul stabilit de Legea nr.187/2022 și de alte acte normative.
+4.1. Membrii participă la cheltuielile pentru întreținerea și reparația proprietății comune din condominiu proporțional cu cota-parte deținută, în modul stabilit de Legea nr.187/2022 și de alte acte normative.
 
-La inființarea Asociației, bugetul inclusiv și plățile obligatorii ale membrilor Asociației, se va aproba de adunarea generală a locatarilor doar după înregistrarea Asociației în registrul de stat al persoanelor juridice și după finalizarea procedurilor tehnice de înființare.
+4.2. La inființarea Asociației, bugetul inclusiv și plățile obligatorii ale membrilor Asociației, se va aproba de adunarea generală a locatarilor doar după înregistrarea Asociației în registrul de stat al persoanelor juridice și după finalizarea procedurilor tehnice de înființare.
 
-Administratorul Asociației asigură colectarea de la membri Asociației a cotei de contribuție, sumă corespunzătoare din cheltuielile Asociației pe care fiecare proprietar din condominiu este obligat să o plătească (lunar etc.), conform dispozițiilor legale.
+4.3. Administratorul Asociației asigură colectarea de la membri Asociației a cotei de contribuție, sumă corespunzătoare din cheltuielile Asociației pe care fiecare proprietar din condominiu este obligat să o plătească (lunar etc.), conform dispozițiilor legale.
 
-Obligația de plată a contribuțiilor lunare, a cheltuielilor de întreținere și a altor servicii deservite de Asociație revine exclusiv proprietarilor de unități. În cazul în care unitatea este transmisă în chirie sau arendă, proprietarul rămâne unicul responsabil în raport cu Asociația pentru achitarea integrală și la timp a tuturor plăților.
+4.4. Obligația de plată a contribuțiilor lunare, a cheltuielilor de întreținere și a altor servicii deservite de Asociație revine exclusiv proprietarilor de unități. În cazul în care unitatea este transmisă în chirie sau arendă, proprietarul rămâne unicul responsabil în raport cu Asociația pentru achitarea integrală și la timp a tuturor plăților.
 
-Mărimea plăților obligatorii ale fiecărui membru pentru întreținerea și reparația proprietății comune din condominiu este proporțională cotei-părți a acestuia.
+4.5. Mărimea plăților obligatorii ale fiecărui membru pentru întreținerea și reparația proprietății comune din condominiu este proporțională cotei-părți a acestuia.
 
-Adunarea generală anuală la aprobarea bugetului Asociației determină obligațiunile fiecărui proprietar de unitate la plățile obligatorii a acestora și stabilește termenul și procedura de achitare a lor.
+4.6. Adunarea generală anuală la aprobarea bugetului Asociației determină obligațiunile fiecărui proprietar de unitate la plățile obligatorii a acestora și stabilește termenul și procedura de achitare a lor.
 
 4.6. Proprietarii de unități sunt obligați să achite integral contribuțiile și facturile emise de Asociație lunar, până la data stabilită în factura de plată (dar nu mai târziu de ultima zi a lunii curente). În cazul în care plata nu este efectuată în termen de 3 luni de la data scadenței, administratorul Asociației inițiază procedura de colectare a datoriei față de asociație, în modul stabilit de legislație. Asociației are dreptul legal de a calcula penalități și de a iniția procedurile de recuperare a datoriei prin instanța de judecată. Situațiile speciale ale proprietarilor aflați în situații de vulnerabilitate socială sau medicală dovedită, vor fi analizate individual de către Consiliul Asociației, care poate aproba planuri de eșalonare a datoriilor, fără a-i exonera de obligația de plată și fără a modifica termenul general din statut.
 
-Proprietarii sunt obligați să achite contribuția la fond. În factura de plată emisă proprietarilor se specifică în linie separată suma contribuției pentru fond.
+4.7. Proprietarii sunt obligați să achite contribuția la fond. În factura de plată emisă proprietarilor se specifică în linie separată suma contribuției pentru fond.
 
-Nefolosirea sau refuzul de a folosi părțile comune nu constituie temei pentru a elibera proprietarul, integral sau parțial, de cheltuielile la care este ținut conform Legii nr. 187/2022 și prezentului statut.
+4.8. Nefolosirea sau refuzul de a folosi părțile comune nu constituie temei pentru a elibera proprietarul, integral sau parțial, de cheltuielile la care este ținut conform Legii nr. 187/2022 și prezentului statut.
 
 4.9. Răspunderea patrimonială pentru orice prejudiciu adus părților comune din condominiu, rețelelor inginerești sau altor unități (prin inundații, lucrări de reparație neautorizate, exploatare incorectă etc.) revine exclusiv proprietarilor de unități în a căror proprietate exclusivă s-a produs defecțiunea sau ai căror locatari (membri de familie, chiriași) au provocat dauna. Asociația va asambla pretențiile financiare și juridice strict în raport cu proprietarul de drept al unității.
 
@@ -197,15 +197,15 @@ h) alte tipuri de activități administrative prevăzute de legislația în vigo
 
 *(Notă a transcriitorului: numeralul capitolului lipsește în documentul sursă la acest titlu.)*
 
-Administrarea, deservirea, exploatarea, reconstrucția, modernizarea, reabilitarea și alte activități de dezvoltare a condominiului se efectuează conform planului anual și cel pe termen mediu (2-3 ani), aprobat de adunarea generală a Asociației.
+6.1. Administrarea, deservirea, exploatarea, reconstrucția, modernizarea, reabilitarea și alte activități de dezvoltare a condominiului se efectuează conform planului anual și cel pe termen mediu (2-3 ani), aprobat de adunarea generală a Asociației.
 
-Lucrările de reconstrucție sau îmbunătățire a clădirii din condominiu sau a unității pe care o deține proprietarul pot fi executate de către proprietari sau de către Asociație cu respectarea prevederilor legale.
+6.2. Lucrările de reconstrucție sau îmbunătățire a clădirii din condominiu sau a unității pe care o deține proprietarul pot fi executate de către proprietari sau de către Asociație cu respectarea prevederilor legale.
 
-La desfășurarea activităților supuse licențierii, Asociația trebuie să dispună de licența respectivă.
+6.3. La desfășurarea activităților supuse licențierii, Asociația trebuie să dispună de licența respectivă.
 
-Instalarea și exploatarea aparatelor de evidență a consumului de energie electrică și termică, gaze și apă din condominiu se efectuează conform actelor normative în vigoare.
+6.4. Instalarea și exploatarea aparatelor de evidență a consumului de energie electrică și termică, gaze și apă din condominiu se efectuează conform actelor normative în vigoare.
 
-Instalarea panourilor publicitare, camerelor de supraveghere video, antenelor, a emițătoarelor și a altor dispozitive capabile să emită radiații, sistemului de acces prin chei electronice, barierelor de acces și a gardului se permite doar după aprobarea de către Adunarea Ggenerală.
+6.5. Instalarea panourilor publicitare, camerelor de supraveghere video, antenelor, a emițătoarelor și a altor dispozitive capabile să emită radiații, sistemului de acces prin chei electronice, barierelor de acces și a gardului se permite doar după aprobarea de către Adunarea Ggenerală.
 
 ## VII. DREPTURILE ASOCIAȚIEI
 
@@ -243,7 +243,7 @@ Instalarea panourilor publicitare, camerelor de supraveghere video, antenelor, a
 
 ## VIII. OBLIGAȚIILE ASOCIAȚIEI
 
-Asociația este obligată:
+8.1. Asociația este obligată:
 
 8.1.1. să asigure executarea prevederilor Legii nr. 187/2022 și a prezentului Statut;
 
@@ -263,193 +263,193 @@ Asociația este obligată:
 
 8.1.9. să stopeze acțiunile terțelor părți care împiedică sau creează dificultăți la realizarea de către proprietari a drepturilor de posedare, folosire și dispunere a bunurilor imobiliare comune din condominiu.
 
-Asociației îi este interzis să încheie acte juridice privind înstrăinarea gratuită a bunurilor sau a drepturilor Asociației, inclusiv privind remiterea datoriei, renunțarea gratuită la un drept dobândit, precum și acte juridice privind constituirea unei garanții reale sau personale pentru a garanta obligațiile unui terț. *(pct. 8.2)*
+8.2. Asociației îi este interzis să încheie acte juridice privind înstrăinarea gratuită a bunurilor sau a drepturilor Asociației, inclusiv privind remiterea datoriei, renunțarea gratuită la un drept dobândit, precum și acte juridice privind constituirea unei garanții reale sau personale pentru a garanta obligațiile unui terț.
 
-Actele emise de Asociație ori organele ei, inclusiv procesele-verbale și facturile, trebuie să fie emise cu respectarea principiului transparenței și să indice: *(pct. 8.3)*
+8.3. Actele emise de Asociație ori organele ei, inclusiv procesele-verbale și facturile, trebuie să fie emise cu respectarea principiului transparenței și să indice:
 
-denumirea și sediul Asociației;
+a) denumirea și sediul Asociației;
 
-adresa de e-mail a Asociației;
+b) adresa de e-mail a Asociației;
 
-numele și numărul de telefon ale administratorului Asociației;
+c) numele și numărul de telefon ale administratorului Asociației;
 
-dacă există, numele sau denumirea, adresa de e-mail și numărul de telefon ale gestionarului.
+d) dacă există, numele sau denumirea, adresa de e-mail și numărul de telefon ale gestionarului.
 
-Dacă informația indicată la pct. 8.3 lipsește sau nu este indicată în întregime, aceasta nu reprezintă temei de anulare a actelor, dar va îndreptăți proprietarul la rambursarea cheltuielilor necesare aflării informației respective de la autorități. *(pct. 8.4)*
+8.4. Dacă informația indicată la pct. 8.3 lipsește sau nu este indicată în întregime, aceasta nu reprezintă temei de anulare a actelor, dar va îndreptăți proprietarul la rambursarea cheltuielilor necesare aflării informației respective de la autorități.
 
-Asociația este obligată să informeze trimestrial proprietarii, prin metodele expres prevăzute în hotărârea adunării generale (viber, e-mail, whatsapp sau alte mijloace electronice de comunicare convenite), despre soldul contului bancar al fondului. *(pct. 8.5)*
+8.5. Asociația este obligată să informeze trimestrial proprietarii, prin metodele expres prevăzute în hotărârea adunării generale (viber, e-mail, whatsapp sau alte mijloace electronice de comunicare convenite), despre soldul contului bancar al fondului.
 
-Asociația are obligația de a asigura o platformă online sau un spațiu de stocare digital securizat (accesibil prin internet), care poate fi consultat oricând de către proprietari, pentru a oferi acces gratuit, cel puțin, la următoarele acte în formă textuală: *(pct. 8.6)*
+8.6. Asociația are obligația de a asigura o platformă online sau un spațiu de stocare digital securizat (accesibil prin internet), care poate fi consultat oricând de către proprietari, pentru a oferi acces gratuit, cel puțin, la următoarele acte în formă textuală:
 
-statutul Asociației cu toate modificările, în forma în care au fost supuse înregistrării de stat;
+a) statutul Asociației cu toate modificările, în forma în care au fost supuse înregistrării de stat;
 
-versiunea consolidată a statutului Asociației, pregătită și semnată de către administratorul Asociației, pentru conformitate;
+b) versiunea consolidată a statutului Asociației, pregătită și semnată de către administratorul Asociației, pentru conformitate;
 
-regulamentele Asociației;
+c) regulamentele Asociației;
 
-procesele-verbale ale adunărilor generale ale Asociației și ale ședințelor Consiliului;
+d) procesele-verbale ale adunărilor generale ale Asociației și ale ședințelor Consiliului;
 
-lista unităților (fără indicarea numelui proprietarului) ai căror proprietari înregistrează datorii întârziate și neachitate față de Asociație;
+e) lista unităților (fără indicarea numelui proprietarului) ai căror proprietari înregistrează datorii întârziate și neachitate față de Asociație;
 
-lista litigiilor în care este implicată Asociația;
+f) lista litigiilor în care este implicată Asociația;
 
-rulajul conturilor bancare ale Asociației;
+g) rulajul conturilor bancare ale Asociației;
 
-contractele încheiate de către Asociație cu furnizorii de servicii sau materiale;
+h) contractele încheiate de către Asociație cu furnizorii de servicii sau materiale;
 
-fișele de sinteză anuale și dările de seamă contabile.
+i) fișele de sinteză anuale și dările de seamă contabile.
 
-Asociația care administrează condominiul cu destinație locativă, elaborează și menține o fișă de sinteză a Asociației (în continuare – fișa de sinteză), care cuprinde informațiile: *(pct. 8.7)*
+8.7. Asociația care administrează condominiul cu destinație locativă, elaborează și menține o fișă de sinteză a Asociației (în continuare – fișa de sinteză), care cuprinde informațiile:
 
 1) date de identificare ale Asociației și ale condominiului:
 
-denumirea și sediul Asociației, numărul de identificare de stat (IDNO) al Asociației;
+a) denumirea și sediul Asociației, numărul de identificare de stat (IDNO) al Asociației;
 
-adresa și numărul cadastral ale condominiului administrat de Asociație;
+b) adresa și numărul cadastral ale condominiului administrat de Asociație;
 
 2) date de identificare ale administratorului și, după caz, ale gestionarului:
 
-numele și datele de contact ale administratorului Asociației;
+a) numele și datele de contact ale administratorului Asociației;
 
-dacă este cazul, numele sau denumirea și adresa sau sediul gestionarului;
+b) dacă este cazul, numele sau denumirea și adresa sau sediul gestionarului;
 
 3) caracteristicile tehnice ale condominiului:
 
-numărul total de unități cu destinație locativă;
+a) numărul total de unități cu destinație locativă;
 
-numărul total de unități cu destinație nelocativă;
+b) numărul total de unități cu destinație nelocativă;
 
-numărul de clădiri;
+c) numărul de clădiri;
 
-perioada de construcție a clădirilor;
+d) perioada de construcție a clădirilor;
 
-numărul și data cărții clădirii și locul aflării ei;
+e) numărul și data cărții clădirii și locul aflării ei;
 
-tipul de încălzire și, pentru sistemul colectiv de alimentare cu energie termică (parțială sau totală) necirculară, tipul de energie utilizată;
+f) tipul de încălzire și, pentru sistemul colectiv de alimentare cu energie termică (parțială sau totală) necirculară, tipul de energie utilizată;
 
-numărul de ascensoare și anul producției fiecăruia;
+g) numărul de ascensoare și anul producției fiecăruia;
 
 4) caracteristicile financiare ale Asociației:
 
-datele de începere și de încheiere ale exercițiului financiar și data adunării generale care a aprobat situațiile financiare;
+a) datele de începere și de încheiere ale exercițiului financiar și data adunării generale care a aprobat situațiile financiare;
 
-cuantumul cheltuielilor Asociației pentru operațiuni curente;
+b) cuantumul cheltuielilor Asociației pentru operațiuni curente;
 
-cuantumul cheltuielilor Asociației pentru intervenții urgente, pentru cazurile prevăzute la art. 45 din Legea nr. 187/2022;
+c) cuantumul cheltuielilor Asociației pentru intervenții urgente, pentru cazurile prevăzute la art. 45 din Legea nr. 187/2022;
 
-cuantumul cheltuielilor Asociației către furnizori pentru servicii, informație cu privire la remunerarea organelor și a salariaților, precum și alte datorii;
+d) cuantumul cheltuielilor Asociației către furnizori pentru servicii, informație cu privire la remunerarea organelor și a salariaților, precum și alte datorii;
 
-cuantumul datoriilor neachitate față de Asociație;
+e) cuantumul datoriilor neachitate față de Asociație;
 
-numărul proprietarilor din clădire a căror datorie față de Asociație depășește plățile pentru 2 luni;
+f) numărul proprietarilor din clădire a căror datorie față de Asociație depășește plățile pentru 2 luni;
 
-soldul fondului de reparații;
+g) soldul fondului de reparații;
 
-lista contractelor încheiate de Asociație;
+h) lista contractelor încheiate de Asociație;
 
 5) numărul de salariați ai Asociației și cuantumul total al achitărilor salariale.
 
-Asociația este obligată să se înregistreze în platforma e-Condominiu și să plaseze anual fișa de sinteză în platforma e-Condominiu, fiind o informație cu caracter public, cu excepția informației ce rezultă din prevederile art. 63 din Legea nr. 187/2022. *(pct. 8.8)*
+8.8. Asociația este obligată să se înregistreze în platforma e-Condominiu și să plaseze anual fișa de sinteză în platforma e-Condominiu, fiind o informație cu caracter public, cu excepția informației ce rezultă din prevederile art. 63 din Legea nr. 187/2022.
 
-Asociația actualizează fișa de sinteză după adunarea generală anuală, dar nu mai târziu de 1 iulie a fiecărui an.
+8.9. Asociația actualizează fișa de sinteză după adunarea generală anuală, dar nu mai târziu de 1 iulie a fiecărui an.
 
 ## IX. CALITATEA DE MEMBRU AL ASOCIAȚIEI
 
-Toți proprietarii dintr-un condominiu sunt membri, prin efectul Legii nr. 187/2022, ai aceleiași Asociații. O Asociație are în calitate de membri doar proprietarii unui singur condominiu.
+9.1. Toți proprietarii dintr-un condominiu sunt membri, prin efectul Legii nr. 187/2022, ai aceleiași Asociații. O Asociație are în calitate de membri doar proprietarii unui singur condominiu.
 
-Asociația poate cuprinde proprietarii mai multor condominii în condițiile secțiunii a 8-a din capitolul III din Legea nr. 187/2022, aplicându-se dispozițiile speciale ale secțiunii menționate.
+9.2. Asociația poate cuprinde proprietarii mai multor condominii în condițiile secțiunii a 8-a din capitolul III din Legea nr. 187/2022, aplicându-se dispozițiile speciale ale secțiunii menționate.
 
-Fiecare proprietar este membru al Asociației din data dobândirii dreptului de proprietate asupra unității. Calitatea de membru al Asociației încetează prin încetarea calității de proprietar sau prin dizolvarea Asociației.
+9.3. Fiecare proprietar este membru al Asociației din data dobândirii dreptului de proprietate asupra unității. Calitatea de membru al Asociației încetează prin încetarea calității de proprietar sau prin dizolvarea Asociației.
 
-Administratorul Asociației ține evidența proprietarilor pe baza datelor din registrul bunurilor imobile și o actualizează conform Legii nr. 187/2022. Calitatea de membru nu se înscrie în Registrul de stat al persoanelor juridice.
+9.4. Administratorul Asociației ține evidența proprietarilor pe baza datelor din registrul bunurilor imobile și o actualizează conform Legii nr. 187/2022. Calitatea de membru nu se înscrie în Registrul de stat al persoanelor juridice.
 
-Noul proprietar al unității se subrogă în toate drepturile și obligațiile fostului proprietar, care rezultă din calitatea de membru al Asociației și de proprietar conform Legii nr. 187/2022. Pentru a preveni ascunderea restanțelor, la schimbarea proprietarului, Asociația este obligată să elibereze un certificat privind existența sau lipsa datoriilor aferente unității. La momentul luării în evidență a noului locatar, administratorul Asociației are obligația de a-l înștiința în scris (pe suport de hârtie sau electronic) despre toate datoriile istorice preluate de la vechiul proprietar și despre obligația legală de a le stinge.
+9.5. Noul proprietar al unității se subrogă în toate drepturile și obligațiile fostului proprietar, care rezultă din calitatea de membru al Asociației și de proprietar conform Legii nr. 187/2022. Pentru a preveni ascunderea restanțelor, la schimbarea proprietarului, Asociația este obligată să elibereze un certificat privind existența sau lipsa datoriilor aferente unității. La momentul luării în evidență a noului locatar, administratorul Asociației are obligația de a-l înștiința în scris (pe suport de hârtie sau electronic) despre toate datoriile istorice preluate de la vechiul proprietar și despre obligația legală de a le stinge.
 
 ## X. DREPTURILE MEMBRILOR ASOCIAȚIEI
 
-Proprietarul de unități, în calitate de membru al Asociației, are dreptul:
+10.1. Proprietarul de unități, în calitate de membru al Asociației, are dreptul:
 
-să participe personal sau prin intermediul împuternicitului său la activitatea Asociației, să aleagă și să fie ales în organele de administrare ale Asociației;
+a) să participe personal sau prin intermediul împuternicitului său la activitatea Asociației, să aleagă și să fie ales în organele de administrare ale Asociației;
 
-să facă propuneri privind îmbunătățirea activității Asociației și înlăturarea neajunsurilor în activitatea ei și a organelor de administrare;
+b) să facă propuneri privind îmbunătățirea activității Asociației și înlăturarea neajunsurilor în activitatea ei și a organelor de administrare;
 
-să primească informații complete și transparente despre activitatea Asociației, starea patrimoniului acesteia, rulajele pe contul clădirii și cheltuielile efectuate, prin intermediul platformei online (sau grupului electronic de comunicare) a Asociației;
+c) să primească informații complete și transparente despre activitatea Asociației, starea patrimoniului acesteia, rulajele pe contul clădirii și cheltuielile efectuate, prin intermediul platformei online (sau grupului electronic de comunicare) a Asociației;
 
-să achite prin intermediul contului Asociației plățile pentru serviciile prestate de administrare și întreținere a proprietății comune aferente clădirii;
+d) să achite prin intermediul contului Asociației plățile pentru serviciile prestate de administrare și întreținere a proprietății comune aferente clădirii;
 
-să efectueze activitatea de antreprenoriat în încăperile cu altă destinație decât cea de locuință ce îi aparțin cu drept de proprietate exclusivă, cu condiția respectării stricte a cerințelor legislației, a normelor sanitare, antiincendiare, ecologice și a Regulamentului condominiului aprobat de adunarea generală, fără a leza drepturile altor membri din cadrul Asociației și cu acordul scris al vecinilor direct afectați;
+e) să efectueze activitatea de antreprenoriat în încăperile cu altă destinație decât cea de locuință ce îi aparțin cu drept de proprietate exclusivă, cu condiția respectării stricte a cerințelor legislației, a normelor sanitare, antiincendiare, ecologice și a Regulamentului condominiului aprobat de adunarea generală, fără a leza drepturile altor membri din cadrul Asociației și cu acordul scris al vecinilor direct afectați;
 
-să transmită unitatea ce îi aparține în chirie sau arendă în modul stabilit de legislație, rămânând unicul responsabil în raport cu Asociația pentru toate datoriile și obligațiile de plată;
+f) să transmită unitatea ce îi aparține în chirie sau arendă în modul stabilit de legislație, rămânând unicul responsabil în raport cu Asociația pentru toate datoriile și obligațiile de plată;
 
-să aducă îmbunătățiri sau replanificări unității sale strict în condițiile legii, în baza unui proiect tehnic autorizat și cu obținerea tuturor actelor permisive eliberate de autoritățile competente, fiind strict interzisă orice intervenție fără documentație legală aprobată sau care afectează canalele de ventilare, fațada ori rețelele comune inginerești;
+g) să aducă îmbunătățiri sau replanificări unității sale strict în condițiile legii, în baza unui proiect tehnic autorizat și cu obținerea tuturor actelor permisive eliberate de autoritățile competente, fiind strict interzisă orice intervenție fără documentație legală aprobată sau care afectează canalele de ventilare, fațada ori rețelele comune inginerești;
 
-să asigure în mod de sine stătător, la o companie de asigurări licențiată, unitatea ce îi aparține;
+h) să asigure în mod de sine stătător, la o companie de asigurări licențiată, unitatea ce îi aparține;
 
-să realizeze alte drepturi prevăzute în mod expres de legislația în vigoare și de prezentul Statut.
+i) să realizeze alte drepturi prevăzute în mod expres de legislația în vigoare și de prezentul Statut.
 
 ## XI. OBLIGAȚIUNILE MEMBRILOR ASOCIAȚIEI
 
-Membrul Asociației este obligat:
+11.1. Membrul Asociației este obligat:
 
-să asigure buna întreținere și reparație la timp a unității ce-i aparține din contul personal;
+11.1.1. să asigure buna întreținere și reparație la timp a unității ce-i aparține din contul personal;
 
-să nu deterioreze sau să pună în pericol proprietatea comună, precum și proprietatea oricărui alt membru al Asociației;
+11.1.2. să nu deterioreze sau să pună în pericol proprietatea comună, precum și proprietatea oricărui alt membru al Asociației;
 
-să accepte, cu un preaviz de 3 zile, accesul în încăpere a reprezentanților Asociației atunci când este necesară o inspecție, reparație ori o înlocuire a elementelor proprietății comune, accesul la care este numai din respectiva unitate. În cazurile intervenției urgente pentru preîntâmpinarea avariei ori lichidarea consecințelor în urma acesteia, preavizul nu este necesar; *(pct. 11.1)*
+11.1.3. să accepte, cu un preaviz de 3 zile, accesul în încăpere a reprezentanților Asociației atunci când este necesară o inspecție, reparație ori o înlocuire a elementelor proprietății comune, accesul la care este numai din respectiva unitate. În cazurile intervenției urgente pentru preîntâmpinarea avariei ori lichidarea consecințelor în urma acesteia, preavizul nu este necesar;
 
-să compenseze pagubele pricinuite în conformitate cu legislația în vigoare, în cazul în care proprietarul sau oricare altă persoană care acționează în numele său, provoacă daune bunurilor altor proprietari sau proprietății comune din condominiu;
+11.1.4. să compenseze pagubele pricinuite în conformitate cu legislația în vigoare, în cazul în care proprietarul sau oricare altă persoană care acționează în numele său, provoacă daune bunurilor altor proprietari sau proprietății comune din condominiu;
 
-să participe la cheltuielile pentru întreținerea și reparația bunurilor imobiliare comune din condominiu, achitând lunar cotele stabilite;
+11.1.5. să participe la cheltuielile pentru întreținerea și reparația bunurilor imobiliare comune din condominiu, achitând lunar cotele stabilite;
 
-să utilizeze încăperile și proprietatea comună numai conform destinației și în limitele stabilite de lege și prezentul Statut;
+11.1.6. să utilizeze încăperile și proprietatea comună numai conform destinației și în limitele stabilite de lege și prezentul Statut;
 
-să nu schimbe aspectul exterior al clădirilor sau al proprietății comune (inclusiv modificarea culorii fațadei, extinderea balcoanelor, modificarea geamurilor exterioare) fără proiect autorizat și autorizație de construcție eliberată de organele publice locale competente;
+11.1.7. să nu schimbe aspectul exterior al clădirilor sau al proprietății comune (inclusiv modificarea culorii fațadei, extinderea balcoanelor, modificarea geamurilor exterioare) fără proiect autorizat și autorizație de construcție eliberată de organele publice locale competente;
 
-să nu reamplaseze, modifice sau să intervină sub nicio formă asupra pereților despărțitori sau elementelor din încăpere care fac parte din structura de rezistență a clădirii;
+11.1.8. să nu reamplaseze, modifice sau să intervină sub nicio formă asupra pereților despărțitori sau elementelor din încăpere care fac parte din structura de rezistență a clădirii;
 
-să nu efectueze replanificarea încăperii fără acte permisive, proiect tehnic aprobat și înregistrat conform legii;
+11.1.9. să nu efectueze replanificarea încăperii fără acte permisive, proiect tehnic aprobat și înregistrat conform legii;
 
-să achite la timp toate plățile pentru serviciile comunale cu contract direct, plățile obligatorii pentru întreținerea și reparația bunurilor imobiliare comune din condominiu și alte contribuții legale aprobate de adunarea generală;
+11.1.10. să achite la timp toate plățile pentru serviciile comunale cu contract direct, plățile obligatorii pentru întreținerea și reparația bunurilor imobiliare comune din condominiu și alte contribuții legale aprobate de adunarea generală;
 
-să respecte ordinea și regulile de conviețuire stabilite prin Regulamentul condominiului;
+11.1.11. să respecte ordinea și regulile de conviețuire stabilite prin Regulamentul condominiului;
 
-să îndeplinească alte obligațiuni ce rezultă din Statut și din deciziile legale ale adunării generale a Asociației.
+11.1.12. să îndeplinească alte obligațiuni ce rezultă din Statut și din deciziile legale ale adunării generale a Asociației.
 
-La încheierea actelor de înstrăinare a unității (vânzare, donație etc.), membrul este obligat să prezinte dobânditorului dovada privind situația plăților și a datoriilor față de Asociație printr-un certificat eliberat obligatoriu de Asociație. Noul proprietar preia de drept unitatea împreună cu toate datoriile scadente și neplătite ale vechiului proprietar existente în evidența Asociației la momentul tranzacției, Asociația fiind în drept să urmărească restanțele direct de la noul proprietar. *(pct. 11.2)*
+11.2. La încheierea actelor de înstrăinare a unității (vânzare, donație etc.), membrul este obligat să prezinte dobânditorului dovada privind situația plăților și a datoriilor față de Asociație printr-un certificat eliberat obligatoriu de Asociație. Noul proprietar preia de drept unitatea împreună cu toate datoriile scadente și neplătite ale vechiului proprietar existente în evidența Asociației la momentul tranzacției, Asociația fiind în drept să urmărească restanțele direct de la noul proprietar.
 
-Noul proprietar este obligat să notifice Asociația despre dobândirea dreptului de proprietate asupra unității în termen de o săptămână de la dobândire, anexând copia extrasului din Registrul bunurilor imobile sau o altă dovadă legală. *(pct. 11.3)*
+11.3. Noul proprietar este obligat să notifice Asociația despre dobândirea dreptului de proprietate asupra unității în termen de o săptămână de la dobândire, anexând copia extrasului din Registrul bunurilor imobile sau o altă dovadă legală.
 
-Proprietarul care nu a notificat Asociația în modul stabilit la pct. 11.3. este decăzut din dreptul de a cere anularea hotărârilor adunării generale, precum și de a invoca alte încălcări ale drepturilor sale ori inconveniențe pe care le suferă, dacă ele sunt cauzate direct de neîndeplinirea obligației sale de notificare. *(pct. 11.4)*
+11.4. Proprietarul care nu a notificat Asociația în modul stabilit la pct. 11.3. este decăzut din dreptul de a cere anularea hotărârilor adunării generale, precum și de a invoca alte încălcări ale drepturilor sale ori inconveniențe pe care le suferă, dacă ele sunt cauzate direct de neîndeplinirea obligației sale de notificare.
 
 ## XII. ORGANELE DE ADMINISTRARE ȘI CONTROL ALE ASOCIAȚIEI
 
-Organele de administrare ale Asociației sânt: *(pct. 12.1)*
+12.1. Organele de administrare ale Asociației sânt:
 
-adunarea generală sau, după caz, adunarea cu interes special;
+a) adunarea generală sau, după caz, adunarea cu interes special;
 
-administratorul Asociației;
+b) administratorul Asociației;
 
-consiliul;
+c) consiliul;
 
-cenzorul sau comisia de cenzori.
+d) cenzorul sau comisia de cenzori.
 
-În cazul în care nu este desemnat consiliul sau comisia de cenzori, administratorul Asociației trebuie să pună chestiunea privind desemnarea organului lipsă la fiecare adunare generală anuală. *(pct. 12.2)*
+12.2. În cazul în care nu este desemnat consiliul sau comisia de cenzori, administratorul Asociației trebuie să pună chestiunea privind desemnarea organului lipsă la fiecare adunare generală anuală.
 
-Atribuțiile adunării generale nu pot fi limitate. *(pct. 12.3)*
+12.3. Atribuțiile adunării generale nu pot fi limitate.
 
-Mandatul administratorului și al membrilor consiliului este de maximum 3 ani. Mandatul se prelungește de drept exclusiv pentru o perioadă de tranziție de cel mult 60 de zile, timp în care administratorul în exercițiu este obligat să organizeze adunarea generală pentru noi alegeri. Dacă adunarea nu este convocată în acest termen, mandatul organelor de conducere încetează de drept, iar atribuția de organizare a alegerilor este preluată de către consiliul Asociației sau de către un grup de proprietari ce dețin cel puțin 10% din unitățile condominiului, în condițiile art. 35 din Legea nr. 187/2022. *(pct. 12.4)*
+12.4. Mandatul administratorului și al membrilor consiliului este de maximum 3 ani. Mandatul se prelungește de drept exclusiv pentru o perioadă de tranziție de cel mult 60 de zile, timp în care administratorul în exercițiu este obligat să organizeze adunarea generală pentru noi alegeri. Dacă adunarea nu este convocată în acest termen, mandatul organelor de conducere încetează de drept, iar atribuția de organizare a alegerilor este preluată de către consiliul Asociației sau de către un grup de proprietari ce dețin cel puțin 10% din unitățile condominiului, în condițiile art. 35 din Legea nr. 187/2022.
 
-Mandatul de membru al organelor Asociației se prelungește de drept până la data desemnării unei alte persoane în funcția respectivă. *(pct. 12.5)*
+12.5. Mandatul de membru al organelor Asociației se prelungește de drept până la data desemnării unei alte persoane în funcția respectivă.
 
-Membrii Asociației participă, de regulă, în mod voluntar la activitățile organelor ei. Excepție reprezintă cazul în care bugetul anual al Asociației prevede o remunerare sau un salariu în acest sens, mărimea și forma acesteia (contract de muncă sau contract de prestări servicii/management) fiind stabilită și aprobată în mod exclusiv de către adunarea generală a proprietarilor. *(pct. 12.6)*
+12.6. Membrii Asociației participă, de regulă, în mod voluntar la activitățile organelor ei. Excepție reprezintă cazul în care bugetul anual al Asociației prevede o remunerare sau un salariu în acest sens, mărimea și forma acesteia (contract de muncă sau contract de prestări servicii/management) fiind stabilită și aprobată în mod exclusiv de către adunarea generală a proprietarilor.
 
-Membrii consiliului și cenzorii nu pot fi salariați permanenți ai Asociației pentru funcția deținută în aceste organe, dar pot beneficia de indemnizații lunare sau anuale de activitate, aprobate transparent prin devizul de venituri și cheltuieli al Asociației. *(pct. 12.7)*
+12.7. Membrii consiliului și cenzorii nu pot fi salariați permanenți ai Asociației pentru funcția deținută în aceste organe, dar pot beneficia de indemnizații lunare sau anuale de activitate, aprobate transparent prin devizul de venituri și cheltuieli al Asociației.
 
 ## XIII. ADUNAREA GENERALĂ A MEMBRILOR ASOCIAȚIEI
 
-Adunarea generală a membrilor Asociației este organul suprem de conducere al Asociației și este formată din toți proprietarii de unități din condominiu. *(pct. 13.1)*
+13.1. Adunarea generală a membrilor Asociației este organul suprem de conducere al Asociației și este formată din toți proprietarii de unități din condominiu.
 
-Adunarea generală are următoarele competențe exclusive: *(pct. 13.2)*
+13.2. Adunarea generală are următoarele competențe exclusive:
 
 a) aprobă modificări și completări la statutul Asociației, aprobă statutul în redacție nouă, după caz;
 
@@ -493,69 +493,69 @@ t) aprobă regulile de acces și utilizare a Platformei digitale/cloud a Asocia�
 
 u) aprobă modelele de contracte interne dintre Asociație și proprietari.
 
-Se interzice limitarea competențelor adunării generale prevăzute la pct. 13.2 din prezentul Statut sau delegarea lor către alt organ al Asociației ori către altă persoană. *(pct. 13.3)*
+13.3. Se interzice limitarea competențelor adunării generale prevăzute la pct. 13.2 din prezentul Statut sau delegarea lor către alt organ al Asociației ori către altă persoană.
 
-Adunarea generală poate hotărî pe oricare altă chestiune administrativă neprevăzută la pct. 13.2, care ține de competența sa legală. *(pct. 13.4)*
+13.4. Adunarea generală poate hotărî pe oricare altă chestiune administrativă neprevăzută la pct. 13.2, care ține de competența sa legală.
 
-Adunarea generală anuală a membrilor Asociației se convoacă cel târziu în termen de 60 zile după încheierea exercițiului financiar. *(pct. 13.5)*
+13.5. Adunarea generală anuală a membrilor Asociației se convoacă cel târziu în termen de 60 zile după încheierea exercițiului financiar.
 
-Adunarea generală se convoacă: *(pct. 13.6)*
+13.6. Adunarea generală se convoacă:
 
-la inițiativa administratorului Asociației;
+a) la inițiativa administratorului Asociației;
 
-în baza hotărârii consiliului ori a cererii președintelui consiliului;
+b) în baza hotărârii consiliului ori a cererii președintelui consiliului;
 
-în baza hotărârii cenzorului;
+c) în baza hotărârii cenzorului;
 
-la cererea scrisă a proprietarilor care dețin cel puțin 10% din unitățile condominiului.
+d) la cererea scrisă a proprietarilor care dețin cel puțin 10% din unitățile condominiului.
 
-Adunarea generală se convoacă în termen de 14 zile de la recepționarea solicitării prevăzute la pct. 13.6. În cazul în care administratorul nu convoacă adunarea, aceasta se convoacă de către organul solicitant ori de către membrii solicitanți în mod independent. *(pct. 13.7)*
+13.7. Adunarea generală se convoacă în termen de 14 zile de la recepționarea solicitării prevăzute la pct. 13.6. În cazul în care administratorul nu convoacă adunarea, aceasta se convoacă de către organul solicitant ori de către membrii solicitanți în mod independent.
 
-Oricând înainte de expedierea înștiințării, fiecare membru este în drept să ceară includerea în ordinea de zi a unor chestiuni. Asociația nu are dreptul să modifice formulările chestiunilor propuse de membri, dacă acestea sunt de competența adunării. *(pct. 13.8)*
+13.8. Oricând înainte de expedierea înștiințării, fiecare membru este în drept să ceară includerea în ordinea de zi a unor chestiuni. Asociația nu are dreptul să modifice formulările chestiunilor propuse de membri, dacă acestea sunt de competența adunării.
 
-Înștiințarea cuprinde data, locul, ora desfășurării, ordinea de zi completă, modul de accesare a materialelor și informațiile privind cvorumul. *(pct. 13.9)*
+13.9. Înștiințarea cuprinde data, locul, ora desfășurării, ordinea de zi completă, modul de accesare a materialelor și informațiile privind cvorumul.
 
-Convocarea adunării generale are loc printr-o înștiințare transmisă în formă textuală cu cel puțin 10 zile calendaristice înainte de data ședinței. Înștiințarea se transmite personal contra semnătură, prin scrisoare recomandată, sau prin mijloace electronice (e-mail, grupuri de comunicare securizate Viber/WhatsApp, platforma e-Condominiu), cu condiția ca proprietarul să fi comunicat asociației în scris adresa de e-mail sau numărul de telefon dedicat recepționării actelor. *(pct. 13.10)*
+13.10. Convocarea adunării generale are loc printr-o înștiințare transmisă în formă textuală cu cel puțin 10 zile calendaristice înainte de data ședinței. Înștiințarea se transmite personal contra semnătură, prin scrisoare recomandată, sau prin mijloace electronice (e-mail, grupuri de comunicare securizate Viber/WhatsApp, platforma e-Condominiu), cu condiția ca proprietarul să fi comunicat asociației în scris adresa de e-mail sau numărul de telefon dedicat recepționării actelor.
 
-Perioada dintre momentul transmiterii înștiințării către toți proprietarii și data desfășurării ședinței trebuie să fie de cel puțin 10 zile calendaristice fixe și obligatorii pentru toate situațiile, inclusiv în cazul adunărilor generale extraordinare. *(pct. 13.11)*
+13.11. Perioada dintre momentul transmiterii înștiințării către toți proprietarii și data desfășurării ședinței trebuie să fie de cel puțin 10 zile calendaristice fixe și obligatorii pentru toate situațiile, inclusiv în cazul adunărilor generale extraordinare.
 
-Proprietarii participă la adunarea generală personal sau prin reprezentant împuternicit legal în formă textuală.
+13.12. Proprietarii participă la adunarea generală personal sau prin reprezentant împuternicit legal în formă textuală.
 
-Adunarea generală va adopta hotărâri în ședințe cu prezență fizică, prin corespondență (buletine de vot) sau în formă mixtă.
+13.13. Adunarea generală va adopta hotărâri în ședințe cu prezență fizică, prin corespondență (buletine de vot) sau în formă mixtă.
 
-Adunarea generală poate adopta hotărâri fără convocarea unei ședințe fizice, prin procedura votului prin corespondență (colectare de semnături pe buletine de vot). Hotărârea este adoptată dacă întrunește majoritatea de voturi (cote-părți) cerută de lege pentru subiectul respectiv, cu condiția obligatorie ca textul complet și integral al hotărârii propuse să fie imprimat pe fiecare pagină supusă semnării proprietarilor.
+13.14. Adunarea generală poate adopta hotărâri fără convocarea unei ședințe fizice, prin procedura votului prin corespondență (colectare de semnături pe buletine de vot). Hotărârea este adoptată dacă întrunește majoritatea de voturi (cote-părți) cerută de lege pentru subiectul respectiv, cu condiția obligatorie ca textul complet și integral al hotărârii propuse să fie imprimat pe fiecare pagină supusă semnării proprietarilor.
 
-Procedura votului prin corespondență poate fi inițiată de către Administrator, de către Consiliul asociației sau la cererea scrisă a unui grup de proprietari care dețin cel puțin 10% din cotele-părți din condominiu.
+13.15. Procedura votului prin corespondență poate fi inițiată de către Administrator, de către Consiliul asociației sau la cererea scrisă a unui grup de proprietari care dețin cel puțin 10% din cotele-părți din condominiu.
 
-Convocarea procedurii de vot prin corespondență se face prin transmiterea înștiințării și a proiectelor de hotărâri cu cel puțin 10 zile calendaristice înainte de data începerii colectării voturilor, prin afișare în locurile de uz comun din scările blocurilor și plasare pe platforma electronică a asociației. Perioada de colectare a buletinelor de vot prin corespondență nu poate fi mai mică de 14 zile și nici mai mare de 30 de zile calendaristice de la data începerii votării.
+13.16. Convocarea procedurii de vot prin corespondență se face prin transmiterea înștiințării și a proiectelor de hotărâri cu cel puțin 10 zile calendaristice înainte de data începerii colectării voturilor, prin afișare în locurile de uz comun din scările blocurilor și plasare pe platforma electronică a asociației. Perioada de colectare a buletinelor de vot prin corespondență nu poate fi mai mică de 14 zile și nici mai mare de 30 de zile calendaristice de la data începerii votării.
 
-Desfășurarea adunării generale are loc conform datelor indicate în înștiințare. Organizatorii înregistrează membrii și numără voturile.
+13.17. Desfășurarea adunării generale are loc conform datelor indicate în înștiințare. Organizatorii înregistrează membrii și numără voturile.
 
-Membrii pot participa fizic sau prin videoconferință/mijloace electronice care permit identificarea sigură și comunicarea bidirecțională.
+13.18. Membrii pot participa fizic sau prin videoconferință/mijloace electronice care permit identificarea sigură și comunicarea bidirecțională.
 
-La adunare participă proprietarii incluși în lista Asociației sau cei care prezintă extrasul proaspăt din Registrul bunurilor imobile care le atestă dreptul de proprietate.
+13.19. La adunare participă proprietarii incluși în lista Asociației sau cei care prezintă extrasul proaspăt din Registrul bunurilor imobile care le atestă dreptul de proprietate.
 
-Nu poate participa la votare membrul care nu s-a înregistrat prin semnătură (fizică sau digitală securizată) în lista de prezență în timpul desfășurării ședinței. Este strict interzisă adăugarea de voturi, declarații verbale sau semnături după încheierea oficială a ședinței sau a procesului de vot electronic.
+13.20. Nu poate participa la votare membrul care nu s-a înregistrat prin semnătură (fizică sau digitală securizată) în lista de prezență în timpul desfășurării ședinței. Este strict interzisă adăugarea de voturi, declarații verbale sau semnături după încheierea oficială a ședinței sau a procesului de vot electronic.
 
-Adunarea generală are cvorum și poate adopta hotărâri dacă sunt prezenți sau reprezentați proprietarii care dețin peste 1/2 din drepturile de vot.
+13.21. Adunarea generală are cvorum și poate adopta hotărâri dacă sunt prezenți sau reprezentați proprietarii care dețin peste 1/2 din drepturile de vot.
 
-În lipsa cvorumului, organul sau membrii care au convocat adunarea stabilesc data la care adunarea generală va fi convocată repetat. Adunarea generală poate fi convocată repetat nu mai devreme de 48 de ore și nu mai târziu de 30 de zile calendaristice de la data fixată inițial.
+13.22. În lipsa cvorumului, organul sau membrii care au convocat adunarea stabilesc data la care adunarea generală va fi convocată repetat. Adunarea generală poate fi convocată repetat nu mai devreme de 48 de ore și nu mai târziu de 30 de zile calendaristice de la data fixată inițial.
 
-Adunarea generală repetată are cvorum dacă sunt prezenți sau reprezentați proprietarii care dețin peste 1/4 (25%) din drepturile de vot. Aceasta are aceeași ordine de zi ca și adunarea generală inițială.
+13.23. Adunarea generală repetată are cvorum dacă sunt prezenți sau reprezentați proprietarii care dețin peste 1/4 (25%) din drepturile de vot. Aceasta are aceeași ordine de zi ca și adunarea generală inițială.
 
-Adunarea este prezidată de președintele consiliului, de administratorul Asociației sau de un președinte de ședință ales de cei prezenți. Procesul-verbal se întocmește de un secretar ales la fel de către adunare.
+13.24. Adunarea este prezidată de președintele consiliului, de administratorul Asociației sau de un președinte de ședință ales de cei prezenți. Procesul-verbal se întocmește de un secretar ales la fel de către adunare.
 
-Adunarea generală hotărăște prin vot cu privire la chestiunile incluse în ordinea de zi comunicată în înștiințarea inițială. Adunarea generală poate decide asupra unor chestiuni incluse prin completarea ordinii de zi.
+13.25. Adunarea generală hotărăște prin vot cu privire la chestiunile incluse în ordinea de zi comunicată în înștiințarea inițială. Adunarea generală poate decide asupra unor chestiuni incluse prin completarea ordinii de zi.
 
-Pe durata sa, adunarea poate adopta decizii organizatorice (modul luărilor de cuvânt, vot deschis sau secret).
+13.26. Pe durata sa, adunarea poate adopta decizii organizatorice (modul luărilor de cuvânt, vot deschis sau secret).
 
-Participantul care vrea să prezinte un volum mare de informații tehnice/financiare este obligat să le trimită organizatorilor cu 24 de ore înainte, pentru a fi distribuite electronic locatarilor.
+13.27. Participantul care vrea să prezinte un volum mare de informații tehnice/financiare este obligat să le trimită organizatorilor cu 24 de ore înainte, pentru a fi distribuite electronic locatarilor.
 
-Dacă informațiile nu pot fi distribuite la timp, ședința se poate întrerupe prin vot până în ziua următoare, când se va relua de unde a rămas.
+13.28. Dacă informațiile nu pot fi distribuite la timp, ședința se poate întrerupe prin vot până în ziua următoare, când se va relua de unde a rămas.
 
-Cu excepția cazurilor prevăzute la pct. 13.30 din prezentul Statut și de legislația în vigoare, hotărârile adunării generale se adoptă cu majoritate simplă, adică mai mult de 1/2 din voturile proprietarilor prezenți sau reprezentați la adunare. În cazul adunării generale prin corespondență sau în formă mixtă, hotărârile adunării generale se adoptă cu mai mult de 1/2 din voturile tuturor proprietarilor din condominiu (sau din blocul vizat, după caz). *(pct. 13.23)*
+13.29. Cu excepția cazurilor prevăzute la pct. 13.30 din prezentul Statut și de legislația în vigoare, hotărârile adunării generale se adoptă cu majoritate simplă, adică mai mult de 1/2 din voturile proprietarilor prezenți sau reprezentați la adunare. În cazul adunării generale prin corespondență sau în formă mixtă, hotărârile adunării generale se adoptă cu mai mult de 1/2 din voturile tuturor proprietarilor din condominiu (sau din blocul vizat, după caz).
 
-Se adoptă cu votul a cel puțin 2/3 (majoritate calificată) hotărârile privind: *(pct. 13.24)*
+13.30. Se adoptă cu votul a cel puțin 2/3 (majoritate calificată) hotărârile privind:
 
 a) dizolvarea Asociației sau separarea clădirilor în Asociații independente conform legii;
 
@@ -565,39 +565,39 @@ c) aprobarea cuantumului cotei de contribuție, a contribuției la fondurile Aso
 
 d) acordarea dreptului de folosință, inclusiv a servituților, asupra părților comune ale clădirilor.
 
-În conformitate cu prevederile Legii nr. 187/2022, dreptul de proprietate exclusivă asupra unei unități acordă membrului dreptul la un vot la adunarea generală, având pondere egală cu votul celorlalți proprietari (o unitate = un vot). *(pct. 13.25)*
+13.31. În conformitate cu prevederile Legii nr. 187/2022, dreptul de proprietate exclusivă asupra unei unități acordă membrului dreptul la un vot la adunarea generală, având pondere egală cu votul celorlalți proprietari (o unitate = un vot).
 
-Membrul sau reprezentantul acestuia nu are drept de vot în privința următoarelor chestiuni: *(pct. 13.26)*
+13.32. Membrul sau reprezentantul acestuia nu are drept de vot în privința următoarelor chestiuni:
 
-eliberarea sa (ori a persoanei afiliate) de obligații sau de răspundere materială/juridică față de Asociație;
+a) eliberarea sa (ori a persoanei afiliate) de obligații sau de răspundere materială/juridică față de Asociație;
 
-încheierea unui contract sau act juridic între sine (ori persoana sa afiliată) și Asociație;
+b) încheierea unui contract sau act juridic între sine (ori persoana sa afiliată) și Asociație;
 
-inițierea sau stingerea unei proceduri judiciare între sine (ori persoana sa afiliată) și Asociație;
+c) inițierea sau stingerea unei proceduri judiciare între sine (ori persoana sa afiliată) și Asociație;
 
-cercetarea, auditul sau evaluarea activității sale (ori a persoanei afiliate) în calitate de membru al unui organ de conducere, administrare sau control al Asociației.
+d) cercetarea, auditul sau evaluarea activității sale (ori a persoanei afiliate) în calitate de membru al unui organ de conducere, administrare sau control al Asociației.
 
-Asupra fiecărei chestiuni puse la vot la adunarea generală, proprietarul poate vota fie „pentru”, fie „împotrivă”. Proprietarul participant la adunare care nu și-a exprimat votul se consideră că a votat „împotrivă”.
+13.33. Asupra fiecărei chestiuni puse la vot la adunarea generală, proprietarul poate vota fie „pentru”, fie „împotrivă”. Proprietarul participant la adunare care nu și-a exprimat votul se consideră că a votat „împotrivă”.
 
-Procesul-verbal se întocmește în termen de cel mult 10 zile calendaristice de la data desfășurării adunării generale, se semnează de către președintele și secretarul ședinței și va conține în mod obligatoriu:
+13.34. Procesul-verbal se întocmește în termen de cel mult 10 zile calendaristice de la data desfășurării adunării generale, se semnează de către președintele și secretarul ședinței și va conține în mod obligatoriu:
 
-denumirea și sediul Asociației, data, ora și locul desfășurării ședinței;
+a) denumirea și sediul Asociației, data, ora și locul desfășurării ședinței;
 
-numărul total de membri din Asociație și numărul de membri prezenți sau reprezentați;
+b) numărul total de membri din Asociație și numărul de membri prezenți sau reprezentați;
 
-numele și prenumele președintelui și ale secretarului ședinței;
+c) numele și prenumele președintelui și ale secretarului ședinței;
 
-ordinea de zi;
+d) ordinea de zi;
 
-rezumatul luărilor de cuvânt;
+e) rezumatul luărilor de cuvânt;
 
-rezultatul votării fiecărei chestiuni de pe ordinea de zi (în cazul desfășurării adunării generale prin corespondență, se vor identifica, de asemenea, membrii care au votat „pentru” și cei care au votat „împotrivă”; iar identificarea membrilor se va face prin indicarea numărului unității și, după caz, a blocului, a scării);
+f) rezultatul votării fiecărei chestiuni de pe ordinea de zi (în cazul desfășurării adunării generale prin corespondență, se vor identifica, de asemenea, membrii care au votat „pentru” și cei care au votat „împotrivă”; iar identificarea membrilor se va face prin indicarea numărului unității și, după caz, a blocului, a scării);
 
-textul hotărârilor adoptate pe marginea fiecărei chestiuni;
+g) textul hotărârilor adoptate pe marginea fiecărei chestiuni;
 
-conținutul opiniei separate a membrului (la cererea membrului care și-a exprimat o opinie separată privitoare la o hotărâre). Opinia separată poate fi depusă și în formă textuală în termen de 3 zile de la data desfășurării adunării, fiind anexată la procesul-verbal.
+h) conținutul opiniei separate a membrului (la cererea membrului care și-a exprimat o opinie separată privitoare la o hotărâre). Opinia separată poate fi depusă și în formă textuală în termen de 3 zile de la data desfășurării adunării, fiind anexată la procesul-verbal.
 
-Procesul-verbal se semnează în mod obligatoriu de către președintele și secretarul ședinței. La procesul-verbal se anexează:
+13.35. Procesul-verbal se semnează în mod obligatoriu de către președintele și secretarul ședinței. La procesul-verbal se anexează:
 
 a) tabelul convocator, dacă s-a folosit;
 
@@ -607,206 +607,206 @@ c) copiile de pe împuternicirile reprezentanților, certificate pentru conformi
 
 d) toate aceste documente și anexe vor fi scanate și încărcate în format digital securizat în folderul online (cloud) al Asociației în termen de maximum 10 zile de la ședință, asigurând accesul gratuit al tuturor proprietarilor pentru verificare.
 
-Procesele-verbale se predau spre păstrare permanentă în arhiva Asociației și se află sub responsabilitatea directă a administratorului Asociației.
+13.36. Procesele-verbale se predau spre păstrare permanentă în arhiva Asociației și se află sub responsabilitatea directă a administratorului Asociației.
 
-Hotărârile adoptate în cadrul adunării generale se comunică tuturor membrilor în termen de 10 zile calendaristice de la data desfășurării adunării generale, prin afișarea textului integral al hotărârilor pe panoul informativ sau prin alta sursă de informare stabilită anterior.
+13.37. Hotărârile adoptate în cadrul adunării generale se comunică tuturor membrilor în termen de 10 zile calendaristice de la data desfășurării adunării generale, prin afișarea textului integral al hotărârilor pe panoul informativ sau prin alta sursă de informare stabilită anterior.
 
-Adunarea generală poate avea loc și prin corespondență. În acest caz, organul Asociației sau proprietarii membri care au convocat legal adunarea generală transmit membrilor o înștiințare în care menționează ordinea de zi și termenul stabilit pentru exprimarea votului. Perioada stabilită pentru colectarea voturilor prin corespondență nu poate fi mai mică de 14 zile calendaristice de la data recepționării înștiințării. La înștiințare se anexează materialele necesare și buletinul de vot, care va cuprinde textul clar și complet al fiecărei hotărâri propuse.
+13.38. Adunarea generală poate avea loc și prin corespondență. În acest caz, organul Asociației sau proprietarii membri care au convocat legal adunarea generală transmit membrilor o înștiințare în care menționează ordinea de zi și termenul stabilit pentru exprimarea votului. Perioada stabilită pentru colectarea voturilor prin corespondență nu poate fi mai mică de 14 zile calendaristice de la data recepționării înștiințării. La înștiințare se anexează materialele necesare și buletinul de vot, care va cuprinde textul clar și complet al fiecărei hotărâri propuse.
 
-În termenul stabilit pentru exprimarea votului, membrii remit organului Asociației sau membrilor care au convocat adunarea generală buletinele semnate, cu voturile exercitate în mod expres („pentru” sau „împotrivă”).
+13.39. În termenul stabilit pentru exprimarea votului, membrii remit organului Asociației sau membrilor care au convocat adunarea generală buletinele semnate, cu voturile exercitate în mod expres („pentru” sau „împotrivă”).
 
-Dacă membrul a specificat în scris adresa de poștă electronică prin care este de acord să corespondeze cu Asociația, înștiințările și buletinele de vot pot fi transmise electronic. Pentru a asigura securitatea legală a votului și a preveni contestațiile, exprimarea votului prin mijloace electronice este valabilă exclusiv dacă buletinul de vot atașat este semnat cu semnătură electronică avansată sau calificată prin intermediul serviciului guvernamental MSign, ori dacă procesul de vot s-a desfășurat prin contul securizat personal al proprietarului în cadrul platformei guvernamentale oficiale e-Condominiu. Trimiterea unui e-mail simplu de tip text fără semnătură digitală certificată nu echivalează cu semnarea buletinului de vot și nu va fi luată în calcul la stabilirea rezultatelor.
+13.40. Dacă membrul a specificat în scris adresa de poștă electronică prin care este de acord să corespondeze cu Asociația, înștiințările și buletinele de vot pot fi transmise electronic. Pentru a asigura securitatea legală a votului și a preveni contestațiile, exprimarea votului prin mijloace electronice este valabilă exclusiv dacă buletinul de vot atașat este semnat cu semnătură electronică avansată sau calificată prin intermediul serviciului guvernamental MSign, ori dacă procesul de vot s-a desfășurat prin contul securizat personal al proprietarului în cadrul platformei guvernamentale oficiale e-Condominiu. Trimiterea unui e-mail simplu de tip text fără semnătură digitală certificată nu echivalează cu semnarea buletinului de vot și nu va fi luată în calcul la stabilirea rezultatelor.
 
-Este echivalentă cu semnarea buletinului de vot semnarea de către membru în folosul unei anumite hotărâri a adunării generale, cu condiția obligatorie ca pe fiecare pagină pe care este aplicată semnătura să figureze textul complet al hotărârii respective și să se identifice în mod clar Asociația a cărei adunare generală adoptă hotărârea.
+13.41. Este echivalentă cu semnarea buletinului de vot semnarea de către membru în folosul unei anumite hotărâri a adunării generale, cu condiția obligatorie ca pe fiecare pagină pe care este aplicată semnătura să figureze textul complet al hotărârii respective și să se identifice în mod clar Asociația a cărei adunare generală adoptă hotărârea.
 
-La expirarea termenului stabilit pentru exprimarea votului prin corespondență, președintele și secretarul adunării generale întocmesc și semnează procesul-verbal în termen de cel mult 10 zile calendaristice și aduc la cunoștința membrilor hotărârile adoptate în termen de cel mult 3 zile calendaristice de la semnarea procesului-verbal.
+13.42. La expirarea termenului stabilit pentru exprimarea votului prin corespondență, președintele și secretarul adunării generale întocmesc și semnează procesul-verbal în termen de cel mult 10 zile calendaristice și aduc la cunoștința membrilor hotărârile adoptate în termen de cel mult 3 zile calendaristice de la semnarea procesului-verbal.
 
-Adunarea generală poate avea loc în formă mixtă: cu prezență fizică (inclusiv prin videoconferință) și prin completarea buletinului de vot, conform dispozițiilor aplicabile desfășurării adunării generale prin corespondență. Prevederile pct. 13.14 sunt pe deplin aplicabile și în cazul desfășurării adunării generale în formă mixtă.
+13.43. Adunarea generală poate avea loc în formă mixtă: cu prezență fizică (inclusiv prin videoconferință) și prin completarea buletinului de vot, conform dispozițiilor aplicabile desfășurării adunării generale prin corespondență. Prevederile pct. 13.14 sunt pe deplin aplicabile și în cazul desfășurării adunării generale în formă mixtă.
 
-În cazul în care adunarea generală se desfășoară în formă mixtă, dreptul proprietarilor absenți cu privire la transmiterea opțiunii de vot prin buletine de corespondență sau semnătură electronică (MSign) este garantat și nu poate fi îngrădit, indiferent de procentul de prezență fizică înregistrat în cadrul ședinței.
+13.44. În cazul în care adunarea generală se desfășoară în formă mixtă, dreptul proprietarilor absenți cu privire la transmiterea opțiunii de vot prin buletine de corespondență sau semnătură electronică (MSign) este garantat și nu poate fi îngrădit, indiferent de procentul de prezență fizică înregistrat în cadrul ședinței.
 
-În cazul în care pentru hotărârea adunării generale au consimțit expres, în cadrul ședinței sau prin procedura de vot prin corespondență (buletine de vot), majoritatea membrilor, dar nu mai puțin de 80% din numărul total de membri din Asociație, hotărârea respectivă este valabilă în condițiile art. 202 din Codul civil nr. 1107/2002. Prevederile prezentului punct nu se aplică și nu pot acoperi viciile de legalitate legate de lipsa totală a notificării proprietarilor, falsificarea opțiunilor de vot, nerespectarea majorităților calificate instituite imperativ de Legea nr. 187/2022 sau lipsa procesului-verbal de numărare a voturilor.
+13.45. În cazul în care pentru hotărârea adunării generale au consimțit expres, în cadrul ședinței sau prin procedura de vot prin corespondență (buletine de vot), majoritatea membrilor, dar nu mai puțin de 80% din numărul total de membri din Asociație, hotărârea respectivă este valabilă în condițiile art. 202 din Codul civil nr. 1107/2002. Prevederile prezentului punct nu se aplică și nu pot acoperi viciile de legalitate legate de lipsa totală a notificării proprietarilor, falsificarea opțiunilor de vot, nerespectarea majorităților calificate instituite imperativ de Legea nr. 187/2022 sau lipsa procesului-verbal de numărare a voturilor.
 
-Categoriile de proprietari, specificate în art. 43 alin. (1) din Legea nr. 187/2022, numiți în continuare proprietari cu interes special (de exemplu, proprietarii scărilor deservite de un anumit ascensor, sau toți proprietarii care au acces la un anumit serviciu ori la anumite părți comune), pot fi convocați într-o adunare cu interes special și pot adopta hotărâri care se referă exclusiv la acel interes special (hotărâre specială), în măsura în care nu se afectează interesele sau fondurile celorlalți membri din Asociație. Convocarea adunării cu interes special se realizează obligatoriu de către administratorul Asociației, în termen de 14 zile de la primirea cererii în formă scrisă a cel puțin 10% din numărul total al proprietarilor care cad sub incidența criteriului respectiv.
+13.46. Categoriile de proprietari, specificate în art. 43 alin. (1) din Legea nr. 187/2022, numiți în continuare proprietari cu interes special (de exemplu, proprietarii scărilor deservite de un anumit ascensor, sau toți proprietarii care au acces la un anumit serviciu ori la anumite părți comune), pot fi convocați într-o adunare cu interes special și pot adopta hotărâri care se referă exclusiv la acel interes special (hotărâre specială), în măsura în care nu se afectează interesele sau fondurile celorlalți membri din Asociație. Convocarea adunării cu interes special se realizează obligatoriu de către administratorul Asociației, în termen de 14 zile de la primirea cererii în formă scrisă a cel puțin 10% din numărul total al proprietarilor care cad sub incidența criteriului respectiv.
 
-Hotărârea de convocare a adunării cu interes special și procesul-verbal al adunării cu interes special trebuie să prevadă, sub sancțiunea nulității absolute, criteriul obiectiv după care se determină proprietarii cu interes special (identificarea exactă a scării sau a rețelei inginerești care face obiectul deciziei).
+13.47. Hotărârea de convocare a adunării cu interes special și procesul-verbal al adunării cu interes special trebuie să prevadă, sub sancțiunea nulității absolute, criteriul obiectiv după care se determină proprietarii cu interes special (identificarea exactă a scării sau a rețelei inginerești care face obiectul deciziei).
 
-Hotărârea specială este obligatorie doar pentru proprietarii cu interes special care aveau dreptul să participe la adunarea cu interes special. Adunarea cu interes special poate decide asupra măsurilor ce țin nemijlocit de necesitatea de întreținere, reparație, modernizare și amenajare a părților comune ce vizează subiecte de interes special.
+13.48. Hotărârea specială este obligatorie doar pentru proprietarii cu interes special care aveau dreptul să participe la adunarea cu interes special. Adunarea cu interes special poate decide asupra măsurilor ce țin nemijlocit de necesitatea de întreținere, reparație, modernizare și amenajare a părților comune ce vizează subiecte de interes special.
 
-Adunării cu interes special i se aplică în mod corespunzător dispozițiile legale și statutare privind adunarea generală. Cerința de cvorum și vot la adunarea specială inițială se calculează din numărul total al proprietarilor cu interes special care aveau dreptul să participe și nu poate fi mai mică de 1/2 (50%). În cazul lipsei de cvorum, se poate convoca o adunare cu interes special repetată, în termen de maximum 30 de zile, care va fi deliberativă dacă la ea participă proprietari care dețin cel puțin 1/4 (25%) din drepturile de vot ale grupului cu interes special respectiv.
+13.49. Adunării cu interes special i se aplică în mod corespunzător dispozițiile legale și statutare privind adunarea generală. Cerința de cvorum și vot la adunarea specială inițială se calculează din numărul total al proprietarilor cu interes special care aveau dreptul să participe și nu poate fi mai mică de 1/2 (50%). În cazul lipsei de cvorum, se poate convoca o adunare cu interes special repetată, în termen de maximum 30 de zile, care va fi deliberativă dacă la ea participă proprietari care dețin cel puțin 1/4 (25%) din drepturile de vot ale grupului cu interes special respectiv.
 
-Adunarea generală a Asociației poate revoca o hotărâre specială adoptată de un grup de proprietari exclusiv în cazul în care se demonstrează, prin expertiză tehnică sau juridică, că hotărârea specială respectivă încalcă legislația în vigoare, afectează integritatea structurală a celorlalte clădiri din condominiu ori aduce prejudicii financiare sau materiale directe celorlalți membri ai Asociației.
+13.50. Adunarea generală a Asociației poate revoca o hotărâre specială adoptată de un grup de proprietari exclusiv în cazul în care se demonstrează, prin expertiză tehnică sau juridică, că hotărârea specială respectivă încalcă legislația în vigoare, afectează integritatea structurală a celorlalte clădiri din condominiu ori aduce prejudicii financiare sau materiale directe celorlalți membri ai Asociației.
 
 ## XIV. ADMINISTRATORUL ASOCIAȚIEI
 
-Administratorul Asociației este persoana desemnată în calitate de organ executiv unic al Asociației pentru un termen de 3 ani, care exercită atribuțiile în numele Asociației, în conformitate cu Legea nr. 187/2022 și prezentul statut, din data înregistrării sale în Registrul de stat al persoanelor juridice. *(pct. 14.1)*
+14.1. Administratorul Asociației este persoana desemnată în calitate de organ executiv unic al Asociației pentru un termen de 3 ani, care exercită atribuțiile în numele Asociației, în conformitate cu Legea nr. 187/2022 și prezentul statut, din data înregistrării sale în Registrul de stat al persoanelor juridice.
 
-Administratorul Asociației exercita următoarele atribuții: *(pct. 14.2)*
+14.2. Administratorul Asociației exercita următoarele atribuții:
 
-administrează Asociația, în limitele atribuțiilor;
+a) administrează Asociația, în limitele atribuțiilor;
 
-reprezintă Asociația în relațiile cu persoanele fizice și juridice (inclusiv proprietarii din condominiu), autoritățile publice, instanța de judecată și cu alte persoane și autorități; încheie contracte în limitele atribuțiilor (personal sau prin reprezentant/mandat);
+b) reprezintă Asociația în relațiile cu persoanele fizice și juridice (inclusiv proprietarii din condominiu), autoritățile publice, instanța de judecată și cu alte persoane și autorități; încheie contracte în limitele atribuțiilor (personal sau prin reprezentant/mandat);
 
-gestionează pretențiile extrajudiciare și judiciare ale terților înaintate față de Asociație ori în privința părților comune. Administratorul nu are dreptul de a recunoaște acțiunile în justiție înaintate de un terț în privința părților comune din condominiu fără aprobarea prin hotărâre a adunării generale;
+c) gestionează pretențiile extrajudiciare și judiciare ale terților înaintate față de Asociație ori în privința părților comune. Administratorul nu are dreptul de a recunoaște acțiunile în justiție înaintate de un terț în privința părților comune din condominiu fără aprobarea prin hotărâre a adunării generale;
 
-asigură executarea hotărârilor adunării generale și ale consiliului;
+d) asigură executarea hotărârilor adunării generale și ale consiliului;
 
-prezintă membrilor altor organe ale Asociației oricare informații și documente necesare pentru îndeplinirea atribuțiilor acestora;
+e) prezintă membrilor altor organe ale Asociației oricare informații și documente necesare pentru îndeplinirea atribuțiilor acestora;
 
-asigură executarea bugetului anual aprobat de adunarea generală;
+f) asigură executarea bugetului anual aprobat de adunarea generală;
 
-în limitele atribuțiilor, administrează mijloacele financiare colectate de la proprietari, inclusiv ale fondului, precum și alte mijloace generate din alte activități, depuse în contul bancar al Asociației;
+g) în limitele atribuțiilor, administrează mijloacele financiare colectate de la proprietari, inclusiv ale fondului, precum și alte mijloace generate din alte activități, depuse în contul bancar al Asociației;
 
-exercită controlul asupra operațiunilor bancare, prezentării rapoartelor financiare, fiscale și statistice, monitorizează lucrările de secretariat;
+h) exercită controlul asupra operațiunilor bancare, prezentării rapoartelor financiare, fiscale și statistice, monitorizează lucrările de secretariat;
 
-asigură ținerea contabilității Asociației, precum și a registrelor Asociației;
+i) asigură ținerea contabilității Asociației, precum și a registrelor Asociației;
 
-elaborează proiectul bugetului pentru anul viitor și îl prezintă, până la data de 30 noiembrie a fiecărui an, spre examinare și aprobare adunării generale. Proiectul bugetului anual trebuie să indice și să explice fiecare poziție din buget în privința căreia există divergențe între administrator și consiliu. Adunarea generală examinează și aprobă, până la data de 31 decembrie a anului premergător anului bugetar, bugetul pentru anul viitor. În cazul în care adunarea generală nu a aprobat un buget anual pentru un anumit an financiar, în acel an financiar se aplică bugetul anual în vigoare în anul precedent;
+j) elaborează proiectul bugetului pentru anul viitor și îl prezintă, până la data de 30 noiembrie a fiecărui an, spre examinare și aprobare adunării generale. Proiectul bugetului anual trebuie să indice și să explice fiecare poziție din buget în privința căreia există divergențe între administrator și consiliu. Adunarea generală examinează și aprobă, până la data de 31 decembrie a anului premergător anului bugetar, bugetul pentru anul viitor. În cazul în care adunarea generală nu a aprobat un buget anual pentru un anumit an financiar, în acel an financiar se aplică bugetul anual în vigoare în anul precedent;
 
-ține și actualizează lista proprietarilor din condominiu; ține procesele-verbale ale organelor Asociației; eliberează copii și extrase de pe acestea;
+k) ține și actualizează lista proprietarilor din condominiu; ține procesele-verbale ale organelor Asociației; eliberează copii și extrase de pe acestea;
 
-asigură colectarea datoriilor proprietarilor ori ale altor persoane față de Asociație; asigură apărarea drepturilor și intereselor legitime ale Asociației în instanța de judecată și în alt mod;
+l) asigură colectarea datoriilor proprietarilor ori ale altor persoane față de Asociație; asigură apărarea drepturilor și intereselor legitime ale Asociației în instanța de judecată și în alt mod;
 
-eliberează, la cererea proprietarului, certificatul privind lipsa datoriilor la fond și la cota de contribuție;
+m) eliberează, la cererea proprietarului, certificatul privind lipsa datoriilor la fond și la cota de contribuție;
 
-angajează, concediază salariații Asociației, emite alte ordine în conformitate cu legislația muncii;
+n) angajează, concediază salariații Asociației, emite alte ordine în conformitate cu legislația muncii;
 
-dă indicații și emite dispoziții obligatorii pentru salariații Asociației;
+o) dă indicații și emite dispoziții obligatorii pentru salariații Asociației;
 
-aplică sancțiunile prevăzute de regulamentul condominiului; asigură organizarea exploatării și reparația părților comune;
+p) aplică sancțiunile prevăzute de regulamentul condominiului; asigură organizarea exploatării și reparația părților comune;
 
-asigură efectuarea auditului energetic al clădirilor condominiului și obținerea certificatului de performanță energetică;
+q) asigură efectuarea auditului energetic al clădirilor condominiului și obținerea certificatului de performanță energetică;
 
-permite și supraveghează instalarea de către furnizori a rețelelor necesare pentru furnizarea către proprietari a serviciilor de comunicații electronice;
+r) permite și supraveghează instalarea de către furnizori a rețelelor necesare pentru furnizarea către proprietari a serviciilor de comunicații electronice;
 
-efectuează controlul asupra lucrărilor executate de către persoanele fizice și juridice contractate pentru întreținerea și reparația clădirii și a infrastructurii inginerești, precum și a infrastructurii aflate pe terenul condominiului;
+s) efectuează controlul asupra lucrărilor executate de către persoanele fizice și juridice contractate pentru întreținerea și reparația clădirii și a infrastructurii inginerești, precum și a infrastructurii aflate pe terenul condominiului;
 
-păstrează și asigură completarea la zi a cărții tehnice a clădirii pentru fiecare clădire din condominiu, precum și asigură păstrarea altor documente privind activitatea Asociației;
+t) păstrează și asigură completarea la zi a cărții tehnice a clădirii pentru fiecare clădire din condominiu, precum și asigură păstrarea altor documente privind activitatea Asociației;
 
-întocmește și actualizează anual fișa de sinteză a Asociației;
+u) întocmește și actualizează anual fișa de sinteză a Asociației;
 
-examinează petițiile parvenite de la proprietari și ține registrul de evidență a petițiilor;
+v) examinează petițiile parvenite de la proprietari și ține registrul de evidență a petițiilor;
 
-asigură luarea măsurilor și efectuarea intervențiilor urgente la părțile comune, în măsura strict necesară, pentru: prevenirea riscurilor pentru viața sau sănătatea oamenilor ori pentru bunurile lor; prevenirea riscurilor pentru integritatea sau siguranța condominiului; înlăturarea deteriorărilor părților comune;
+w) asigură luarea măsurilor și efectuarea intervențiilor urgente la părțile comune, în măsura strict necesară, pentru: prevenirea riscurilor pentru viața sau sănătatea oamenilor ori pentru bunurile lor; prevenirea riscurilor pentru integritatea sau siguranța condominiului; înlăturarea deteriorărilor părților comune;
 
-asigură și menține o evidență contabilă separată a veniturilor, cheltuielilor și a soldurilor Fondului de reparație pentru fiecare din cele 4 blocuri / cladiri din condominiu în parte; *(pct. 14.2 lit. x))*
+x) asigură și menține o evidență contabilă separată a veniturilor, cheltuielilor și a soldurilor Fondului de reparație pentru fiecare din cele 4 blocuri / cladiri din condominiu în parte;
 
-exercită alte atribuții prevăzute de Legea nr.187/2022 sau de prezentul statut.
+y) exercită alte atribuții prevăzute de Legea nr.187/2022 sau de prezentul statut.
 
-Administratorul Asociației este împuternicit să încheie tranzacții și să efectueze plățile necesare pentru intervenții urgente la părțile comune (pentru prevenirea riscurilor vitale sau avarii majore), cu avizul scris al Consiliului, cu condiția ca suma unei singure tranzacții să nu depășească 15.000 MDL, iar valoarea cumulată a tuturor tranzacțiilor de urgență să nu depășească un plafon maxim de 60.000 MDL pe an pentru întreaga Asociație. În caz contrar, încheierea unor astfel de tranzacții necesită aprobarea prealabilă de către adunarea generală a proprietarilor din blocul vizat, cu condiția că la data încheierii tranzacției Asociația să dispună de fonduri suficiente. *(pct. 14.3)*
+14.3. Administratorul Asociației este împuternicit să încheie tranzacții și să efectueze plățile necesare pentru intervenții urgente la părțile comune (pentru prevenirea riscurilor vitale sau avarii majore), cu avizul scris al Consiliului, cu condiția ca suma unei singure tranzacții să nu depășească 15.000 MDL, iar valoarea cumulată a tuturor tranzacțiilor de urgență să nu depășească un plafon maxim de 60.000 MDL pe an pentru întreaga Asociație. În caz contrar, încheierea unor astfel de tranzacții necesită aprobarea prealabilă de către adunarea generală a proprietarilor din blocul vizat, cu condiția că la data încheierii tranzacției Asociația să dispună de fonduri suficiente.
 
-Administratorul Asociației poate fi revocat de către adunarea generală oricând, cu sau fără motiv. Concomitent cu revocarea, adunarea generală alege un nou administrator. *(pct. 14.4)*
+14.4. Administratorul Asociației poate fi revocat de către adunarea generală oricând, cu sau fără motiv. Concomitent cu revocarea, adunarea generală alege un nou administrator.
 
-În cazul în care adunarea generală revocă administratorul Asociației și nu alege concomitent unul nou, precum și în cazul în care administratorul Asociației a demisionat, a decedat sau nu este în stare să-și exercite funcția din alte motive în decurs de cel mult 30 de zile consecutive, funcția acestuia este exercitată provizoriu de către un membru al consiliului, desemnat prin hotărâre a consiliului, până la organizarea adunării generale de alegeri care se va convoca în termen de maximum 60 de zile. *(pct. 14.5)*
+14.5. În cazul în care adunarea generală revocă administratorul Asociației și nu alege concomitent unul nou, precum și în cazul în care administratorul Asociației a demisionat, a decedat sau nu este în stare să-și exercite funcția din alte motive în decurs de cel mult 30 de zile consecutive, funcția acestuia este exercitată provizoriu de către un membru al consiliului, desemnat prin hotărâre a consiliului, până la organizarea adunării generale de alegeri care se va convoca în termen de maximum 60 de zile.
 
-Administratorul Asociației este direct și personal responsabil de faptul ca actele care emană de la Asociație ori organele ei, inclusiv procesele-verbale și facturile, să fie emise cu respectarea principiului transparenței și să cuprindă în mod obligatoriu toate datele prevăzute la pct. 8.3 din prezentul Statut.
+14.6. Administratorul Asociației este direct și personal responsabil de faptul ca actele care emană de la Asociație ori organele ei, inclusiv procesele-verbale și facturile, să fie emise cu respectarea principiului transparenței și să cuprindă în mod obligatoriu toate datele prevăzute la pct. 8.3 din prezentul Statut.
 
 ## XV. CONSILIUL ASOCIAȚIEI
 
-În scopul supravegherii activității administratorului, adunarea generală poate desemna un consiliu al Asociației pentru un termen de cel mult 3 ani. *(pct. 15.1)*
+15.1. În scopul supravegherii activității administratorului, adunarea generală poate desemna un consiliu al Asociației pentru un termen de cel mult 3 ani.
 
-Consiliul constă din număr impar de membri, aleși din rândul proprietarilor, dar nu mai puțin de 3 membri, care se subordonează direct adunării generale a membrilor Asociației. *(pct. 15.2)*
+15.2. Consiliul constă din număr impar de membri, aleși din rândul proprietarilor, dar nu mai puțin de 3 membri, care se subordonează direct adunării generale a membrilor Asociației.
 
-Calitatea de membru al consiliului nu se supune înregistrării în Registrul de stat al persoanelor juridice. *(pct. 15.3)*
+15.3. Calitatea de membru al consiliului nu se supune înregistrării în Registrul de stat al persoanelor juridice.
 
-Consiliul oferă aviz obligatoriu administratorului pe orice chestiuni care implică cheltuieli de urgență ale Asociației sau modificări administrative. *(pct. 15.4)*
+15.4. Consiliul oferă aviz obligatoriu administratorului pe orice chestiuni care implică cheltuieli de urgență ale Asociației sau modificări administrative.
 
-Consiliul este un organ de supraveghere și control. Consiliul nu are competențe executive și nu poate substitui atribuțiile Administratorului sau ale adunării generale. Acesta este în drept să adopte hotărâri și recomandări interne, cu excepția chestiunilor ce țin de competența exclusivă a adunării generale sau de execuția zilnică a administratorului. *(pct. 15.5)*
+15.5. Consiliul este un organ de supraveghere și control. Consiliul nu are competențe executive și nu poate substitui atribuțiile Administratorului sau ale adunării generale. Acesta este în drept să adopte hotărâri și recomandări interne, cu excepția chestiunilor ce țin de competența exclusivă a adunării generale sau de execuția zilnică a administratorului.
 
-Membrii consiliului Asociației se aleg din rândul proprietarilor de unități și încăperi cu altă destinație decât aceea de locuință la adunarea generală. *(pct. 15.6)*
+15.6. Membrii consiliului Asociației se aleg din rândul proprietarilor de unități și încăperi cu altă destinație decât aceea de locuință la adunarea generală.
 
-Atribuțiile consiliului sânt: *(pct. 15.7)*
+15.7. Atribuțiile consiliului sânt:
 
-asigurarea și monitorizarea executării deciziilor adunării generale de către administrator;
+a) asigurarea și monitorizarea executării deciziilor adunării generale de către administrator;
 
-supravegherea respectării legislației în vigoare și a prevederilor statutului Asociației în activitatea curentă a Asociației;
+b) supravegherea respectării legislației în vigoare și a prevederilor statutului Asociației în activitatea curentă a Asociației;
 
-analizarea ofertelor de preț (din cel puțin 2-3 opțiuni) pentru deservirea și exploatarea imobilului și prezentarea recomandărilor scrise Administratorului sau adunării generale;
+c) analizarea ofertelor de preț (din cel puțin 2-3 opțiuni) pentru deservirea și exploatarea imobilului și prezentarea recomandărilor scrise Administratorului sau adunării generale;
 
-monitorizarea modului în care administratorul asigură colectarea datoriilor de la restanțieri;
+d) monitorizarea modului în care administratorul asigură colectarea datoriilor de la restanțieri;
 
-analizarea proiectului devizului anual de venituri și cheltuieli elaborat de administrator și oferirea unui aviz consultativ înainte de prezentarea acestuia spre aprobare adunării generale;
+e) analizarea proiectului devizului anual de venituri și cheltuieli elaborat de administrator și oferirea unui aviz consultativ înainte de prezentarea acestuia spre aprobare adunării generale;
 
-verificarea periodică a modului în care sunt ținute registrele și lucrările de secretariat;
+f) verificarea periodică a modului în care sunt ținute registrele și lucrările de secretariat;
 
-executarea altor obligațiuni de control stabilite în mod expres de adunarea generală, fără prealuarea atribuțiilor executive.
+g) executarea altor obligațiuni de control stabilite în mod expres de adunarea generală, fără prealuarea atribuțiilor executive.
 
-Ședința consiliului Asociației se convoacă cel puțin o dată în trimestru de către președintele consiliului, iar în lipsa acestuia – de către un membru al consiliului împuternicit, sau la cererea a 1/3 din membrii consiliului. Despre data ședinței membrii consiliului sânt anunțați în formă scrisă sau electronică cel puțin cu 3 zile înainte de ședință. *(pct. 15.8)*
+15.8. Ședința consiliului Asociației se convoacă cel puțin o dată în trimestru de către președintele consiliului, iar în lipsa acestuia – de către un membru al consiliului împuternicit, sau la cererea a 1/3 din membrii consiliului. Despre data ședinței membrii consiliului sânt anunțați în formă scrisă sau electronică cel puțin cu 3 zile înainte de ședință.
 
-Ședința consiliului este deliberativă dacă la aceasta participă, la locul ședinței ori prin mijloace de comunicare electronică (videoconferință), mai mult de 1/2 din membri. Hotărârile consiliului se adoptă valabil cu votul a mai mult de 1/2 din numărul total de membri ai consiliului. *(pct. 15.9)*
+15.9. Ședința consiliului este deliberativă dacă la aceasta participă, la locul ședinței ori prin mijloace de comunicare electronică (videoconferință), mai mult de 1/2 din membri. Hotărârile consiliului se adoptă valabil cu votul a mai mult de 1/2 din numărul total de membri ai consiliului.
 
-Consiliul Asociației este în drept să cunoască în orice moment situația mijloacelor financiare ale Asociației ce se află în conturile bancare, administratorul având obligația de a le pune la dispoziție extrasele de cont.
+15.10. Consiliul Asociației este în drept să cunoască în orice moment situația mijloacelor financiare ale Asociației ce se află în conturile bancare, administratorul având obligația de a le pune la dispoziție extrasele de cont.
 
-Obligațiile consiliului Asociației sunt: *(pct. 15.10)*
+15.11. Obligațiile consiliului Asociației sunt:
 
-să respecte și să îndeplinească prevederile legale ce țin de activitatea Asociației, statutul Asociației și deciziile adunării generale;
+a) să respecte și să îndeplinească prevederile legale ce țin de activitatea Asociației, statutul Asociației și deciziile adunării generale;
 
-să asigure calcularea corectă a cuantumului plăților obligatorii și cotizațiile pentru fiecare membru al asociației conform cotei-părți din condominiu;
+b) să asigure calcularea corectă a cuantumului plăților obligatorii și cotizațiile pentru fiecare membru al asociației conform cotei-părți din condominiu;
 
-să asigure controlul achitării integrale și la timp de către fiecare membru al asociației a plăților obligatorii, serviciilor comunale și altor servicii;
+c) să asigure controlul achitării integrale și la timp de către fiecare membru al asociației a plăților obligatorii, serviciilor comunale și altor servicii;
 
-să solicite administratorului Asociației realizarea demersurilor oficiale către autoritățile administrației publice locale pentru stabilirea hotarelor terenului condominiului și transmiterea acestuia în proprietatea comună a proprietarilor; *(pct. 15.10 lit. d))*
+d) să solicite administratorului Asociației realizarea demersurilor oficiale către autoritățile administrației publice locale pentru stabilirea hotarelor terenului condominiului și transmiterea acestuia în proprietatea comună a proprietarilor;
 
-să solicite administratorului sau să apeleze direct la organele și serviciile investite cu drepturi de control în construcții și exploatare în cazul în care un proprietar execută replanificări sau lucrări ilegale care pun în pericol integritatea structurală a clădirii;
+e) să solicite administratorului sau să apeleze direct la organele și serviciile investite cu drepturi de control în construcții și exploatare în cazul în care un proprietar execută replanificări sau lucrări ilegale care pun în pericol integritatea structurală a clădirii;
 
-să monitorizeze ca lucrările de întreținere și reparație curentă aprobate de adunarea generală să fie executate calitativ și la timp;
+f) să monitorizeze ca lucrările de întreținere și reparație curentă aprobate de adunarea generală să fie executate calitativ și la timp;
 
-să monitorizeze prestarea serviciilor publice de către furnizori sub aspectul calității și respectării drepturilor consumatorilor din bloc;
+g) să monitorizeze prestarea serviciilor publice de către furnizori sub aspectul calității și respectării drepturilor consumatorilor din bloc;
 
-să anunțe și să organizeze concursuri pentru selectarea antreprenorilor pentru efectuarea reparațiilor bunurilor imobiliare a condominiului; *(lit. h))*
+h) să anunțe și să organizeze concursuri pentru selectarea antreprenorilor pentru efectuarea reparațiilor bunurilor imobiliare a condominiului;
 
-să respecte drepturile tuturor membrilor asociației, să reprezinte și să apere în modul stabilit interesele și drepturile legitime ale acestora în alte instanțe, inclusiv în judecată; *(lit. i))*
+i) să respecte drepturile tuturor membrilor asociației, să reprezinte și să apere în modul stabilit interesele și drepturile legitime ale acestora în alte instanțe, inclusiv în judecată;
 
-să recomande administratorului sau adunării generale inițierea acțiunilor în judecată împotriva antreprenorilor care încalcă contractele cu Asociația. În cazul litigiilor sau acțiunilor de judecată îndreptate împotriva Administratorului Asociației, adunarea generală (și nu Consiliul de la sine putere) trebuie să împuternicească în mod expres o persoană specifică din rândul proprietarilor pentru a semna cererea de chemare în judecată și a reprezenta Asociația;
+j) să recomande administratorului sau adunării generale inițierea acțiunilor în judecată împotriva antreprenorilor care încalcă contractele cu Asociația. În cazul litigiilor sau acțiunilor de judecată îndreptate împotriva Administratorului Asociației, adunarea generală (și nu Consiliul de la sine putere) trebuie să împuternicească în mod expres o persoană specifică din rândul proprietarilor pentru a semna cererea de chemare în judecată și a reprezenta Asociația;
 
-să solicite de la întreprinderile prestatoare de servicii comunale și alte servicii compensarea cheltuielilor pentru deservirea tehnică a sistemelor inginerești, care se deservesc de asociație;
+k) să solicite de la întreprinderile prestatoare de servicii comunale și alte servicii compensarea cheltuielilor pentru deservirea tehnică a sistemelor inginerești, care se deservesc de asociație;
 
-să administreze corect finanțele asociației, să țină la nivelul cuvenit contabilitatea, să prezinte la timp rapoartele financiare și despre îndeplinirea bugetului asociației; *(lit. l))*
+l) să administreze corect finanțele asociației, să țină la nivelul cuvenit contabilitatea, să prezinte la timp rapoartele financiare și despre îndeplinirea bugetului asociației;
 
-să asigure organizarea și convocarea adunării generale în cazul în care administratorul refuză sau eșuează să o facă la expirarea mandatului său ori în condițiile stabilite de statut.
+m) să asigure organizarea și convocarea adunării generale în cazul în care administratorul refuză sau eșuează să o facă la expirarea mandatului său ori în condițiile stabilite de statut.
 
 ## XVI. PREȘEDINTELE CONSILIULUI ASOCIAȚIEI
 
-Președintele consiliului este ales de către adunarea generală, odată cu alegerea membrilor acestuia. *(pct. 16.1)*
+16.1. Președintele consiliului este ales de către adunarea generală, odată cu alegerea membrilor acestuia.
 
-În cazul când adunarea generală nu a ales în mod direct președintele consiliului, ci doar membrii consiliului, aceștia aleg președintele consiliului din rândul membrilor săi, cu votul a mai mult de 1/2 din numărul total al membrilor consiliului. *(pct. 16.2)*
+16.2. În cazul când adunarea generală nu a ales în mod direct președintele consiliului, ci doar membrii consiliului, aceștia aleg președintele consiliului din rândul membrilor săi, cu votul a mai mult de 1/2 din numărul total al membrilor consiliului.
 
-În conformitate cu statutul non-executiv al Consiliului Asociației, Președintele consiliului are un rol strict de coordonare internă, supraveghere și control, fiind complet lipsit de atribuții executive sau de reprezentare juridică curentă în numele Asociației. *(pct. 16.3)*
+16.3. În conformitate cu statutul non-executiv al Consiliului Asociației, Președintele consiliului are un rol strict de coordonare internă, supraveghere și control, fiind complet lipsit de atribuții executive sau de reprezentare juridică curentă în numele Asociației.
 
-Președintele consiliului Asociației exercită următoarele atribuții limitate: *(pct. 16.4)*
+16.4. Președintele consiliului Asociației exercită următoarele atribuții limitate:
 
-convoacă și prezidează ședințele trimestriale sau extraordinare ale Consiliului Asociației;
+a) convoacă și prezidează ședințele trimestriale sau extraordinare ale Consiliului Asociației;
 
-organizează lucrările de secretariat în cadrul consiliului și semnează procesele-verbal ale ședințelor acestuia;
+b) organizează lucrările de secretariat în cadrul consiliului și semnează procesele-verbal ale ședințelor acestuia;
 
-transmite în scris sau în format electronic către Administrator avizele și recomandările emise de Consiliu pe marginea devizelor de cheltuieli sau a tranzacțiilor de urgență;
+c) transmite în scris sau în format electronic către Administrator avizele și recomandările emise de Consiliu pe marginea devizelor de cheltuieli sau a tranzacțiilor de urgență;
 
-prezintă adunării generale raportul anual al Consiliului cu privire la monitorizarea și supravegherea activității administratorului;
+d) prezintă adunării generale raportul anual al Consiliului cu privire la monitorizarea și supravegherea activității administratorului;
 
-semnează cererile de chemare în judecată sau alte acte juridice exclusiv în cazul în care a fost împuternicit în mod expres, prin hotărârea adunării generale a proprietarilor, în litigiile deschise împotriva Administratorului Asociației conform pct. 15.11 lit. f). *(lit. e))*
+e) semnează cererile de chemare în judecată sau alte acte juridice exclusiv în cazul în care a fost împuternicit în mod expres, prin hotărârea adunării generale a proprietarilor, în litigiile deschise împotriva Administratorului Asociației conform pct. 15.11 lit. f).
 
 ## XVII. COMISIA DE CENZORI (CENZOR) A ASOCIAȚIEI
 
-Comisia de cenzori (cenzorul) se alege de către adunarea generală din rândurile proprietarilor membri ai Asociației pe un termen de 3 ani. În componența comisiei de cenzori nu pot fi incluși membrii consiliului Asociației, administratorul Asociației, precum și persoanele afiliate cu aceștia (soțul/soția, rudele sau afinii până la gradul al doilea inclusiv). *(pct. 17.1)*
+17.1. Comisia de cenzori (cenzorul) se alege de către adunarea generală din rândurile proprietarilor membri ai Asociației pe un termen de 3 ani. În componența comisiei de cenzori nu pot fi incluși membrii consiliului Asociației, administratorul Asociației, precum și persoanele afiliate cu aceștia (soțul/soția, rudele sau afinii până la gradul al doilea inclusiv).
 
-Comisia de cenzori, în număr impar de cel puțin 3 membri, își alege din componența sa președintele comisiei, prin votul majorității membrilor săi. *(pct. 17.2)*
+17.2. Comisia de cenzori, în număr impar de cel puțin 3 membri, își alege din componența sa președintele comisiei, prin votul majorității membrilor săi.
 
-Comisia de cenzori (cenzorul) exercită următoarele atribuții stricte de control: *(pct. 17.3)*
+17.3. Comisia de cenzori (cenzorul) exercită următoarele atribuții stricte de control:
 
-monitorizează activitatea Asociației în conformitate cu legea și cu alte acte normative, precum și conform hotărârilor adunării generale;
+a) monitorizează activitatea Asociației în conformitate cu legea și cu alte acte normative, precum și conform hotărârilor adunării generale;
 
-efectuează reviziile complete ale activității financiar-economice ale Asociației cel puțin o dată pe an, în mod obligatoriu în termen de maximum 45 de zile calendaristice de la încheierea exercițiului financiar și înainte de desfășurarea adunării generale anuale; *(lit. b))*
+b) efectuează reviziile complete ale activității financiar-economice ale Asociației cel puțin o dată pe an, în mod obligatoriu în termen de maximum 45 de zile calendaristice de la încheierea exercițiului financiar și înainte de desfășurarea adunării generale anuale;
 
-prezintă adunării generale avize scrise asupra proiectului devizului anual de venituri și cheltuieli, dării de seamă anuale și mărimilor plăților obligatorii stabilite pentru membrii Asociației. Raportul anual de revizie financiară va fi adus la cunoștința tuturor proprietarilor prin plasarea obligatorie pe platforma electronică sau folderul digital (cloud) al Asociației cu cel puțin 10 și de zile calendaristice înainte de data desfășurării adunării generale ordinarie; *(lit. c))*
+c) prezintă adunării generale avize scrise asupra proiectului devizului anual de venituri și cheltuieli, dării de seamă anuale și mărimilor plăților obligatorii stabilite pentru membrii Asociației. Raportul anual de revizie financiară va fi adus la cunoștința tuturor proprietarilor prin plasarea obligatorie pe platforma electronică sau folderul digital (cloud) al Asociației cu cel puțin 10 și de zile calendaristice înainte de data desfășurării adunării generale ordinarie;
 
-raportează despre activitatea sa și prezintă raportul anual de revizie financiară în mod exclusiv în fața adunării generale a proprietarilor, fiind organul suprem în fața căruia răspunde;
+d) raportează despre activitatea sa și prezintă raportul anual de revizie financiară în mod exclusiv în fața adunării generale a proprietarilor, fiind organul suprem în fața căruia răspunde;
 
-solicită administratorului și membrilor consiliului, în formă scrisă, remedierea imediată a erorilor, a încălcărilor contabile sau administrative și a neajunsurilor constatate în procesul exercitării atribuțiilor.
+e) solicită administratorului și membrilor consiliului, în formă scrisă, remedierea imediată a erorilor, a încălcărilor contabile sau administrative și a neajunsurilor constatate în procesul exercitării atribuțiilor.
 
-Membrii comisiei de cenzori (cenzorul) sânt în drept să participe la ședințele consiliului Asociației sau la audierile administrative fără drept de vot, având acces neîngrădit la toate documentele contabile, facturile, extrasele bancare și contractele Asociației, inclusiv pe sub-conturile fiecărui bloc.
+17.4. Membrii comisiei de cenzori (cenzorul) sânt în drept să participe la ședințele consiliului Asociației sau la audierile administrative fără drept de vot, având acces neîngrădit la toate documentele contabile, facturile, extrasele bancare și contractele Asociației, inclusiv pe sub-conturile fiecărui bloc.
 
 ## XVIII. DISPOZIȚII FINALE
 
-Asociația nu se poate transforma într-o persoană juridică cu o altă formă juridică de organizare (cum ar fi societăți comerciale, SRL, SA etc.), păstrându-și permanent statutul necomercial de Asociație de proprietari din condominiu.
+18.1. Asociația nu se poate transforma într-o persoană juridică cu o altă formă juridică de organizare (cum ar fi societăți comerciale, SRL, SA etc.), păstrându-și permanent statutul necomercial de Asociație de proprietari din condominiu.
 
-Prezentul Statut intră în vigoare la data înregistrării de stat la Agenția Servicii Publice a Republicii Moldova. Orice modificări sau completări ulterioare ale prezentului Statut vor fi aprobate exclusiv de către adunarea generală în condițiile legii și vor fi supuse înregistrării de stat. *(pct. 18.2)*
+18.2. Prezentul Statut intră în vigoare la data înregistrării de stat la Agenția Servicii Publice a Republicii Moldova. Orice modificări sau completări ulterioare ale prezentului Statut vor fi aprobate exclusiv de către adunarea generală în condițiile legii și vor fi supuse înregistrării de stat.
