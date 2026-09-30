@@ -103,7 +103,7 @@ mun. Chișinău, sec. Buiucani, str. Liviu Deleanu, nr.3, MD-2071.
 
 2.2. Condominiul Asociației este alcătuit din următoarele bunuri imobile:
 
-Construcția cu numărul cadastral 0100509.106.1, cu adresa în mun. Chișinău, str. Liviu Deleanu 3, MD-2071.
+Construcția cu numărul cadastral [omis în versiunea publică], cu adresa în mun. Chișinău, str. Liviu Deleanu 3, MD-2071.
 
 2.2.1. În conformitate cu art. 54 alin. (2) din Legea nr. 187/2022, Asociația va asigura deschiderea de conturi bancare și va ține o evidență contabilă strict a veniturilor și cheltuielilor. Fondurile acumulate pot fi utilizate exclusiv pentru întreținerea, reparația și deservirea clădirii.
 

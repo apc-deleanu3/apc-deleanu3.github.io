@@ -55,6 +55,18 @@
     window.addEventListener('scroll', function () { if (!ticking) { ticking = true; window.requestAnimationFrame(check); } }, { passive: true });
   }
 
+  // texts that expire by themselves: data-until hides an element from that moment on, data-from
+  // shows it only from that moment on. Dates are written with their offset, e.g. 2026-10-05T20:00:00+03:00.
+  var dated = document.querySelectorAll('[data-until],[data-from]');
+  function expire() {
+    var now = Date.now();
+    each(dated, function (el) {
+      var u = Date.parse(el.getAttribute('data-until') || ''), f = Date.parse(el.getAttribute('data-from') || '');
+      el.classList.toggle('expired', (u === u && now >= u) || (f === f && now < f));
+    });
+  }
+  if (dated.length) { expire(); setInterval(expire, 60000); }
+
   // print everything, including closed answers
   var opened = [];
   window.addEventListener('beforeprint', function () {
@@ -84,6 +96,8 @@
     store: store,
     lang: function () { return d.lang === 'ru' ? 'ru' : 'ro'; },
     t: function (ro, ru) { return d.lang === 'ru' ? ru : ro; },
+    // the same rule as data-until / data-from, for texts built in scripts
+    past: function (iso) { return Date.now() >= Date.parse(iso); },
     fmt: function (n) { return Number(n).toLocaleString('ro-MD', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); },
     onLang: function (fn) { document.addEventListener('apc:lang', function (e) { fn(e.detail); }); },
     // "Ap. 24A", "24 a" and "24а" (Cyrillic a) all mean apartment 24a

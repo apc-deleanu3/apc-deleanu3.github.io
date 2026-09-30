@@ -4,6 +4,11 @@ title_ru: "Общее собрание 2026 — повестка дня"
 description: "Ordinea de zi a Adunării Generale 2026 a A.P.C. A0120-0351, cum se votează și unde se predă buletinul (termen: 5 octombrie 2026, ora 20:00)."
 ---
 
+<div class="facts" data-from="2026-10-05T20:00:00+03:00">
+<p lang="ro"><strong>Votul s-a încheiat luni, 5 octombrie 2026, ora 20:00.</strong> Rezultatele se anunță pe canalul Viber „Anunțuri APC Deleanu 3” și pe panoul informativ de la etajul 1 al fiecărei scări.</p>
+<p lang="ru"><strong>Голосование завершилось в понедельник, 5 октября 2026, в 20:00.</strong> Результаты будут объявлены в Viber-канале «Anunțuri APC Deleanu 3» и на информационном стенде на 1-м этаже каждого подъезда.</p>
+</div>
+
 <div class="summary" lang="ru" markdown="1">
 ### Кратко по-русски
 
@@ -16,7 +21,7 @@ description: "Ordinea de zi a Adunării Generale 2026 a A.P.C. A0120-0351, cum s
 Собрание 20 сентября не собрало кворум, поэтому было созвано **повторное Общее собрание: среда, 23 сентября 2026, 20:00, перед подъездом 5** (смешанная форма — очно и по бюллетеням). Официальным является текст на румынском языке.
 </div>
 
-<div class="facts" lang="ro" markdown="1">
+<div class="facts" lang="ro" markdown="1" data-until="2026-10-05T20:00:00+03:00">
 - **Termen-limită pentru buletinele de vot: luni, 5 octombrie 2026, ora 20:00.**
 - **Unde se predă:** unui membru al Consiliului — în cutia poștală sau personal ([detalii](#unde-se-predă-buletinul)).
 - **Formă:** mixtă — cu prezență și prin corespondență (buletine de vot).

@@ -1,0 +1,6 @@
+# Site-ul asociației de proprietari A.P.C. A0120-0351 (str. Liviu Deleanu 3, Chișinău).
+# Paginile pot apărea în căutări, ca proprietarii să găsească site-ul.
+# Fișierele de date (suprafețele apartamentelor, lista lucrărilor) nu se indexează.
+# Atenție: acest fișier nu ascunde nimic; tot ce este pe site este public.
+User-agent: *
+Disallow: /data/

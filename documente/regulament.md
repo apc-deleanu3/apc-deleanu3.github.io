@@ -34,7 +34,8 @@ description: "Proiectul Regulamentului de ordine internă al A.P.C. A0120-0351, 
 - **Штрафы:** от 1 до 30 условных единиц в зависимости от нарушения; за некоторые — плюс 1–3 у. е. за каждый день до устранения. Включаются в следующую квитанцию. (Приложение № 2)
 </div>
 
-> **Proiect supus aprobării Adunării Generale — nu este încă în vigoare.** Votul are loc prin buletine până la 5 octombrie 2026. Mențiunile din text despre aprobarea „din 20.09.2026” provin din proiect și vor fi valabile doar dacă Adunarea Generală îl aprobă. Versiune publică, fără date personale (27.09.2026).
+<blockquote data-until="2026-10-05T20:00:00+03:00"><p><strong>Proiect supus aprobării Adunării Generale — nu este încă în vigoare.</strong> Votul are loc prin buletine până la 5 octombrie 2026. Mențiunile din text despre aprobarea „din 20.09.2026” provin din proiect și vor fi valabile doar dacă Adunarea Generală îl aprobă. Versiune publică, fără date personale (27.09.2026).</p></blockquote>
+<blockquote data-from="2026-10-05T20:00:00+03:00"><p><strong>Proiect supus votului Adunării Generale până la 5 octombrie 2026.</strong> Rezultatul votului se anunță pe canalul Viber „Anunțuri APC Deleanu 3” și pe panoul informativ; până atunci regulamentul nu este în vigoare. Mențiunile din text despre aprobarea „din 20.09.2026” provin din proiect. Versiune publică, fără date personale (27.09.2026).</p></blockquote>
 
 <div class="doc-cover" markdown="1">
 Asociația Proprietarilor din Condominiu APC „ A0120-0351”  
