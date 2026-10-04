@@ -8,6 +8,8 @@ description: "Bugetul 2026 al A.P.C. A0120-0351: cotizația lunară pe m², chel
 ### Кратко по-русски
 
 Проект бюджета, вынесенный на голосование (Приложение № 1 к бюллетеню). Ежемесячный взнос: 1,00 лей/м² (IMGFL) + 2,70 лей/м² (ассоциация) = 3,70 лей/м². Из 2,70 лей: 1,35 — фонд ремонта и развития (отдельный счёт), 0,10 — резервный фонд, остальное — уборка и содержание (0,96), бухгалтерия (0,24) и непредвиденные расходы (0,05). Вступительный взнос — 100 лей с квартиры, один раз. Приложение № 1 рассчитано на 12 700 м²; фактическая площадь по кадастру — 12 779,5 м². Тарифы за м² не меняются: при 2,70 лей/м² ежемесячные платежи составляют 34 504,65 лей.
+
+В счёте есть и услуги вне бюджета ассоциации, за которые не голосуют: их тарифы устанавливают поставщики. Лифт — 24,15 лей и вывоз отходов — 17,50 лей за каждого человека (Постановление Правительства № 281/2024, п. 87 и 94), радио — 8,46 лей за радиоточку. Тарифы — из счёта IMGFL за август 2026 года. Пример: квартира площадью 50 м², 2 человека — 135,00 + 50,00 + 2 × 41,65 = 268,30 лей в месяц.
 </div>
 
 > Propus spre aprobare la Adunarea Generală din 2026 (Anexa nr. 1 la buletinul de vot), cu menținerea aceleiași structuri pentru 2027. Sumele din tabel sunt cele din Anexa nr. 1, calculată pentru 12.700 m² și 222 de apartamente.
@@ -54,3 +56,16 @@ Anexa nr. 1 a fost calculată pentru 12.700 m². Suprafața reală a celor 222 d
 
 O singură dată: **100 lei / apartament** (222 × 100 = 22.200 lei).
 
+## Ce mai este pe factură, în afara bugetului
+
+Factura lunară mai cuprinde servicii care nu fac parte din bugetul asociației și nu se votează: tarifele le stabilesc prestatorii.
+
+| Serviciu | Cum se calculează | Tarif |
+|---|---|---:|
+| Ascensor | pe persoană | 24,15 lei |
+| Transportarea deșeurilor | pe persoană | 17,50 lei |
+| Radio | pe punct de radio, dacă îl aveți | 8,46 lei |
+
+Ascensorul și deșeurile se plătesc după numărul de persoane, nu după suprafață (Hotărârea Guvernului nr. 281/2024, pct. 87 și 94). Tarifele sunt cele de pe factura IMGFL din august 2026. Suma pentru apartamentul dvs., cu numărul de persoane, o vedeți în [calculatorul de pe pagina principală]({{ '/' | relative_url }}#cotizatie).
+
+Exemplu: un apartament de 50 m² cu 2 persoane plătește 135,00 lei asociației + 50,00 lei IMGFL + 2 × 41,65 lei pentru ascensor și deșeuri = **268,30 lei pe lună**.
