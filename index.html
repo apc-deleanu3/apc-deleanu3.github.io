@@ -99,7 +99,7 @@
           <label for="pers"><span lang="ro">Persoane în apartament</span><span lang="ru">Человек в квартире</span></label>
           <input id="pers" type="number" inputmode="numeric" min="0" max="30" step="1" autocomplete="off">
         </div>
-        <p class="hint"><span lang="ro">Numărul îl găsiți pe factura IMGFL, coloana „Consum”, la „Lift” și „Transportare deșeuri”. Cifra nu se salvează și nu se trimite nicăieri.</span><span lang="ru">Это число указано в счёте IMGFL, в колонке «Consum», в строках «Lift» и «Transportare deșeuri». Оно нигде не сохраняется и никуда не отправляется.</span></p>
+        <p class="hint"><span lang="ro">Numărul îl găsiți pe factura IMGFL, coloana „Consum”, la „Lift” și „Transportare deșeuri”. Cifra nu se salvează și nu se trimite nicăieri. Cine este scutit de plata ascensorului stabilește Guvernul (Hotărârea nr. 281/2024, pct. 88–89), nu asociația; scutirea o aplică cel care emite factura.</span><span lang="ru">Это число указано в счёте IMGFL, в колонке «Consum», в строках «Lift» и «Transportare deșeuri». Оно нигде не сохраняется и никуда не отправляется. Кто освобождён от оплаты лифта, определяет Правительство (Постановление № 281/2024, п. 88–89), а не ассоциация; освобождение применяет тот, кто выставляет счёт.</span></p>
         <p class="hint" data-until="2026-10-05T20:00:00+03:00"><span lang="ro">Suma se calculează după suprafața din registrul cadastral și după bugetul 2026 propus spre aprobare.</span><span lang="ru">Сумма рассчитывается по площади из кадастрового реестра и по проекту бюджета 2026.</span></p>
         <p class="hint" data-from="2026-10-05T20:00:00+03:00"><span lang="ro">Suma se calculează după suprafața din registrul cadastral și după bugetul 2026 supus votului până la 5 octombrie; rezultatul votului se anunță pe canalul Viber „Anunțuri APC Deleanu 3”.</span><span lang="ru">Сумма рассчитывается по площади из кадастрового реестра и по бюджету 2026, вынесенному на голосование до 5 октября; результат голосования будет объявлен в Viber-канале «Anunțuri APC Deleanu 3».</span></p>
         <div class="result" id="dues-out" aria-live="polite">
@@ -108,14 +108,6 @@
           <p lang="ro" data-from="2026-10-05T20:00:00+03:00">Cotizația din bugetul 2026 supus votului până la 5 octombrie este de 3,70 lei pe m² pe lună: 2,70 lei asociației și 1,00 lei către IMGFL. La ea se adaugă ascensorul și deșeurile, care se plătesc pe persoană. Introduceți numărul apartamentului ca să vedeți suma exactă.</p>
           <p lang="ru" data-from="2026-10-05T20:00:00+03:00">Взнос по бюджету 2026, вынесенному на голосование до 5 октября, — 3,70 лей за м² в месяц: 2,70 лей ассоциации и 1,00 лей IMGFL. К нему добавляются лифт и вывоз отходов, которые оплачиваются за каждого человека. Введите номер квартиры, чтобы увидеть точную сумму.</p>
         </div>
-        <details class="alt" id="scutiri">
-          <summary><span lang="ro">Cine nu plătește ascensorul</span><span lang="ru">Кто не платит за лифт</span></summary>
-          <p class="hint"><span lang="ro">Nu plătesc ascensorul: copiii sub 3 ani; proprietarii și locatarii de la parter și de la etajul 1, dacă nu au locuri de parcare sau alte unități în subsolul blocului și nu folosesc ascensorul pentru ele; persoanele cu dizabilități severe imobilizate la pat (Hotărârea Guvernului nr. 281/2024, pct. 88–89).</span><span lang="ru">Не платят за лифт: дети до 3 лет; собственники и жильцы первого и второго этажа (parter и etajul 1), если у них нет парковочных мест или других помещений в подвале дома и они не пользуются лифтом для них; лица с тяжёлой инвалидностью, прикованные к постели (Постановление Правительства № 281/2024, п. 88–89).</span></p>
-          <div class="field">
-            <label for="scut"><span lang="ro">Câte persoane din apartament sunt scutite</span><span lang="ru">Сколько жильцов освобождены</span></label>
-            <input id="scut" type="number" inputmode="numeric" min="0" max="30" step="1" autocomplete="off">
-          </div>
-        </details>
         <details class="alt">
           <summary><span lang="ro">Calculați după suprafață (m²)</span><span lang="ru">Рассчитать по площади (м²)</span></summary>
           <div class="field">
@@ -459,7 +451,7 @@
   var LIFT = 24.15, DESEURI = 17.50, RADIO = 8.46;
   // fondul de reparație, curățenie și întreținere (0,63 + 0,28 + 0,05), contabilitate, fondul de rezervă, neprevăzute
   var PARTS = [1.35, 0.96, 0.24, 0.10, 0.05];
-  var apIn = $('ap'), m2In = $('m2'), persIn = $('pers'), scutIn = $('scut'), out = $('dues-out'), norm = APC.apKey, pick = function () {};
+  var apIn = $('ap'), m2In = $('m2'), persIn = $('pers'), out = $('dues-out'), norm = APC.apKey, pick = function () {};
   function line(cls, text) { var p = document.createElement('p'); p.className = cls; p.textContent = text; return p; }
   function r2(x) { return Math.round(x * 100) / 100; }
   function count(el) { var n = parseInt(el.value, 10); return n >= 0 && n <= 30 ? n : null; }
@@ -521,7 +513,7 @@
       money(0); return;
     }
     var apc = r2(area * RATE), im = r2(area * IMGFL), byArea = r2(apc + im);
-    var n = count(persIn), ex = Math.min(count(scutIn) || 0, n || 0);
+    var n = count(persIn);
     out.appendChild(line('who', who));
     var big = line('big', '');
     var small = document.createElement('small');
@@ -534,14 +526,14 @@
         '+ ' + fmt(LIFT + DESEURI) + ' лей за каждого человека (лифт ' + fmt(LIFT) + ' + отходы ' + fmt(DESEURI) + ')')));
       out.appendChild(line('hint', t('Introduceți numărul de persoane ca să vedeți totalul.', 'Введите число жильцов, чтобы увидеть итог.')));
     } else {
-      var lift = r2((n - ex) * LIFT), des = r2(n * DESEURI);
+      var lift = r2(n * LIFT), des = r2(n * DESEURI);
       big.textContent = fmt(r2(byArea + lift + des)) + t(' lei ', ' лей ');
       small.textContent = t('pe lună', 'в месяц');
       big.appendChild(small); out.appendChild(big);
       out.appendChild(bill([
         [t('Asociația', 'Ассоциация'), t('după suprafață, ' + fmt(RATE) + ' lei/m²', 'по площади, ' + fmt(RATE) + ' лей/м²'), apc],
         ['IMGFL', t('după suprafață, ' + fmt(IMGFL) + ' lei/m²', 'по площади, ' + fmt(IMGFL) + ' лей/м²'), im],
-        [t('Ascensor', 'Лифт'), t('după persoane, ' + (n - ex) + ' × ' + fmt(LIFT) + ' lei', 'по числу жильцов, ' + (n - ex) + ' × ' + fmt(LIFT) + ' лей'), lift],
+        [t('Ascensor', 'Лифт'), t('după persoane, ' + n + ' × ' + fmt(LIFT) + ' lei', 'по числу жильцов, ' + n + ' × ' + fmt(LIFT) + ' лей'), lift],
         [t('Deșeuri', 'Отходы'), t('după persoane, ' + n + ' × ' + fmt(DESEURI) + ' lei', 'по числу жильцов, ' + n + ' × ' + fmt(DESEURI) + ' лей'), des]
       ]));
       out.appendChild(line('hint', t('Radio: + ' + fmt(RADIO) + ' lei, dacă aveți punct de radio.', 'Радио: + ' + fmt(RADIO) + ' лей, если у вас есть радиоточка.')));
@@ -552,7 +544,7 @@
   }
   apIn.addEventListener('input', function () { if (apIn.value) m2In.value = ''; render(); });
   m2In.addEventListener('input', function () { if (m2In.value) apIn.value = ''; render(); });
-  persIn.addEventListener('input', render); scutIn.addEventListener('input', render);
+  persIn.addEventListener('input', render);
   fetch('data/apartamente.csv', { cache: 'no-cache' }).then(function (r) { return r.text(); }).then(function (txt) {
     var rows = txt.trim().split(/\r?\n/), head = rows.shift().split(',');
     rows.forEach(function (l) {
