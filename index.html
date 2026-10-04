@@ -10,7 +10,7 @@
 <meta property="og:url" content="https://apc-deleanu3.github.io/">
 <meta property="og:type" content="website">
 <script>(function(){var d=document.documentElement,l=null,t=null;try{l=localStorage.getItem('apc-lang');t=localStorage.getItem('apc-text')}catch(e){}if(!l&&/^ru/i.test(navigator.language||''))l='ru';if(l==='ru')d.lang='ru';if(t==='mare')d.setAttribute('data-text','mare')})();</script>
-<link rel="stylesheet" href="assets/style.css?v=20260930">
+<link rel="stylesheet" href="assets/style.css?v=20261004">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='6' width='26' height='24' fill='%238a949e'/%3E%3Crect x='13' y='20' width='6' height='10' fill='%232f7d5b'/%3E%3C/svg%3E">
 </head>
 <body id="top">
@@ -95,14 +95,27 @@
           <input id="ap" type="text" inputmode="numeric" enterkeyhint="done" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="ex. 45">
         </div>
         <div class="ap-pick" id="ap-pick" aria-live="polite" hidden></div>
+        <div class="field field-next">
+          <label for="pers"><span lang="ro">Persoane în apartament</span><span lang="ru">Человек в квартире</span></label>
+          <input id="pers" type="number" inputmode="numeric" min="0" max="30" step="1" autocomplete="off">
+        </div>
+        <p class="hint"><span lang="ro">Numărul îl găsiți pe factura IMGFL, coloana „Consum”, la „Lift” și „Transportare deșeuri”. Cifra nu se salvează și nu se trimite nicăieri.</span><span lang="ru">Это число указано в счёте IMGFL, в колонке «Consum», в строках «Lift» и «Transportare deșeuri». Оно нигде не сохраняется и никуда не отправляется.</span></p>
         <p class="hint" data-until="2026-10-05T20:00:00+03:00"><span lang="ro">Suma se calculează după suprafața din registrul cadastral și după bugetul 2026 propus spre aprobare.</span><span lang="ru">Сумма рассчитывается по площади из кадастрового реестра и по проекту бюджета 2026.</span></p>
         <p class="hint" data-from="2026-10-05T20:00:00+03:00"><span lang="ro">Suma se calculează după suprafața din registrul cadastral și după bugetul 2026 supus votului până la 5 octombrie; rezultatul votului se anunță pe canalul Viber „Anunțuri APC Deleanu 3”.</span><span lang="ru">Сумма рассчитывается по площади из кадастрового реестра и по бюджету 2026, вынесенному на голосование до 5 октября; результат голосования будет объявлен в Viber-канале «Anunțuri APC Deleanu 3».</span></p>
         <div class="result" id="dues-out" aria-live="polite">
-          <p lang="ro" data-until="2026-10-05T20:00:00+03:00">Cotizația propusă în bugetul 2026 (supus votului) este de 3,70 lei pe m² pe lună: 2,70 lei asociației și 1,00 lei către IMGFL. Introduceți numărul apartamentului ca să vedeți suma exactă.</p>
-          <p lang="ru" data-until="2026-10-05T20:00:00+03:00">Предлагаемый взнос по бюджету 2026 (на голосовании) — 3,70 лей за м² в месяц: 2,70 лей ассоциации и 1,00 лей IMGFL. Введите номер квартиры, чтобы увидеть точную сумму.</p>
-          <p lang="ro" data-from="2026-10-05T20:00:00+03:00">Cotizația din bugetul 2026 supus votului până la 5 octombrie este de 3,70 lei pe m² pe lună: 2,70 lei asociației și 1,00 lei către IMGFL. Introduceți numărul apartamentului ca să vedeți suma exactă.</p>
-          <p lang="ru" data-from="2026-10-05T20:00:00+03:00">Взнос по бюджету 2026, вынесенному на голосование до 5 октября, — 3,70 лей за м² в месяц: 2,70 лей ассоциации и 1,00 лей IMGFL. Введите номер квартиры, чтобы увидеть точную сумму.</p>
+          <p lang="ro" data-until="2026-10-05T20:00:00+03:00">Cotizația propusă în bugetul 2026 (supus votului) este de 3,70 lei pe m² pe lună: 2,70 lei asociației și 1,00 lei către IMGFL. La ea se adaugă ascensorul și deșeurile, care se plătesc pe persoană. Introduceți numărul apartamentului ca să vedeți suma exactă.</p>
+          <p lang="ru" data-until="2026-10-05T20:00:00+03:00">Предлагаемый взнос по бюджету 2026 (на голосовании) — 3,70 лей за м² в месяц: 2,70 лей ассоциации и 1,00 лей IMGFL. К нему добавляются лифт и вывоз отходов, которые оплачиваются за каждого человека. Введите номер квартиры, чтобы увидеть точную сумму.</p>
+          <p lang="ro" data-from="2026-10-05T20:00:00+03:00">Cotizația din bugetul 2026 supus votului până la 5 octombrie este de 3,70 lei pe m² pe lună: 2,70 lei asociației și 1,00 lei către IMGFL. La ea se adaugă ascensorul și deșeurile, care se plătesc pe persoană. Introduceți numărul apartamentului ca să vedeți suma exactă.</p>
+          <p lang="ru" data-from="2026-10-05T20:00:00+03:00">Взнос по бюджету 2026, вынесенному на голосование до 5 октября, — 3,70 лей за м² в месяц: 2,70 лей ассоциации и 1,00 лей IMGFL. К нему добавляются лифт и вывоз отходов, которые оплачиваются за каждого человека. Введите номер квартиры, чтобы увидеть точную сумму.</p>
         </div>
+        <details class="alt" id="scutiri">
+          <summary><span lang="ro">Cine nu plătește ascensorul</span><span lang="ru">Кто не платит за лифт</span></summary>
+          <p class="hint"><span lang="ro">Nu plătesc ascensorul: copiii sub 3 ani; proprietarii și locatarii de la parter și de la etajul 1, dacă nu au locuri de parcare sau alte unități în subsolul blocului și nu folosesc ascensorul pentru ele; persoanele cu dizabilități severe imobilizate la pat (Hotărârea Guvernului nr. 281/2024, pct. 88–89).</span><span lang="ru">Не платят за лифт: дети до 3 лет; собственники и жильцы первого и второго этажа (parter и etajul 1), если у них нет парковочных мест или других помещений в подвале дома и они не пользуются лифтом для них; лица с тяжёлой инвалидностью, прикованные к постели (Постановление Правительства № 281/2024, п. 88–89).</span></p>
+          <div class="field">
+            <label for="scut"><span lang="ro">Câte persoane din apartament sunt scutite</span><span lang="ru">Сколько жильцов освобождены</span></label>
+            <input id="scut" type="number" inputmode="numeric" min="0" max="30" step="1" autocomplete="off">
+          </div>
+        </details>
         <details class="alt">
           <summary><span lang="ro">Calculați după suprafață (m²)</span><span lang="ru">Рассчитать по площади (м²)</span></summary>
           <div class="field">
@@ -122,7 +135,8 @@
           <li><span class="lbl"><span lang="ro">Fondul de rezervă</span><span lang="ru">Резервный фонд</span></span><span class="val">4 lei</span><span class="bar" style="width:3.7%"></span></li>
           <li><span class="lbl"><span lang="ro">Cheltuieli neprevăzute</span><span lang="ru">Непредвиденные расходы</span></span><span class="val">2 lei</span><span class="bar" style="width:1.85%"></span></li>
         </ol>
-        <p class="hint"><span lang="ro">Suma către IMGFL (1,00 lei/m²) nu intră în această împărțire.</span><span lang="ru">Сумма для IMGFL (1,00 лей/м²) сюда не входит.</span></p>
+        <p class="hint"><span lang="ro">Suma către IMGFL (1,00 lei/m²), ascensorul și deșeurile nu intră în această împărțire.</span><span lang="ru">Сумма для IMGFL (1,00 лей/м²), лифт и вывоз отходов сюда не входят.</span></p>
+        <p class="hint"><span lang="ro">Ascensorul și deșeurile se plătesc pe persoană, nu pe m² (Hotărârea Guvernului nr. 281/2024, pct. 87 și 94). Tarifele le stabilesc prestatorii, nu bugetul asociației. Calculul folosește tarifele de pe factura IMGFL cu termenul de plată 31.08.2026: ascensor 24,15 lei, deșeuri 17,50 lei pe persoană.</span><span lang="ru">Лифт и вывоз отходов оплачиваются за каждого человека, а не за м² (Постановление Правительства № 281/2024, п. 87 и 94). Тарифы устанавливают поставщики услуг, а не бюджет ассоциации. В расчёте использованы тарифы из счёта IMGFL со сроком оплаты 31.08.2026: лифт 24,15 лей, отходы 17,50 лей за человека.</span></p>
         <p><a class="more" href="documente/buget-2026.html"><span lang="ro">Bugetul 2026 în detaliu</span><span lang="ru">Бюджет 2026 подробно</span></a></p>
       </div>
     </div>
@@ -305,8 +319,8 @@
     <details>
       <summary><span lang="ro">Ce este IMGFL?</span><span lang="ru">Что такое IMGFL?</span><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg?v=20260930#i-chevron-right"/></svg></summary>
       <div>
-        <p lang="ro">IMGFL este Întreprinderea Municipală de Gestionare a Fondului Locativ. Cotizația lunară din bugetul asociației include 1,00 lei pe m² către IMGFL, pe lângă cei 2,70 lei pe m² pentru asociație.</p>
-        <p lang="ru">IMGFL — муниципальное предприятие по управлению жилищным фондом (Întreprinderea Municipală de Gestionare a Fondului Locativ). Ежемесячный взнос по бюджету ассоциации включает 1,00 лей за м² для IMGFL и 2,70 лей за м² для ассоциации.</p>
+        <p lang="ro">IMGFL este Întreprinderea Municipală de Gestionare a Fondului Locativ. Cotizația lunară din bugetul asociației include 1,00 lei pe m² către IMGFL, pe lângă cei 2,70 lei pe m² pentru asociație. Pe factura IMGFL, cei 1,00 lei pe m² apar ca două rânduri: „Deservire bloc locativ” (0,62 lei/m²) și „Des. echipament tehn.” (0,38 lei/m²). Pe aceeași factură sunt ascensorul („Lift deservire tehn.”) și „Transportare deșeuri”, calculate pe persoană.</p>
+        <p lang="ru">IMGFL — муниципальное предприятие по управлению жилищным фондом (Întreprinderea Municipală de Gestionare a Fondului Locativ). Ежемесячный взнос по бюджету ассоциации включает 1,00 лей за м² для IMGFL и 2,70 лей за м² для ассоциации. В счёте IMGFL эти 1,00 лей за м² указаны двумя строками: «Deservire bloc locativ» (0,62 лей/м²) и «Des. echipament tehn.» (0,38 лей/м²). В том же счёте — лифт («Lift deservire tehn.») и вывоз отходов («Transportare deșeuri»), которые рассчитываются за каждого человека.</p>
       </div>
     </details>
     <details>
@@ -441,10 +455,25 @@
 
   // --- my apartment: exact monthly dues + where the money goes
   var APTS = {}, RATE = 2.70, IMGFL = 1.00;
+  // per person, from the IMGFL invoice due 31.08.2026 (HG nr. 281/2024 pct. 87, 94); radio is per unit and optional
+  var LIFT = 24.15, DESEURI = 17.50, RADIO = 8.46;
   // fondul de reparație, curățenie și întreținere (0,63 + 0,28 + 0,05), contabilitate, fondul de rezervă, neprevăzute
   var PARTS = [1.35, 0.96, 0.24, 0.10, 0.05];
-  var apIn = $('ap'), m2In = $('m2'), out = $('dues-out'), norm = APC.apKey, pick = function () {};
+  var apIn = $('ap'), m2In = $('m2'), persIn = $('pers'), scutIn = $('scut'), out = $('dues-out'), norm = APC.apKey, pick = function () {};
   function line(cls, text) { var p = document.createElement('p'); p.className = cls; p.textContent = text; return p; }
+  function r2(x) { return Math.round(x * 100) / 100; }
+  function count(el) { var n = parseInt(el.value, 10); return n >= 0 && n <= 30 ? n : null; }
+  function bill(rows) {
+    var ul = document.createElement('ul'); ul.className = 'bill';
+    rows.forEach(function (r) {
+      var li = document.createElement('li'), l = document.createElement('span'), v = document.createElement('span');
+      l.textContent = r[0];
+      if (r[1]) { var g = document.createElement('span'); g.className = 'grp'; g.textContent = r[1]; l.appendChild(g); }
+      v.className = 'val'; v.textContent = fmt(r[2]) + t(' lei', ' лей');
+      li.appendChild(l); li.appendChild(v); ul.appendChild(li);
+    });
+    return ul;
+  }
   // split an amount into the budget parts, in whole bani, so the parts always add up to the amount
   function bani(total) {
     var c = Math.round(total * 100), raw = PARTS.map(function (p) { return c * p / RATE; });
@@ -487,20 +516,43 @@
     drawFacade(); facadeLabel();
     if (area === null) {
       out.appendChild(line('', new Date() < deadline
-        ? t('Cotizația propusă în bugetul 2026 (supus votului) este de 3,70 lei pe m² pe lună: 2,70 lei asociației și 1,00 lei către IMGFL. Introduceți numărul apartamentului ca să vedeți suma exactă.', 'Предлагаемый взнос по бюджету 2026 (на голосовании) — 3,70 лей за м² в месяц: 2,70 лей ассоциации и 1,00 лей IMGFL. Введите номер квартиры, чтобы увидеть точную сумму.')
-        : t('Cotizația din bugetul 2026 supus votului până la 5 octombrie este de 3,70 lei pe m² pe lună: 2,70 lei asociației și 1,00 lei către IMGFL. Introduceți numărul apartamentului ca să vedeți suma exactă.', 'Взнос по бюджету 2026, вынесенному на голосование до 5 октября, — 3,70 лей за м² в месяц: 2,70 лей ассоциации и 1,00 лей IMGFL. Введите номер квартиры, чтобы увидеть точную сумму.')));
+        ? t('Cotizația propusă în bugetul 2026 (supus votului) este de 3,70 lei pe m² pe lună: 2,70 lei asociației și 1,00 lei către IMGFL. La ea se adaugă ascensorul și deșeurile, care se plătesc pe persoană. Introduceți numărul apartamentului ca să vedeți suma exactă.', 'Предлагаемый взнос по бюджету 2026 (на голосовании) — 3,70 лей за м² в месяц: 2,70 лей ассоциации и 1,00 лей IMGFL. К нему добавляются лифт и вывоз отходов, которые оплачиваются за каждого человека. Введите номер квартиры, чтобы увидеть точную сумму.')
+        : t('Cotizația din bugetul 2026 supus votului până la 5 octombrie este de 3,70 lei pe m² pe lună: 2,70 lei asociației și 1,00 lei către IMGFL. La ea se adaugă ascensorul și deșeurile, care se plătesc pe persoană. Introduceți numărul apartamentului ca să vedeți suma exactă.', 'Взнос по бюджету 2026, вынесенному на голосование до 5 октября, — 3,70 лей за м² в месяц: 2,70 лей ассоциации и 1,00 лей IMGFL. К нему добавляются лифт и вывоз отходов, которые оплачиваются за каждого человека. Введите номер квартиры, чтобы увидеть точную сумму.')));
       money(0); return;
     }
-    var apc = Math.round(area * RATE * 100) / 100, im = Math.round(area * IMGFL * 100) / 100;
+    var apc = r2(area * RATE), im = r2(area * IMGFL), byArea = r2(apc + im);
+    var n = count(persIn), ex = Math.min(count(scutIn) || 0, n || 0);
     out.appendChild(line('who', who));
-    var big = line('big', fmt(apc + im) + t(' lei ', ' лей '));
-    var small = document.createElement('small'); small.textContent = t('pe lună', 'в месяц'); big.appendChild(small);
-    out.appendChild(big);
-    out.appendChild(line('split', t(fmt(apc) + ' lei asociației + ' + fmt(im) + ' lei IMGFL', fmt(apc) + ' лей ассоциации + ' + fmt(im) + ' лей IMGFL')));
+    var big = line('big', '');
+    var small = document.createElement('small');
+    if (n === null) {
+      big.textContent = fmt(byArea) + t(' lei ', ' лей ');
+      small.textContent = t('pe lună, după suprafață', 'в месяц, по площади');
+      big.appendChild(small); out.appendChild(big);
+      out.appendChild(line('split', t(fmt(apc) + ' lei asociației + ' + fmt(im) + ' lei IMGFL', fmt(apc) + ' лей ассоциации + ' + fmt(im) + ' лей IMGFL')));
+      out.appendChild(line('plus', t('+ ' + fmt(LIFT + DESEURI) + ' lei pentru fiecare persoană (ascensor ' + fmt(LIFT) + ' + deșeuri ' + fmt(DESEURI) + ')',
+        '+ ' + fmt(LIFT + DESEURI) + ' лей за каждого человека (лифт ' + fmt(LIFT) + ' + отходы ' + fmt(DESEURI) + ')')));
+      out.appendChild(line('hint', t('Introduceți numărul de persoane ca să vedeți totalul.', 'Введите число жильцов, чтобы увидеть итог.')));
+    } else {
+      var lift = r2((n - ex) * LIFT), des = r2(n * DESEURI);
+      big.textContent = fmt(r2(byArea + lift + des)) + t(' lei ', ' лей ');
+      small.textContent = t('pe lună', 'в месяц');
+      big.appendChild(small); out.appendChild(big);
+      out.appendChild(bill([
+        [t('Asociația', 'Ассоциация'), t('după suprafață, ' + fmt(RATE) + ' lei/m²', 'по площади, ' + fmt(RATE) + ' лей/м²'), apc],
+        ['IMGFL', t('după suprafață, ' + fmt(IMGFL) + ' lei/m²', 'по площади, ' + fmt(IMGFL) + ' лей/м²'), im],
+        [t('Ascensor', 'Лифт'), t('după persoane, ' + (n - ex) + ' × ' + fmt(LIFT) + ' lei', 'по числу жильцов, ' + (n - ex) + ' × ' + fmt(LIFT) + ' лей'), lift],
+        [t('Deșeuri', 'Отходы'), t('după persoane, ' + n + ' × ' + fmt(DESEURI) + ' lei', 'по числу жильцов, ' + n + ' × ' + fmt(DESEURI) + ' лей'), des]
+      ]));
+      out.appendChild(line('hint', t('Radio: + ' + fmt(RADIO) + ' lei, dacă aveți punct de radio.', 'Радио: + ' + fmt(RADIO) + ' лей, если у вас есть радиоточка.')));
+      out.appendChild(line('hint', t('Ascensorul, deșeurile și cei ' + fmt(IMGFL) + ' lei/m² IMGFL sunt pe factura IMGFL și acum; nou este partea asociației.',
+        'Лифт, отходы и ' + fmt(IMGFL) + ' лей/м² IMGFL есть в счёте IMGFL и сейчас; новое — только часть ассоциации.')));
+    }
     money(apc);
   }
   apIn.addEventListener('input', function () { if (apIn.value) m2In.value = ''; render(); });
   m2In.addEventListener('input', function () { if (m2In.value) apIn.value = ''; render(); });
+  persIn.addEventListener('input', render); scutIn.addEventListener('input', render);
   fetch('data/apartamente.csv', { cache: 'no-cache' }).then(function (r) { return r.text(); }).then(function (txt) {
     var rows = txt.trim().split(/\r?\n/), head = rows.shift().split(',');
     rows.forEach(function (l) {
@@ -561,8 +613,8 @@
   }).catch(function () {});
 
   // texts built in JS follow the language switch
-  APC.onLang(function () { countdown(); calendar(); render(); qrLabels(); $('share-status').textContent = ''; apIn.placeholder = t('ex. 45', 'напр. 45'); });
-  apIn.placeholder = t('ex. 45', 'напр. 45');
+  APC.onLang(function () { countdown(); calendar(); render(); qrLabels(); $('share-status').textContent = ''; apIn.placeholder = t('ex. 45', 'напр. 45'); persIn.placeholder = t('ex. 2', 'напр. 2'); });
+  apIn.placeholder = t('ex. 45', 'напр. 45'); persIn.placeholder = t('ex. 2', 'напр. 2');
 })();
 </script>
 </body>
