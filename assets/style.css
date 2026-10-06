@@ -346,7 +346,7 @@ details.panel[open] > summary { margin-bottom: .6rem; }
 #msg-status .wait { color: var(--muted); }
 .panel.sent { border-color: var(--green); background: var(--green-tint); }
 .panel.sent p { margin: 0 0 .6rem; }
-#date-personale .paylist li { margin: .55rem 0; }
+.msg-info { margin-bottom: 2rem; }
 
 /* print */
 @media print {

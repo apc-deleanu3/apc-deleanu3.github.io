@@ -6,7 +6,7 @@
 <title>Sugestii | APC Deleanu 3</title>
 <meta name="description" content="Trimiteți asociației de proprietari de pe str. Liviu Deleanu 3 o sugestie sau o observație, fără nume și fără apartament.">
 <script>(function(){var d=document.documentElement,l=null,t=null;try{l=localStorage.getItem('apc-lang');t=localStorage.getItem('apc-text')}catch(e){}if(!l&&/^ru/i.test(navigator.language||''))l='ru';if(l==='ru')d.lang='ru';if(t==='mare')d.setAttribute('data-text','mare')})();</script>
-<link rel="stylesheet" href="assets/style.css?v=20261006">
+<link rel="stylesheet" href="assets/style.css?v=20261007">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='6' width='26' height='24' fill='%238a949e'/%3E%3Crect x='13' y='20' width='6' height='10' fill='%232f7d5b'/%3E%3C/svg%3E">
 </head>
 <body id="top">
@@ -26,18 +26,16 @@
   <main id="main">
   <h1 lang="ro">Sugestii și observații</h1>
   <h1 lang="ru">Предложения и замечания</h1>
-  <p lang="ro">Spuneți-ne ce merge bine, ce nu merge și ce ați schimba în bloc, în administrarea lui sau pe acest site. Mesajele le citesc membrii Consiliului asociației.</p>
-  <p lang="ru">Расскажите, что работает хорошо, что не работает и что бы вы изменили в доме, в его управлении или на этом сайте. Сообщения читают члены Совета ассоциации.</p>
-  <p class="tip" lang="ro">Mesajul este <strong>anonim</strong> pentru asociație: nu vă cerem numele, telefonul sau apartamentul și nu primim adresa IP, așa că nu vă putem răspunde. Dacă doriți un răspuns, scrieți la <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>. Pentru avarii sunați la numerele din <a href="./#avarii">„Avarii și urgențe”</a>: mesajele de aici nu se citesc imediat.</p>
-  <p class="tip" lang="ru">Сообщение <strong>анонимно</strong> для ассоциации: мы не спрашиваем имя, телефон или номер квартиры и не получаем IP-адрес, поэтому не сможем ответить. Если нужен ответ, напишите на <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>. При авариях звоните по номерам из раздела <a href="./#avarii">«Аварии и экстренные службы»</a>: сообщения отсюда читают не сразу.</p>
+  <p lang="ro">Spuneți-ne ce merge bine, ce nu merge și ce ați schimba în bloc sau pe acest site. Mesajul este <strong>anonim</strong>: nu cerem date personale și nu înregistrăm adresa IP.</p>
+  <p lang="ru">Расскажите, что работает хорошо, что не работает и что бы вы изменили в доме или на этом сайте. Сообщение <strong>анонимно</strong>: мы не спрашиваем персональные данные и не записываем IP-адрес.</p>
 
   <!-- data-endpoint: adresa aplicației web Google Apps Script (…/exec). Cât timp este goală, formularul
        nu se arată și pagina trimite la e-mail. Nimic nu pleacă spre Google înainte de „Trimiteți mesajul”. -->
-  <form class="panel msg" id="msg-form" data-endpoint="" novalidate hidden>
+  <form class="panel msg" id="msg-form" data-endpoint="https://script.google.com/macros/s/AKfycbwdm3LxsCWcHTYMYdzexZmL9t0XN0oDnFT5_yKvecHqbkIUxl4nZh-QbQfD4B4JrcFjEw/exec" novalidate hidden>
     <label for="mesaj"><span lang="ro">Mesajul dvs.</span><span lang="ru">Ваше сообщение</span></label>
     <textarea id="mesaj" name="mesaj" rows="8" maxlength="2000" required aria-describedby="mesaj-hint mesaj-count"></textarea>
     <div class="msg-under">
-      <p class="hint" id="mesaj-hint"><span lang="ro">Nu scrieți nume, telefoane sau alte date despre vecini ori despre dvs.</span><span lang="ru">Не пишите имена, телефоны и другие данные о соседях или о себе.</span></p>
+      <p class="hint" id="mesaj-hint"><span lang="ro">Nu scrieți nume, telefoane sau alte date personale.</span><span lang="ru">Не пишите имена, телефоны и другие персональные данные.</span></p>
       <p class="hint count" id="mesaj-count">0 / 2000</p>
     </div>
     <!-- capcană pentru roboți: un om nu vede și nu completează acest câmp -->
@@ -48,14 +46,11 @@
     <div class="actions">
       <button class="btn" type="submit" id="msg-send"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg?v=20260930#i-message-circle"/></svg><span lang="ro">Trimiteți mesajul</span><span lang="ru">Отправить сообщение</span></button>
     </div>
-    <p class="hint"><span lang="ro">Mesajul se păstrează <strong>12 luni</strong> de la trimitere, apoi se șterge automat. <a href="#date-personale" data-open>Cum folosim mesajul</a></span><span lang="ru">Сообщение хранится <strong>12 месяцев</strong> с момента отправки, затем удаляется автоматически. <a href="#date-personale" data-open>Как мы используем сообщение</a></span></p>
     <div id="msg-status" role="status" aria-live="polite"></div>
   </form>
 
   <div class="panel sent" id="msg-done" hidden tabindex="-1">
     <p><strong lang="ro">Mulțumim! Mesajul a fost trimis.</strong><strong lang="ru">Спасибо! Сообщение отправлено.</strong></p>
-    <p lang="ro">Membrii Consiliului îl vor citi. Mesajul se șterge automat după 12 luni.</p>
-    <p lang="ru">Члены Совета его прочитают. Сообщение удаляется автоматически через 12 месяцев.</p>
     <button class="btn ghost" type="button" id="msg-again"><span lang="ro">Scrieți alt mesaj</span><span lang="ru">Написать ещё</span></button>
   </div>
 
@@ -64,29 +59,10 @@
     <p lang="ru">Форма сейчас не работает. Напишите нам на <a href="mailto:apc.deleanu3@gmail.com?subject=Sugestie">apc.deleanu3@gmail.com</a>.</p>
   </div>
 
-  <details class="panel" id="date-personale">
-    <summary><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg?v=20260930#i-chevron-right"/></svg><span lang="ro">Cum folosim mesajul (protecția datelor)</span><span lang="ru">Как мы используем сообщение (защита данных)</span></summary>
-    <ul class="paylist" lang="ro">
-      <li><strong>Cine răspunde de date (operatorul):</strong> Asociația de Proprietari din Condominiu A0120-0351 (A.P.C. A0120-0351), str. Liviu Deleanu 3, Chișinău, <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>. Asociația nu are un responsabil cu protecția datelor; întrebările se trimit la aceeași adresă.</li>
-      <li><strong>De ce:</strong> ca să îmbunătățim administrarea blocului și acest site. Temeiul este interesul legitim al asociației de a afla părerea locatarilor (art. 6 alin. (1) lit. f) din Legea nr. 195/2024 privind protecția datelor cu caracter personal).</li>
-      <li><strong>Ce se păstrează:</strong> textul mesajului, data și ora trimiterii și limba paginii. Nu se păstrează numele, apartamentul sau adresa IP: asociația nu le primește, decât dacă le scrieți chiar dvs. în mesaj.</li>
-      <li><strong>Cine îl citește:</strong> membrii Consiliului asociației. Mesajele nu se publică. În afară de ei, mesajul ajunge numai la Google, care păstrează fișierul pentru asociație (vezi „Unde”), și, dacă legea o cere, la autoritățile competente.</li>
-      <li><strong>Unde:</strong> mesajul trece prin serviciul Google Apps Script și se păstrează într-un fișier din Google Drive al asociației. Google prelucrează datele ca furnizor al serviciului; ele pot fi păstrate pe servere din alte state decât Republica Moldova, deci este un transfer de date în alt stat. Informații despre garanțiile acestui transfer puteți cere la <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>. Ca orice server, Google primește adresa IP a dispozitivului dvs. când trimiteți mesajul. Până la apăsarea butonului „Trimiteți mesajul”, pagina nu trimite nimic către Google.</li>
-      <li><strong>Cât timp:</strong> 12 luni de la trimitere; apoi mesajul se șterge automat din fișier, împreună cu versiunile anterioare ale fișierului pe care Google Drive le păstrează tehnic.</li>
-      <li><strong>Drepturile dvs.:</strong> puteți cere accesul la mesaj, corectarea sau ștergerea lui ori restricționarea prelucrării și vă puteți opune prelucrării; acolo unde legea îl prevede, aveți și dreptul la portabilitatea datelor. Scrieți la <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a> data și ora aproximativă și câteva cuvinte din mesaj, ca să-l putem găsi. Puteți depune o plângere la Centrul Național pentru Protecția Datelor cu Caracter Personal.</li>
-      <li>Trimiterea unui mesaj nu este obligatorie. Nu se iau decizii automate despre dvs.</li>
-    </ul>
-    <ul class="paylist" lang="ru">
-      <li><strong>Кто отвечает за данные (оператор):</strong> Asociația de Proprietari din Condominiu A0120-0351 (A.P.C. A0120-0351), ул. Ливиу Деляну 3, Кишинёв, <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>. У ассоциации нет ответственного за защиту данных; вопросы направляйте на тот же адрес.</li>
-      <li><strong>Зачем:</strong> чтобы улучшать управление домом и этот сайт. Основание — законный интерес ассоциации узнать мнение жильцов (ст. 6 ч. (1) п. f) Закона № 195/2024 о защите персональных данных).</li>
-      <li><strong>Что хранится:</strong> текст сообщения, дата и время отправки и язык страницы. Имя, квартира и IP-адрес не хранятся: ассоциация их не получает, если только вы сами не укажете их в сообщении.</li>
-      <li><strong>Кто читает:</strong> члены Совета ассоциации. Сообщения не публикуются. Кроме них, сообщение получает только Google, который хранит файл для ассоциации (см. «Где»), и, если этого требует закон, компетентные органы.</li>
-      <li><strong>Где:</strong> сообщение передаётся через сервис Google Apps Script и хранится в файле на Google Диске ассоциации. Google обрабатывает данные как поставщик услуги; они могут храниться на серверах в других государствах, кроме Республики Молдова, то есть это передача данных в другое государство. Сведения о гарантиях этой передачи можно запросить на <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>. Как любой сервер, Google получает IP-адрес вашего устройства при отправке. До нажатия кнопки «Отправить сообщение» страница ничего не отправляет в Google.</li>
-      <li><strong>Срок:</strong> 12 месяцев с момента отправки, затем сообщение автоматически удаляется из файла вместе с предыдущими версиями файла, которые технически хранит Google Диск.</li>
-      <li><strong>Ваши права:</strong> вы можете запросить доступ к сообщению, его исправление, удаление или ограничение обработки, а также возразить против обработки; там, где это предусмотрено законом, вы также имеете право на переносимость данных. Напишите на <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a> примерные дату и время и несколько слов из сообщения, чтобы мы могли его найти. Вы можете подать жалобу в Национальный центр по защите персональных данных (Centrul Național pentru Protecția Datelor cu Caracter Personal).</li>
-      <li>Отправлять сообщение необязательно. Автоматические решения в отношении вас не принимаются.</li>
-    </ul>
-  </details>
+  <div class="msg-info">
+  <p class="hint" lang="ro">Mesajele le citesc membrii Consiliului. Se păstrează în Google Drive al asociației și se șterg automat după 12 luni. Pentru un răspuns scrieți la <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>; pentru avarii sunați la numerele din <a href="./#avarii">„Avarii și urgențe”</a>.</p>
+  <p class="hint" lang="ru">Сообщения читают члены Совета. Они хранятся на Google Диске ассоциации и автоматически удаляются через 12 месяцев. Если нужен ответ, напишите на <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>; при авариях звоните по номерам из раздела <a href="./#avarii">«Аварии и экстренные службы»</a>.</p>
+  </div>
   </main>
 
   <footer><a href="./"><span lang="ro">Înapoi la pagina blocului</span><span lang="ru">Назад на страницу дома</span></a></footer>
@@ -101,10 +77,6 @@
   var form = $('msg-form'), text = $('mesaj'), count = $('mesaj-count'), status = $('msg-status');
   var send = $('msg-send'), done = $('msg-done');
   var endpoint = form.getAttribute('data-endpoint');
-  // „Cum folosim mesajul”: deschide nota de protecție a datelor
-  Array.prototype.forEach.call(document.querySelectorAll('a[data-open]'), function (x) {
-    x.addEventListener('click', function () { $('date-personale').open = true; });
-  });
   if (!/^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(endpoint)) return;   // fără adresă: rămâne trimiterea la e-mail
   form.hidden = false;
   $('msg-off').hidden = true;
@@ -123,7 +95,7 @@
       var a = document.createElement('a');
       var note = document.createElement('span');
       note.className = 'note';
-      note.textContent = t(' Prin e-mail, mesajul nu mai este anonim și nu se șterge automat după 12 luni.', ' По e-mail сообщение уже не анонимно и не удаляется автоматически через 12 месяцев.');
+      note.textContent = t('Prin e-mail, mesajul nu mai este anonim.', 'По e-mail сообщение уже не анонимно.');
       a.href = 'mailto:apc.deleanu3@gmail.com?subject=Sugestie&body=' + encodeURIComponent(text.value.slice(0, MAX));
       a.textContent = t('trimiteți-l prin e-mail', 'отправьте его по e-mail');
       p.appendChild(a);

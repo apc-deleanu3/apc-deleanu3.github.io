@@ -40,7 +40,7 @@ Nu adăugați nume, telefoane, numere de apartament legate de persoane sau dator
 
 Fonturile sunt cele instalate pe dispozitivul cititorului (fără Google Fonts), ca adresa IP a vizitatorilor să nu ajungă la terți. Nu adăugați scripturi, fonturi sau imagini încărcate de pe alte site-uri.
 
-**Singura excepție** (6 octombrie 2026): formularul din `sugestii.html` trimite mesajul la `script.google.com` numai când vizitatorul apasă „Trimiteți mesajul”. Pagina nu încarcă nimic de la Google; nicio altă pagină nu face cereri către alte site-uri.
+**Singura excepție** (6 octombrie 2026): formularul din `sugestii.html` trimite mesajul la `script.google.com` numai când vizitatorul apasă „Trimiteți mesajul” (răspunsul vine prin `script.googleusercontent.com`, tot de la Google). Pagina nu încarcă nimic de la Google; nicio altă pagină nu face cereri către alte site-uri.
 
 ## Publicare
 
