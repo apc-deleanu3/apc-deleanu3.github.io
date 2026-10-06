@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sugestii | APC Deleanu 3</title>
+<meta name="description" content="Trimiteți asociației de proprietari de pe str. Liviu Deleanu 3 o sugestie sau o observație, fără nume și fără apartament.">
+<script>(function(){var d=document.documentElement,l=null,t=null;try{l=localStorage.getItem('apc-lang');t=localStorage.getItem('apc-text')}catch(e){}if(!l&&/^ru/i.test(navigator.language||''))l='ru';if(l==='ru')d.lang='ru';if(t==='mare')d.setAttribute('data-text','mare')})();</script>
+<link rel="stylesheet" href="assets/style.css?v=20261006">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='6' width='26' height='24' fill='%238a949e'/%3E%3Crect x='13' y='20' width='6' height='10' fill='%232f7d5b'/%3E%3C/svg%3E">
+</head>
+<body id="top">
+<div class="wrap">
+  <header class="topbar">
+    <a class="brand" href="./">APC Deleanu 3</a>
+    <div class="tools">
+      <button class="tbtn" type="button" data-text aria-pressed="false" title="Text mai mare / Крупный текст"><span aria-hidden="true">A+</span><span class="sr-only" lang="ro">Text mai mare</span><span class="sr-only" lang="ru">Крупный текст</span></button>
+      <div class="lang" role="group" aria-label="Limba / Язык">
+        <button type="button" data-lang="ro" aria-pressed="true">RO</button>
+        <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+      </div>
+    </div>
+  </header>
+  <nav class="crumbs"><a href="./#contact"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg?v=20260930#i-arrow-left"/></svg><span lang="ro">Pagina blocului</span><span lang="ru">Страница дома</span></a></nav>
+
+  <main id="main">
+  <h1 lang="ro">Sugestii și observații</h1>
+  <h1 lang="ru">Предложения и замечания</h1>
+  <p lang="ro">Spuneți-ne ce merge bine, ce nu merge și ce ați schimba în bloc, în administrarea lui sau pe acest site. Mesajele le citesc membrii Consiliului asociației.</p>
+  <p lang="ru">Расскажите, что работает хорошо, что не работает и что бы вы изменили в доме, в его управлении или на этом сайте. Сообщения читают члены Совета ассоциации.</p>
+  <p class="tip" lang="ro">Mesajul este <strong>anonim</strong>: nu vă cerem numele, telefonul sau apartamentul, așa că nu vă putem răspunde. Dacă doriți un răspuns, scrieți la <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>. Pentru avarii sunați la numerele din <a href="./#avarii">„Avarii și urgențe”</a>: mesajele de aici nu se citesc imediat.</p>
+  <p class="tip" lang="ru">Сообщение <strong>анонимное</strong>: мы не спрашиваем имя, телефон или номер квартиры, поэтому не сможем ответить. Если нужен ответ, напишите на <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>. При авариях звоните по номерам из раздела <a href="./#avarii">«Аварии и экстренные службы»</a>: сообщения отсюда читают не сразу.</p>
+
+  <!-- data-endpoint: adresa aplicației web Google Apps Script (…/exec). Cât timp este goală, formularul
+       nu se arată și pagina trimite la e-mail. Nimic nu pleacă spre Google înainte de „Trimiteți mesajul”. -->
+  <form class="panel msg" id="msg-form" data-endpoint="" novalidate hidden>
+    <label for="mesaj"><span lang="ro">Mesajul dvs.</span><span lang="ru">Ваше сообщение</span></label>
+    <textarea id="mesaj" name="mesaj" rows="8" maxlength="2000" required aria-describedby="mesaj-hint mesaj-count"></textarea>
+    <div class="msg-under">
+      <p class="hint" id="mesaj-hint"><span lang="ro">Nu scrieți nume, telefoane sau alte date despre vecini ori despre dvs.</span><span lang="ru">Не пишите имена, телефоны и другие данные о соседях или о себе.</span></p>
+      <p class="hint count" id="mesaj-count">0 / 2000</p>
+    </div>
+    <!-- capcană pentru roboți: un om nu vede și nu completează acest câmp -->
+    <div class="trap" aria-hidden="true">
+      <label for="website">Website</label>
+      <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+    </div>
+    <div class="actions">
+      <button class="btn" type="submit" id="msg-send"><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg?v=20260930#i-message-circle"/></svg><span lang="ro">Trimiteți mesajul</span><span lang="ru">Отправить сообщение</span></button>
+    </div>
+    <p class="hint"><span lang="ro">Mesajul se păstrează <strong>12 luni</strong> de la trimitere, apoi se șterge automat.</span><span lang="ru">Сообщение хранится <strong>12 месяцев</strong> с момента отправки, затем удаляется автоматически.</span></p>
+    <div id="msg-status" role="status" aria-live="polite"></div>
+  </form>
+
+  <div class="panel sent" id="msg-done" hidden tabindex="-1">
+    <p><strong lang="ro">Mulțumim! Mesajul a fost trimis.</strong><strong lang="ru">Спасибо! Сообщение отправлено.</strong></p>
+    <p lang="ro">Membrii Consiliului îl vor citi. Mesajul se șterge automat după 12 luni.</p>
+    <p lang="ru">Члены Совета его прочитают. Сообщение удаляется автоматически через 12 месяцев.</p>
+    <button class="btn ghost" type="button" id="msg-again"><span lang="ro">Scrieți alt mesaj</span><span lang="ru">Написать ещё</span></button>
+  </div>
+
+  <div class="panel" id="msg-off">
+    <p lang="ro">Formularul nu funcționează în acest moment. Scrieți-ne la <a href="mailto:apc.deleanu3@gmail.com?subject=Sugestie">apc.deleanu3@gmail.com</a>.</p>
+    <p lang="ru">Форма сейчас не работает. Напишите нам на <a href="mailto:apc.deleanu3@gmail.com?subject=Sugestie">apc.deleanu3@gmail.com</a>.</p>
+  </div>
+
+  <details class="panel" id="date-personale">
+    <summary><svg class="ic" aria-hidden="true"><use xlink:href="assets/icons.svg?v=20260930#i-chevron-right"/></svg><span lang="ro">Cum folosim mesajul (protecția datelor)</span><span lang="ru">Как мы используем сообщение (защита данных)</span></summary>
+    <ul class="paylist" lang="ro">
+      <li><strong>Cine îl primește:</strong> A.P.C. A0120-0351, str. Liviu Deleanu 3, Chișinău, <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>.</li>
+      <li><strong>De ce:</strong> ca să îmbunătățim administrarea blocului și acest site. Temeiul este interesul legitim al asociației de a afla părerea locatarilor (art. 6 alin. (1) lit. f) din Legea nr. 195/2024 privind protecția datelor cu caracter personal).</li>
+      <li><strong>Ce se păstrează:</strong> textul mesajului, data și ora trimiterii și limba paginii. Nu se păstrează numele, apartamentul sau adresa IP: asociația nu le primește.</li>
+      <li><strong>Cine îl citește:</strong> membrii Consiliului asociației. Mesajele nu se publică și nu se dau altor persoane.</li>
+      <li><strong>Unde:</strong> mesajul trece prin serviciul Google Apps Script și se păstrează într-un fișier din Google Drive al asociației. Google prelucrează datele ca furnizor al serviciului, pe servere care pot fi și în afara Republicii Moldova; ca orice server, primește adresa IP a dispozitivului dvs. când trimiteți mesajul. Până la apăsarea butonului „Trimiteți mesajul”, pagina nu trimite nimic către Google.</li>
+      <li><strong>Cât timp:</strong> 12 luni de la trimitere; apoi mesajul se șterge automat.</li>
+      <li><strong>Drepturile dvs.:</strong> puteți cere accesul la mesaj, corectarea sau ștergerea lui ori restricționarea prelucrării și vă puteți opune prelucrării. Scrieți la <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a> data și ora aproximativă și câteva cuvinte din mesaj, ca să-l putem găsi. Puteți depune o plângere la Centrul Național pentru Protecția Datelor cu Caracter Personal.</li>
+      <li>Trimiterea unui mesaj nu este obligatorie.</li>
+    </ul>
+    <ul class="paylist" lang="ru">
+      <li><strong>Кто получает:</strong> A.P.C. A0120-0351, ул. Ливиу Деляну 3, Кишинёв, <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a>.</li>
+      <li><strong>Зачем:</strong> чтобы улучшать управление домом и этот сайт. Основание — законный интерес ассоциации узнать мнение жильцов (ст. 6 ч. (1) п. f) Закона № 195/2024 о защите персональных данных).</li>
+      <li><strong>Что хранится:</strong> текст сообщения, дата и время отправки и язык страницы. Имя, квартира и IP-адрес не хранятся: ассоциация их не получает.</li>
+      <li><strong>Кто читает:</strong> члены Совета ассоциации. Сообщения не публикуются и не передаются другим лицам.</li>
+      <li><strong>Где:</strong> сообщение передаётся через сервис Google Apps Script и хранится в файле на Google Диске ассоциации. Google обрабатывает данные как поставщик услуги, на серверах, которые могут находиться и за пределами Республики Молдова; как любой сервер, он получает IP-адрес вашего устройства при отправке. До нажатия кнопки «Отправить сообщение» страница ничего не отправляет в Google.</li>
+      <li><strong>Срок:</strong> 12 месяцев с момента отправки, затем сообщение удаляется автоматически.</li>
+      <li><strong>Ваши права:</strong> вы можете запросить доступ к сообщению, его исправление, удаление или ограничение обработки, а также возразить против обработки. Напишите на <a href="mailto:apc.deleanu3@gmail.com">apc.deleanu3@gmail.com</a> примерные дату и время и несколько слов из сообщения, чтобы мы могли его найти. Вы можете подать жалобу в Национальный центр по защите персональных данных.</li>
+      <li>Отправлять сообщение необязательно.</li>
+    </ul>
+  </details>
+  </main>
+
+  <footer><a href="./"><span lang="ro">Înapoi la pagina blocului</span><span lang="ru">Назад на страницу дома</span></a></footer>
+</div>
+
+<script src="assets/site.js?v=20260930"></script>
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var t = APC.t;
+  var MAX = 2000, MIN_MS = 3000, opened = Date.now();
+  var form = $('msg-form'), text = $('mesaj'), count = $('mesaj-count'), status = $('msg-status');
+  var send = $('msg-send'), done = $('msg-done');
+  var endpoint = form.getAttribute('data-endpoint');
+  if (!/^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(endpoint)) return;   // fără adresă: rămâne trimiterea la e-mail
+  form.hidden = false;
+  $('msg-off').hidden = true;
+
+  function counter() { count.textContent = text.value.length + ' / ' + MAX; }
+  text.addEventListener('input', counter);
+  counter();
+
+  function say(kind, ro, ru, withMail) {
+    status.innerHTML = '';
+    var p = document.createElement('p');
+    p.className = kind;
+    p.textContent = t(ro, ru);
+    if (withMail) {
+      p.appendChild(document.createTextNode(' '));
+      var a = document.createElement('a');
+      a.href = 'mailto:apc.deleanu3@gmail.com?subject=Sugestie&body=' + encodeURIComponent(text.value.slice(0, MAX));
+      a.textContent = t('trimiteți-l prin e-mail', 'отправьте его по e-mail');
+      p.appendChild(a);
+    }
+    status.appendChild(p);
+  }
+  var last = null;
+  APC.onLang(function () { if (last) say.apply(null, last); });
+  function show(kind, ro, ru, withMail) { last = [kind, ro, ru, withMail]; say(kind, ro, ru, withMail); }
+  function fail() { show('err', 'Mesajul nu a putut fi trimis acum. Încercați mai târziu sau', 'Не удалось отправить сообщение. Попробуйте позже или', true); }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (send.disabled) return;
+    var v = text.value.trim();
+    if (v.length < 3) { show('err', 'Scrieți mai întâi mesajul.', 'Сначала напишите сообщение.'); text.focus(); return; }
+    if (v.length > MAX) { show('err', 'Mesajul depășește 2000 de caractere.', 'Сообщение длиннее 2000 знаков.'); text.focus(); return; }
+    send.disabled = true;
+    show('wait', 'Se trimite…', 'Отправляется…');
+    var body = new URLSearchParams();
+    body.set('mesaj', v);
+    body.set('limba', APC.lang());
+    body.set('website', $('website').value);
+    // cine lipește un mesaj gata scris nu trebuie oprit de pragul pentru roboți: se așteaptă restul de timp
+    var wait = Math.max(0, MIN_MS + 200 - (Date.now() - opened));
+    setTimeout(function () {
+      body.set('t', String(Date.now() - opened));
+      fetch(endpoint, { method: 'POST', body: body, credentials: 'omit', referrerPolicy: 'no-referrer' })
+        .then(function (r) { return r.json(); })
+        .then(function (r) {
+          send.disabled = false;
+          if (r && r.ok) {
+            text.value = ''; counter(); last = null; status.innerHTML = '';
+            form.hidden = true; done.hidden = false; done.focus();
+          } else if (r && r.eroare === 'gol') { show('err', 'Scrieți mai întâi mesajul.', 'Сначала напишите сообщение.'); }
+          else if (r && r.eroare === 'lung') { show('err', 'Mesajul depășește 2000 de caractere.', 'Сообщение длиннее 2000 знаков.'); }
+          else fail();
+        })
+        .catch(function () { send.disabled = false; fail(); });
+    }, wait);
+  });
+
+  $('msg-again').addEventListener('click', function () {
+    done.hidden = true; form.hidden = false; opened = Date.now(); text.focus();
+  });
+})();
+</script>
+</body>
+</html>

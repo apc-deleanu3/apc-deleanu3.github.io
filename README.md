@@ -8,6 +8,7 @@ Site-ul public al asociației de proprietari **A.P.C. A0120-0351** (str. Liviu D
 | `404.html` | Pagina arătată pentru o adresă greșită; legăturile încep cu `/`, fiindcă pagina poate apărea la orice adresă. |
 | `robots.txt` | Paginile pot apărea în căutări; dosarul `data/` nu se indexează. Nu ascunde nimic: tot ce este pe site este public. |
 | `calculator.html` | „Cât mă costă reparațiile?”: partea apartamentului din lucrările aprobate, o simulare și tabelul tuturor apartamentelor (CSV). |
+| `sugestii.html` | „Sugestii și observații”: formular anonim (fără nume, telefon sau apartament). La „Trimiteți mesajul”, textul pleacă la o aplicație web Google Apps Script a asociației, care îl adaugă în fișierul `sugestii.md` din Google Drive; mesajele se șterg automat după 12 luni. Adresa aplicației se scrie în atributul `data-endpoint` al formularului; cât timp este goală, pagina arată numai adresa de e-mail. Codul aplicației nu este în acest repo. |
 | `afis.html` | Afiș A4 de tipărit pentru panoul informativ: coduri QR Viber și site, termenul de vot, numere de urgență, RO + RU. |
 | `data/apartamente.csv` | Apartament, scară, suprafață (m²) din registrul cadastral: 222 de apartamente, 12.779,5 m². Scara e dedusă din numerotare (câte 36 de numere pe scară). |
 | `data/reparatii.json` | Lista oficială a lucrărilor aprobate de Adunarea Generală (goală până la aprobare). |
@@ -38,6 +39,8 @@ Site-ul public al asociației de proprietari **A.P.C. A0120-0351** (str. Liviu D
 Nu adăugați nume, telefoane, numere de apartament legate de persoane sau datorii individuale, date bancare (IBAN), IDNO sau numere cadastrale.
 
 Fonturile sunt cele instalate pe dispozitivul cititorului (fără Google Fonts), ca adresa IP a vizitatorilor să nu ajungă la terți. Nu adăugați scripturi, fonturi sau imagini încărcate de pe alte site-uri.
+
+**Singura excepție** (6 octombrie 2026): formularul din `sugestii.html` trimite mesajul la `script.google.com` numai când vizitatorul apasă „Trimiteți mesajul”. Pagina nu încarcă nimic de la Google; nicio altă pagină nu face cereri către alte site-uri.
 
 ## Publicare
 

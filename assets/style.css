@@ -333,6 +333,20 @@ details.panel[open] > summary { margin-bottom: .6rem; }
 .tbl-wrap { max-height: 70vh; overflow: auto; border: 1px solid var(--line); border-radius: var(--radius); }
 .tbl tr.mine td { background: var(--green-tint); font-weight: 700; }
 
+/* suggestions page */
+.msg label { display: block; font-weight: 700; margin-bottom: .35rem; }
+.msg textarea { display: block; width: 100%; min-height: 11rem; padding: .6rem .7rem; border: 2px solid var(--line-strong); border-radius: var(--radius); background: var(--paper); color: var(--ink); font: 1.0625rem/1.5 var(--sans); resize: vertical; }
+.msg-under { display: flex; justify-content: space-between; align-items: baseline; gap: .3rem 1rem; flex-wrap: wrap; }
+.msg-under .count { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.msg .trap { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.msg button[disabled] { opacity: .6; cursor: wait; }
+#msg-status p { margin: .8rem 0 0; }
+#msg-status .err { color: var(--danger); font-weight: 700; }
+#msg-status .wait { color: var(--muted); }
+.panel.sent { border-color: var(--green); background: var(--green-tint); }
+.panel.sent p { margin: 0 0 .6rem; }
+#date-personale .paylist li { margin: .55rem 0; }
+
 /* print */
 @media print {
   :root { --paper: #fff; --card: #fff; --ink: #000; --muted: #333; --line: #bbb; --line-strong: #999; --green: #000; --green-dark: #000; --green-tint: #fff; --pin-tint: #fff; }
