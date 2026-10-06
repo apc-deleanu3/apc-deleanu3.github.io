@@ -342,6 +342,7 @@ details.panel[open] > summary { margin-bottom: .6rem; }
 .msg button[disabled] { opacity: .6; cursor: wait; }
 #msg-status p { margin: .8rem 0 0; }
 #msg-status .err { color: var(--danger); font-weight: 700; }
+#msg-status .err .note { display: block; margin-top: .3rem; color: var(--muted); font-weight: 400; }
 #msg-status .wait { color: var(--muted); }
 .panel.sent { border-color: var(--green); background: var(--green-tint); }
 .panel.sent p { margin: 0 0 .6rem; }
